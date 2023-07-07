@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Index</title>
+
+    <!-- Font Awesome (Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Flowbite -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.css" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <!-- Begin Page -->
+    <div class="container max-w-full">
+        <!-- Start Header -->
+        <header class="bg-[#211F4A]">
+            <!-- Start Navbar -->
+            <nav class="flex items-center px-20 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px]">
+                <a href="index.html"><img src="./assets/images/Logo-text.png" class="mt-2 mb-2 cursor-pointer"
+                        alt="">
+                </a>
+                <ul class="flex-1 text-center text-sm">
+                    <li class="list-none inline-block px-2"><a href="#" class="no-udderline text-white">Asosiy</a></li>
+                    <li class="list-none inline-block px-2"><a href="#" class="no-udderline text-white">Yangiliklar</a>
+                    </li>
+                    <li class="list-none inline-block px-2"><a href="#" class="no-udderline text-white">Baholash
+                            metodikalari</a></li>
+                    <li class="list-none inline-block px-2"><a href="#" class="no-udderline text-white">Reyting</a></li>
+                    <li class="list-none inline-block px-2"><a href="#"
+                            class="no-udderline text-white">Ishtirokchilar</a></li>
+                    <li class="list-none inline-block px-2"><a href="#" class="no-udderline text-white">Normativ
+                            hujjatlar</a></li>
+                    <li class="list-none inline-block px-2"><a href="#" class="no-udderline text-white">Aloqa</a></li>
+                    <li class="list-none inline-block px-2"><a href="#" class="no-udderline text-white">FAQ</a></li>
+                </ul>
+                <img src="./assets/images/language_FILL0_wght300_GRAD0_opsz24 (1) 1.svg" class="mx-2" alt="">
+                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                    class="flex items-center justify-between w-full py-2 pl-3 pr-4  text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-white md:p-0 md:w-auto dark:text-gray-400 dark:hover:text-white dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent">UZ
+                    <svg class="w-5 h-5 ml-2" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg></button>
+                <!-- Dropdown menu -->
+                <div id="dropdownNavbar"
+                    class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600">
+                    <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
+                        <li>
+                            <a href="#"
+                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">RU</a>
+                        </li>
+                        <li>
+                            <a href="#"
+                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">ENG</a>
+                        </li>
+                    </ul>
+                </div>
+                <button class="bg-blue-700  text-white py-2 px-4 rounded ml-5">Tizimga kirish</button>
+            </nav>
+            <!-- End Navbar -->
+        </header>
+        <!-- End Header -->
+
+        <!-- Start page-content  -->
+        <section class="bg-[#ffffff] px-20 mb-12 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px]">
+            <h1 class="uppercase text-3xl mt-10 font-bold text-[#000]">yangiliklar</h1>
+            
+            <div class="grid mx-auto lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 mt-6 gap-5">
+                <div class="lg:col-span-2 md:col-span-2">
+                    <img src="./assets/images/news/Rectangle 14.png" alt="">
+                </div>
+                <div>
+                    <img src="./assets/images/news/Rectangle 15 (1).png" alt="">
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.js"></script>
+    
+
+</body>
+
+</html>
