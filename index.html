@@ -18,15 +18,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
         rel="stylesheet">
 
-    <!-- Flowbite -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.css" rel="stylesheet" />
-
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-
+    
     <!-- Tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
 
+    <!-- Flowbite -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.css" rel="stylesheet" />
+
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
 </head>
 
 <body>
@@ -103,7 +106,7 @@
         <!-- End Header -->
 
         <!-- Start page News  -->
-        <section class="bg-[#ffffff] px-20 mb-12 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px]">
+        <section class="bg-[#ffffff] px-20 pb-16 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px]">
             <div class="flex items-center justify-between mt-16">
                 <h1 class="uppercase text-3xl mt-5 font-bold text-[#000]">yangiliklar</h1>
                 <button class="bg-[#2256DD] mt-6 text-white font-bold py-3 px-11 rounded uppercase">barchasi</button>
@@ -152,50 +155,75 @@
         <!-- End page News -->
 
         <!-- Start page Participants -->
-        <section class="bg-[#F1F3F9] xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] px-20 mb-12">
-            <div class="flex items-center justify-between mt-14 mb-5">
-                <span class="mt-5">
+        <section class="bg-[#F1F3F9] xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] pb-16 px-20">
+            <div class="flex items-center justify-between mt-16 mb-5">
+                <span class="mt-16">
                     <h1 class="uppercase text-3xl mt-5 font-bold text-[#1E2128] mb-2">ishtirokchilar</h1>
                     <p class=" font-normal text-base text-[#596375]">Bu yerda baholashda ishtirok etayotgan tashkilotlar ro’yxati keltirilgan</p>
                 </span>
                 <button class="bg-[#2256DD] mt-10 text-white font-bold py-3 px-11 rounded uppercase">barchasi</button>
             </div>
-            <div class="slider">
-                <div class="slide-track">
-                    <div class="slide">
-                        <img src="./assets/images/participants/image 1.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/participants/image 1.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/participants/image 1.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/participants/image 1.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/participants/image 1.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/participants/image 1.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/participants/image 1.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/participants/image 1.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <img src="./assets/images/participants/image 1.png" alt="">
-                    </div>
-
-
-                    
+            
+            <div class="logo-slider">
+                <div class="flex">
+                    <div class="item bg-white rounded-xl"><a href="#"><img class="px-16 py-12" src="./assets/images/participants/image 1.png" alt=""></a></div>
+                    <h1 class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4">farg'ona davlat universiteti</h1>
+                    <span class="flex items-center">
+                        <img src="./assets/images/location/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
+                        <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
+                    </span>
+                </div>
+                <div class="flex">
+                    <div class="item bg-white rounded-xl"><a href="#"><img class="px-16 py-12" src="./assets/images/participants/image 1.png" alt=""></a></div>
+                    <h1 class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4">farg'ona davlat universiteti</h1>
+                    <span class="flex items-center">
+                        <img src="./assets/images/location/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
+                        <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
+                    </span>
+                </div><div class="flex">
+                    <div class="item bg-white rounded-xl"><a href="#"><img class="px-16 py-12" src="./assets/images/participants/image 1.png" alt=""></a></div>
+                    <h1 class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4">farg'ona davlat universiteti</h1>
+                    <span class="flex items-center">
+                        <img src="./assets/images/location/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
+                        <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
+                    </span>
+                </div><div class="flex">
+                    <div class="item bg-white rounded-xl"><a href="#"><img class="px-16 py-12" src="./assets/images/participants/image 1.png" alt=""></a></div>
+                    <h1 class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4">farg'ona davlat universiteti</h1>
+                    <span class="flex items-center">
+                        <img src="./assets/images/location/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
+                        <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
+                    </span>
+                </div><div class="flex">
+                    <div class="item bg-white rounded-xl"><a href="#"><img class="px-16 py-12" src="./assets/images/participants/image 1.png" alt=""></a></div>
+                    <h1 class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4">farg'ona davlat universiteti</h1>
+                    <span class="flex items-center">
+                        <img src="./assets/images/location/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
+                        <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
+                    </span>
+                </div><div class="flex">
+                    <div class="item bg-white rounded-xl"><a href="#"><img class="px-16 py-12" src="./assets/images/participants/image 1.png" alt=""></a></div>
+                    <h1 class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4">farg'ona davlat universiteti</h1>
+                    <span class="flex items-center">
+                        <img src="./assets/images/location/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
+                        <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
+                    </span>
+                </div><div class="flex">
+                    <div class="item bg-white rounded-xl"><a href="#"><img class="px-16 py-12" src="./assets/images/participants/image 1.png" alt=""></a></div>
+                    <h1 class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4">farg'ona davlat universiteti</h1>
+                    <span class="flex items-center">
+                        <img src="./assets/images/location/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
+                        <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
+                    </span>
                 </div>
             </div>
+              
+              
+
         </section>
         <!-- End page Participants -->
+
+        
 
         <!-- Start Footer -->
         <footer class="bg-[#211F4A]">
@@ -234,8 +262,27 @@
     <!-- End Page -->
 
     <!-- JS -->
+    <script src="script.js"></script>
+    
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    
+    <!-- Flowbite -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.js"></script>
     
+    <!-- Slick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script>
+        $('.logo-slider').slick({
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            // dots: true,
+            arrows: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            infinite: true
+        });
+    </script>
 
 </body>
 

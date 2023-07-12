@@ -5,49 +5,13 @@
     font-family: 'Inter', sans-serif;
 }
 
-.slider {
-    height: 250px;
-    margin: auto;
-    position: relative;
-    width: 100%;
-    display: grid;
-    place-items: center;
-    overflow: hidden;
+.logo-slider .slick-slide {
+    margin: 15px;
 }
 
-.slide-track {
-    display: flex;
-    width: calc(250px * 18);
-    animation: scroll 40s linear infinite;
-}
-
-.slide-track:hover {
-    animation-play-state: paused;
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(calc(-250px * 9));
-    }
-}
-
-.slide {
-    height: 200px;
-    width: 250px;
-    display: flex;
-    align-items: center;
-    padding: 15px;
-    overflow: hidden;
-    perspective: 100px;
-}
-
-.slide img {
-    transition: transform 1s;
-}
-
-.slide img:hover {
-    transform: translateZ(8px);
+.slick-next:before,
+.slick-prev:before {
+    
+    color: #d5daea !important;
+    font-size: 24px !important;
 }
