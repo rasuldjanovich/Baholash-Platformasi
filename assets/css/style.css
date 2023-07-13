@@ -5,12 +5,18 @@
     font-family: 'Inter', sans-serif;
 }
 
-.logo-slider .slick-slide {
+.slick-slide {
     margin: 15px;
 }
 
 .slick-next:before,
 .slick-prev:before {
     color: #d5daea !important;
+    font-size: 24px !important;
+}
+
+#foydali-havolalar .slick-next:before,
+#foydali-havolalar .slick-prev:before {
+    color: #F1F3F9 !important;
     font-size: 24px !important;
 }
