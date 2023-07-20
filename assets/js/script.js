@@ -1,27 +1,3 @@
-const handleTheme = () => {
-  const htmlElem = document.querySelector(".switch")
-  htmlElem.classList.toggle("dark")
-}
-
-
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
-
-
-function myFunction() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("whiteHeader");
-  } else {
-    header.classList.remove("whiteHeader");
-  }
-}
-
-
-window.onscroll = function () {
-  myFunction()
-};
-
-
 // setup block
 const data = {
   labels: [
@@ -38,8 +14,8 @@ const data = {
   ],
   datasets: [{
     data: [1000000, 900000, 800000, 700000, 600000, 500000, 400000, 300000, 200000, 100000],
-    
-  label: 'Ovozlar soni',
+
+    label: 'Ovozlar soni',
     backgroundColor: [
       '#1E9A37',
       '#5BBA54',
@@ -98,5 +74,3 @@ const myChart = new Chart(
   document.getElementById('myChart'),
   config
 );
-
-
