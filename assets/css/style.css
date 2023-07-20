@@ -1,8 +1,32 @@
-* {
+*,
+*::before,
+*::after {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    transition: all 0.225 ease-in-out;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+.wrapper {
+    min-height: 100vh;
+    width: 100vw;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.whiteHeader {
+    transition: all 0.3s ease-in-out;
+    background-color:#211F4A;
 }
 
 .slick-slide {
