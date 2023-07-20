@@ -88,8 +88,7 @@
             <!-- End Navbar -->
 
             <!-- Start page-content  -->
-            <div
-                class="flex  justify-between px-36 mb-12 xl:max-w-full lg:max-w-full pt-[70px]  mx-auto 2xl:w-[2000px] pb-20">
+            <div class="flex  justify-between px-36 mb-12 xl:max-w-full lg:max-w-full pt-[70px]  mx-auto 2xl:w-[2000px] pb-20">
                 <div class="text-white mt-48">
                     <h4 class="text-2xl w-[550px] font-medium">Oliy ta'lim muassalarining ilmiy ishlari va innovatsion
                         faoliyati natijalarining</h4>
@@ -621,8 +620,10 @@
 
         <!-- Start page Statistics -->
         <section class="bg-[#F1F3F9] px-20 pb-16 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px]">
-            <div class="chartBox w-[1300px] h-auto mx-auto">
-                <canvas id="myChart"></canvas>
+            <div class="flex mt-16 mb-5"></div>
+            <div class="chartBox h-auto mx-auto bg-white rounded-3xl">
+                <h1 class="uppercase text-3xl mt-20 font-bold text-[#1E2128] px-5 pt-5 mb-2">Statistika</h1>
+                <canvas class="py-3 px-5" id="myChart"></canvas>
             </div>
 
             <div class="flex items-center justify-between mt-16 mb-5">
@@ -870,35 +871,20 @@
 
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-
     <!-- Flowbite -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.js"></script>
-
     <!-- Map -->
     <script src="./assets/libs/jqvmap/jquery.vmap.min.js"></script>
     <script src="./assets/libs/jqvmap/jquery.vmap.uzbekistan.js"></script>
-
-    <script>
-        jQuery('#vmap').vectorMap({
-            map: 'uzbekistan_uz',
-            backgroundColor: null,
-            color: '#273c75',
-            hoverColor: '#999999',
-            enableZoom: false,
-            showTooltip: false
-        });
-
-    </script>
-
+    <!-- Chart JS -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Slick -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
     <!-- JS -->
     <script src="./assets/js/script.js"></script>
     <script src="./assets/js/tailwind.config.js"></script>
-
-
-    <!-- Slick -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    
     <script>
         $('.logo-slider').slick({
             slidesToShow: 4,
@@ -909,6 +895,16 @@
             autoplaySpeed: 2000,
             infinite: true
         });
+
+        jQuery('#vmap').vectorMap({
+            map: 'uzbekistan_uz',
+            backgroundColor: null,
+            color: '#273c75',
+            hoverColor: '#999999',
+            enableZoom: false,
+            showTooltip: false
+        });
+
 
     </script>
 

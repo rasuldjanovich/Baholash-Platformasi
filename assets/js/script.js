@@ -1,5 +1,3 @@
-
-
 const handleTheme = () => {
   const htmlElem = document.querySelector(".switch")
   htmlElem.classList.toggle("dark")
@@ -34,11 +32,14 @@ const data = {
     ['Namangan Davlat', 'universiteti'],
     ['Islom karimov nomidagi', 'Toshkent davlat texnika', 'universiteti'],
     ['Toshkent tibbiyot', 'universiteti Urganch filiali'],
-    [''],
-    ['']
+    ['Qo’qon davlat', 'pedagogika instituti'],
+    ['Farg’ona politexnika', 'instituti'],
+    ['Farg’ona politexnika', 'instituti']
   ],
   datasets: [{
     data: [1000000, 900000, 800000, 700000, 600000, 500000, 400000, 300000, 200000, 100000],
+    
+  label: 'Ovozlar soni',
     backgroundColor: [
       '#1E9A37',
       '#5BBA54',
@@ -78,7 +79,15 @@ const config = {
   options: {
     scales: {
       y: {
-        beginAtZero: true
+        beginAtZero: true,
+        grid: {
+          display: false
+        }
+      },
+      x: {
+        grid: {
+          display: false
+        }
       }
     }
   }
@@ -89,4 +98,5 @@ const myChart = new Chart(
   document.getElementById('myChart'),
   config
 );
+
 
