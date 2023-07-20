@@ -17,13 +17,6 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-.wrapper {
-    min-height: 100vh;
-    width: 100vw;
-    overflow-y: auto;
-    overflow-x: hidden;
-}
-
 .whiteHeader {
     transition: all 0.3s ease-in-out;
     background-color:#211F4A;
