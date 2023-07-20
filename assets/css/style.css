@@ -19,7 +19,7 @@ body::-webkit-scrollbar {
 
 .whiteHeader {
     transition: all 0.3s ease-in-out;
-    background-color:#211F4A;
+    background-color: #211F4A;
 }
 
 .slick-slide {
@@ -36,4 +36,41 @@ body::-webkit-scrollbar {
 #foydali-havolalar .slick-prev:before {
     color: #F1F3F9 !important;
     font-size: 24px !important;
+}
+
+#vmap {
+    width: 700px;
+    height: 600px;
+}
+
+.jqvmap-label {
+    position: absolute;
+    display: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background: #292929;
+    color: white;
+    font-family: sans-serif, Verdana;
+    font-size: smaller;
+    padding: 3px;
+    pointer-events: none;
+}
+
+.jqvmap-pin {
+    pointer-events: none;
+}
+
+.jqvmap-zoomin,
+.jqvmap-zoomout {
+    display: none
+}
+
+.jqvmap-region {
+    cursor: pointer;
+}
+
+.jqvmap-ajax_response {
+    width: 100%;
+    height: 500px;
 }
