@@ -52,8 +52,8 @@ const data = {
     borderWidth: 1,
     borderRadius: 50,
     borderSkipped: false,
-    barPercentage: 0.50,
-    categoryPercentage: 0.50
+    barPercentage: 0.40,
+    categoryPercentage: 0.40
   }]
 };
 
