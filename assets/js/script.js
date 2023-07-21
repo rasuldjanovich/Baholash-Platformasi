@@ -1,3 +1,12 @@
+window.addEventListener("scroll", function() {
+  let header = document.querySelector("nav");
+  if (this.window.scrollY > 0) {
+    header.classList.add("scrolled")
+  }else {
+    header.classList.remove("scrolled")
+  }
+})
+
 // setup block
 const data = {
   labels: [

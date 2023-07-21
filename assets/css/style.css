@@ -17,9 +17,22 @@ body::-webkit-scrollbar {
     display: none;
 }
 
-.whiteHeader {
+header nav {
     transition: all 0.3s ease-in-out;
-    background-color: #211F4A;
+}
+
+header nav a {
+    color: #fff;
+    transition: color 0.2s ease-in-out;
+}
+
+nav.scrolled {
+    background-color: #fff;
+    opacity: 0.98;
+}
+
+nav.scrolled  a {
+    color: #000;
 }
 
 .slick-slide {
