@@ -127,13 +127,15 @@
             </div>
 
             <div class="grid mx-auto lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 mt-5 gap-5">
-                <div class="lg:col-span-2 md:col-span-2">
+                <div class="rounded-xl lg:col-span-2 md:col-span-2 group relative items-start overflow-hidden hover:shadow-black/30 transition-shadow">
                     <a href="news.html" class="relative inline-block overflow-hidden">
-                        <img class="w-[1200px]" src="./assets/images/news/Rectangle 14.png" alt="">
-                        <div class="absolute bottom-5 left-6 z-20">
-                            <p class="uppercase text-[#fff] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
+                        <img class="w-[1200px] object-cover transition-transform group-hover:scale-110 duration-500" src="./assets/images/news/Rectangle 14.png" alt="">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/50 group-hover:via-black/30 group-hover:to-black/70 hover:rounded-xl"></div>
+                        <div class="absolute inset-0 flex flex-col items-start justify-end px-5 translate-y-[10%] group-hover:translate-y-0 transition-all duration-500">
+                            <p class="uppercase text-[#fff] text-lg font-normal mb-2">ilm 11.06.2023 13:00</p>
                             <h1 class="text-[#fff] w-[600px] font-bold text-xl">Ilmiy maqola nima uchun va qanday
                                 yoziladi? - xorijiy universitetda ishlayotgan o‘zbek olimidan maslahatlar</h1>
+                            <p class="text-[#fff] w-[600px] font-bold text-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam molestiae corporis fugit veritatis doloribus?</p>
                         </div>
                     </a>
                 </div>
@@ -701,14 +703,53 @@
         </section>
         <!-- End page Statistics -->
 
+        <!-- Start page Map -->
         <section class="bg-[#fff] px-20 pb-16 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px]">
-            <div class="flex items-center justify-between mt-16">
+            <div class="mt-16">
                 <h1 class="uppercase text-3xl mt-5 font-bold text-[#000]">oliy ta'lim muassalari</h1>
-                <p>Bu yerda ballarni hisoblash uchun foydalanilgan normativ hujjatlar ro'yxati keltirilgan</p>
             </div>
 
-            <div id="vmap" class="mt-16" style="width: 600px; height: 400px;"></div>
+            <div class="flex justify-between">
+                <div id="vmap" class="mt-20">
+                    <h1 class="text-[#1E2128] text-2xl text-end font-bold mb-1">O'zbekiston Respublikasi</h1>
+                    <p class="text-[#1E2128] text-lg font-medium text-end">Barcha OTM lar soni: 450ta</p>
+                </div>
+                <span class="bg-[#FAFBFF] mt-10 p-12 rounded-3xl flex justify-between">
+                    <code>
+                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent shahri</h1>
+                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
+                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
+                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
+                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
+                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
+                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
+                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
+                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
+                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
+                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
+                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
+                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
+                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
+                    </code>
+
+                    <code class="ml-32">
+                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
+                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
+                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
+                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
+                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
+                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
+                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
+                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
+                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
+                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
+                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
+                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
+                    </code>
+                </span>
+            </div>
         </section>
+        <!-- End page Map -->
 
         <!-- Start page Useful links -->
         <section id="foydali-havolalar"
