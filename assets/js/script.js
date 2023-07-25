@@ -1,3 +1,10 @@
+$(document).ready(function() {
+    setTimeout(function() {
+        $('body').addClass('loaded');
+    }, 500);
+ 
+});
+
 window.addEventListener("scroll", function() {
   let header = document.querySelector("nav");
   if (this.window.scrollY > 0) {
