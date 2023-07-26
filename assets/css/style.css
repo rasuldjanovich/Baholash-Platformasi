@@ -98,9 +98,9 @@ nav.scrolled a {
     overflow: hidden;
 }
 
-/* .no-js {
+.no-js {
     display: none;
-} */
+}
 
 
 #loader {
@@ -182,3 +182,4 @@ nav.scrolled a {
     transform: translateY(-100%);
     transition: all 0.3s 1s ease-out;
 }
+
