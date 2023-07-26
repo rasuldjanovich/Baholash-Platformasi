@@ -5,6 +5,7 @@
  
 // });
 
+// Preloader 
 $(window).on("load", function () {
   $(".preloader").fadeOut();
   isotopeintial();
@@ -20,6 +21,7 @@ if ($(".preloader").length > 0) {
   });
 }
 
+// Sticky Navbar
 window.addEventListener("scroll", function() {
   let header = document.querySelector("nav");
   if (this.window.scrollY > 0) {
@@ -106,4 +108,5 @@ const myChart = new Chart(
   config
 );
 
+// Wow animation
 new WOW().init();
