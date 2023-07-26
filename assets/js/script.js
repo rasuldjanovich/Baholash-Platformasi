@@ -9,7 +9,6 @@ $(window).on("load", function () {
   $(".preloader").fadeOut();
   isotopeintial();
   $(".slick-slider").slick("refresh");
-   
 });
 
 if ($(".preloader").length > 0) {
