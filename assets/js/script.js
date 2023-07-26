@@ -1,9 +1,25 @@
-$(document).ready(function() {
-    setTimeout(function() {
-        $('body').addClass('loaded');
-    }, 1000);
+// $(document).ready(function() {
+//     setTimeout(function() {
+//         $('body').addClass('loaded');
+//     }, 1000);
  
+// });
+
+$(window).on("load", function () {
+  $(".preloader").fadeOut();
+  isotopeintial();
+  $(".slick-slider").slick("refresh");
+   
 });
+
+if ($(".preloader").length > 0) {
+  $(".preloaderCls").each(function () {
+      $(this).on("click", function (e) {
+          e.preventDefault();
+          $(".preloader").css("display", "none");
+      });
+  });
+}
 
 window.addEventListener("scroll", function() {
   let header = document.querySelector("nav");
