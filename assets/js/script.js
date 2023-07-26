@@ -31,6 +31,20 @@ window.addEventListener("scroll", function() {
   }
 })
 
+// Wow animation
+new WOW().init();
+
+// SLider
+$('.logo-slider').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  // dots: true,
+  arrows: true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  infinite: true
+});
+
 // setup block
 const data = {
   labels: [
@@ -108,5 +122,13 @@ const myChart = new Chart(
   config
 );
 
-// Wow animation
-new WOW().init();
+// Map
+jQuery('#vmap').vectorMap({
+  map: 'uzbekistan_uz',
+  backgroundColor: null,
+  color: '#273c75',
+  hoverColor: '#999999',
+  enableZoom: false,
+  showTooltip: false
+});
+
