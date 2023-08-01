@@ -92,8 +92,13 @@ nav.scrolled {
     opacity: 0.98;
 }
 
-nav.scrolled a {
+nav.scrolled a, 
+nav.scrolled #dropdownNavbar {
     color: #000;
+}
+
+nav .logos {
+    display: none;
 }
 
 /* Slide */
@@ -382,8 +387,14 @@ nav.scrolled a {
 
 @media (max-width: 480px) {
     .navbarr {
-        padding: 5px 15px;
+        /* padding: 15px 30px; */
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
 
+    heADER {
+        width: 100%;
     }
 
     .header {
@@ -414,5 +425,9 @@ nav.scrolled a {
 
     .header .img {
         width: 360px;
+    }
+
+    .help {
+        display: none;
     }
 }

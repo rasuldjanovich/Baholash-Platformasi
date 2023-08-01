@@ -26,8 +26,10 @@ window.addEventListener("scroll", function() {
   let header = document.querySelector("nav");
   if (this.window.scrollY > 0) {
     header.classList.add("scrolled")
+    header.classList.add("logos")
   }else {
     header.classList.remove("scrolled")
+    // header.classList.remove("logos")
   }
 })
 
