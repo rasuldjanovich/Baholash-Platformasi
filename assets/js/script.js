@@ -7,20 +7,20 @@ $(window).on("load", function () {
 
 if ($(".preloader").length > 0) {
   $(".preloaderCls").each(function () {
-      $(this).on("click", function (e) {
-          e.preventDefault();
-          $(".preloader").css("display", "none");
-      });
+    $(this).on("click", function (e) {
+      e.preventDefault();
+      $(".preloader").css("display", "none");
+    });
   });
 }
 
 // Sticky Navbar
-window.addEventListener("scroll", function() {
+window.addEventListener("scroll", function () {
   let header = document.querySelector("nav");
   if (this.window.scrollY > 0) {
     header.classList.add("scrolled")
     header.classList.add("logos")
-  }else {
+  } else {
     header.classList.remove("scrolled")
     // header.classList.remove("logos")
   }
@@ -45,7 +45,20 @@ $('.logo-slider').slick({
   arrows: true,
   autoplay: true,
   autoplaySpeed: 2000,
-  infinite: true
+  infinite: true,
+
+  breakpoints: {
+    0: {
+      slidesPerView: 1,
+    },
+    520: {
+      slidesPerView: 2,
+    },
+    950: {
+      slidesPerView: 1,
+    }
+  }
+
 });
 
 // setup block
@@ -134,4 +147,3 @@ jQuery('#vmap').vectorMap({
   enableZoom: false,
   showTooltip: false
 });
-

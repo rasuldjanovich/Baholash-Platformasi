@@ -93,7 +93,7 @@ nav.scrolled {
 }
 
 nav.scrolled a, 
-nav.scrolled #dropdownNavbar {
+nav.scrolled {
     color: #000;
 }
 
@@ -173,12 +173,12 @@ nav .logos {
 
 @media (max-width: 1200px) {
     #vmap {
-        width: 1200px;
+        width: 700px;
         height: 600px;
     }
 }
 
-@media (max-width: 1090px) {
+@media (max-width: 992px) {
     #menu-icon {
         display: block;
     }
@@ -305,51 +305,15 @@ nav .logos {
         width: 130px;
         font-size: 15px;
     }
+
+    footer ul li a{
+        margin: 0 0 0 150px;
+        display: none;
+    }
 }
 
 @media (max-width: 480px) {
-    .navbarr {
-        /* padding: 15px 30px; */
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-    }
-
-    heADER {
-        width: 100%;
-    }
-
-    .header {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .header h4 {
-        padding: 0 15px;
-        font-size: 16px;
-        width: 350px;
-        margin-bottom: 8px;
-    }
-
-    .header h1 {
-        padding: 0 15px;
-        font-size: 25px;
-        margin-bottom: 8px;
-    }
-
-    .header p {
-        padding: 0 15px;
-        font-size: 16px;
-        width: 400px;
-    }
-
-    .header .img {
-        width: 360px;
-    }
-
-    .help {
+    nav.scrolled {
         display: none;
     }
 }
