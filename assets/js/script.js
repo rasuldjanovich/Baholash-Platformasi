@@ -1,10 +1,3 @@
-// $(document).ready(function() {
-//     setTimeout(function() {
-//         $('body').addClass('loaded');
-//     }, 1000);
- 
-// });
-
 // Preloader 
 $(window).on("load", function () {
   $(".preloader").fadeOut();
