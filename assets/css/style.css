@@ -316,4 +316,8 @@ nav .logos {
     nav.scrolled {
         display: none;
     }
+
+    #vmap {
+        width: 300px;
+    }
 }
