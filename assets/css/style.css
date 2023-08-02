@@ -199,7 +199,7 @@ nav .logos {
         top: 100%;
         right: 100%;
         width: 100%;
-        height: 50vh;
+        height: 60vh;
         background: #000;
         display: flex;
         flex-direction: column;
@@ -222,11 +222,6 @@ nav .logos {
 
     .navbar.open {
         right: 2%;
-    }
-
-    .header {
-        padding: 0 50px 50px;
-        align-items: center;
     }
 
     .header h4 {
