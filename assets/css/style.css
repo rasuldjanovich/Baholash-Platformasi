@@ -164,6 +164,20 @@ nav .logos {
     display: none;
 }
 
+@media (max-width: 2000px) {
+    #vmap {
+        width: 1200px;
+        height: 600px;
+    }
+}
+
+@media (max-width: 1200px) {
+    #vmap {
+        width: 1200px;
+        height: 600px;
+    }
+}
+
 @media (max-width: 1090px) {
     #menu-icon {
         display: block;
@@ -174,7 +188,7 @@ nav .logos {
     }
 
     .navbarr {
-        /* padding: 15px 30px; */
+        padding: 15px 30px;
         display: flex;
         justify-content: space-between;
         width: 100%;
@@ -211,7 +225,7 @@ nav .logos {
     }
 
     .header {
-        padding: 50px 50px 80px 50px;
+        padding: 0 50px 50px;
         align-items: center;
     }
 
@@ -233,6 +247,10 @@ nav .logos {
 
     .header .img {
         margin-top: 150px;
+    }
+
+    .header img {
+        width: 100%;
     }
 
     #news {
