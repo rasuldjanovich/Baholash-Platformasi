@@ -166,14 +166,14 @@ nav .logos {
 
 @media (max-width: 2000px) {
     #vmap {
-        width: 700px;
+        width: 750px;
         height: 600px;
     }
 }
 
 @media (max-width: 1200px) {
     #vmap {
-        width: 700px;
+        width: 750px;
         height: 600px;
     }
 }
