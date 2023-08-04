@@ -147,3 +147,15 @@ jQuery('#vmap').vectorMap({
   enableZoom: false,
   showTooltip: false
 });
+
+// $(document).ready(function(){
+//   $("#vmap").click(function(){
+//    var s = $("#test");
+//    if(s == " ") {
+//     console.log("dededed");
+//    }else {
+//     console.log("xaxaxaxa");
+//    }
+
+//   });
+// });
