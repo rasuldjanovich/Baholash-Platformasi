@@ -24,7 +24,7 @@ const renderR2 = () => {
             <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'40px\'\>
             <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
           </div>
-          <a href="#"><button class="btn">Batafsil</button></a>
+          <a href="https://adu.uz/"><button class="btn">Batafsil</button></a>
 
           <div class="logo_name">
             <img src=\'assets/images/participants/andijon.png' width=\'60px\'\>
@@ -87,7 +87,7 @@ const renderR2 = () => {
           <a href="#"><button class="btn">Batafsil</button></a>
       </div>
 
-      <div class="box">
+      <div class="right_left">
           <div class="logo_name">
             <img src=\'assets/images/participants/andijon.png' width=\'60px\'\>
             <h1 class="logo_text">Andijon davlat universiteti</h1>
