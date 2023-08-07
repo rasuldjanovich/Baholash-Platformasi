@@ -156,6 +156,33 @@ nav .logos {
     height: 500px;
 }
 
+.logo_name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_text {
+    font-size: 14px;
+    width: 200px;
+    line-height: 15px;
+    margin-left: 5px;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 270px;
+    margin-top: 7px;
+}
+
+.location_text {
+    font-size: 12px;
+    line-height: 15px;
+    margin-left: 3px;
+}
+
 #menu-icon {
     font-size: 35px;
     color: #fff;

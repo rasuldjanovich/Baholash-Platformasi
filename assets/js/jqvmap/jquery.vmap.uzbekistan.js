@@ -4,7 +4,25 @@ const regionsElem = document.querySelector(".activeRegion");
 const renderR2 = () => {
   console.log("Hello");
   regionsElem.innerHTML = `
-    <div>hello world</div>
+    <div class="card">
+      <div class="box">
+        <div class="left_side">
+          <div class="logo_name">
+            <img src=\'assets/images/participants/andijon.png' width=\'60px\'\>
+            <h1 class="logo_text">Andijon davlat universiteti</h1>
+          </div>
+          <div class="content">
+            <div class="email">
+            <i class="fa-solid fa-phone"></i>
+            </div>
+          </div>
+          <div class="location">
+            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'40px\'\>
+            <p class="location_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
+          </div>
+        </div>
+      </div>
+    </div>
   `;
   // const div = document.createElement("div");
   // div.textContent ="Hello world";
