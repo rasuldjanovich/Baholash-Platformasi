@@ -87,7 +87,8 @@ const renderR2 = () => {
           <a href="#"><button class="btn">Batafsil</button></a>
       </div>
 
-      <div class="right_left">
+      
+      <div class="right_side">
           <div class="logo_name">
             <img src=\'assets/images/participants/andijon.png' width=\'60px\'\>
             <h1 class="logo_text">Andijon davlat universiteti</h1>
