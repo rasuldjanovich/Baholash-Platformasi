@@ -158,8 +158,8 @@ nav .logos {
 
 .logo_name {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    margin-top: 1rem;
 }
 
 .logo_img {
@@ -183,25 +183,19 @@ nav .logos {
     border: 1px solid red;
 } */
 
+.left_side {
+    width: 100%;
+}
+
 .right_side {
     margin-left: 60px;
 }
 
-.logo_name {
-    margin-top: 1rem;
-}
-
 .logo_text {
     font-size: 14px;
-    width: 200px;
+    width: 220px;
     line-height: 15px;
     margin-left: 5px;
-}
-
-.content {
-    display: flex;
-    justify-content: space-between;
-    width: 200px;
 }
 
 .email {
@@ -216,26 +210,24 @@ nav .logos {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 130px;
+    width: 200px;
     margin-top: 7px;    
 }
 
 .phone_text {
     width: 200px;
-    font-size: 12px;
+    font-size: 14px;
     line-height: 15px;
 }
 
 .location {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    width: 270px;
     margin: 8px 0 8px 0;
 }
 
 .content_text {
-    font-size: 12px;
+    font-size: 14px;
     line-height: 15px;
     margin-left: 3px;
 }
@@ -269,8 +261,12 @@ nav .logos {
     }
 }
 
-/* hhhh */
 @media (max-width: 1024px) {
+    #vmap {
+        width: 700px;
+        height: 600px;
+    }
+
     nav.scrolled {
         display: none;
     }

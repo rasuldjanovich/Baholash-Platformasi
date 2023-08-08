@@ -9,7 +9,6 @@ const renderR2 = () => {
             <img src=\'assets/images/participants/andijon.png' class="logo_img">
             <h1 class="logo_text">Andijon davlat universiteti</h1>
           </div>
-          <div class="content">
             <div class="email">
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
               <p class="content_text">agsu_info@edu.uz</p>
@@ -18,7 +17,6 @@ const renderR2 = () => {
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
               <p class="phone_text">0 (374) 223 88 14</p>
             </div>
-          </div>
           <div class="location">
             <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
             <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
@@ -29,7 +27,6 @@ const renderR2 = () => {
             <img src=\'assets/images/participants/akfa.png' class="logo_img">
             <h1 class="logo_text">Akfa universiteti</h1>
           </div>
-          <div class="content">
             <div class="email">
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
               <p class="content_text">info@akfauniversity.com</p>
@@ -38,7 +35,6 @@ const renderR2 = () => {
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
               <p class="phone_text">+998-71-200-05-22</p>
             </div>
-          </div>
           <div class="location">
             <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
             <p class="content_text">264, Milliy bog St, Tashkent, 111221, Uzbekistan</p>
@@ -49,7 +45,6 @@ const renderR2 = () => {
             <img src=\'assets/images/participants/namangan.png' class="logo_img">
             <h1 class="logo_text">Namangan davlat universiteti</h1>
           </div>
-          <div class="content">
             <div class="email">
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
               <p class="content_text">info@namdu.uz</p>
@@ -58,7 +53,6 @@ const renderR2 = () => {
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
               <p class="phone_text">+99869 228-85-25</p>
             </div>
-          </div>
           <div class="location">
             <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
             <p class="content_text">160107, Boburshox ko'chasi, 161</p>
@@ -69,7 +63,6 @@ const renderR2 = () => {
             <img src=\'assets/images/participants/fargona.jpg' class="logo_img">
             <h1 class="logo_text">Farg'ona davlat universiteti</h1>
           </div>
-          <div class="content">
             <div class="email">
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
               <p class="content_text">info@namdu.uz</p>
@@ -78,7 +71,6 @@ const renderR2 = () => {
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
               <p class="phone_text">(+99873) 244-44-91</p>
             </div>
-          </div>
           <div class="location">
             <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
             <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
@@ -92,7 +84,6 @@ const renderR2 = () => {
             <img src=\'assets/images/participants/xorazmiy.png' class="logo_img">
             <h1 class="logo_text">Muhammad Al Xorazmiy nomidagi Toshkent axborot texnogoliyalari Universiteti</h1>
           </div>
-          <div class="content">
             <div class="email">
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
               <p class="content_text">ainfo@tuit.uz</p>
@@ -101,7 +92,6 @@ const renderR2 = () => {
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
               <p class="phone_text">+998 71 238 64 15</p>
             </div>
-          </div>
           <div class="location">
             <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
             <p class="content_text">Toshkent 100084, Amir Temur shox ko‘chasi 108 uy</p>
@@ -112,7 +102,6 @@ const renderR2 = () => {
             <img src=\'assets/images/participants/islom_karimov.png' class="logo_img">
             <h1 class="logo_text">Islom Karimov nomidagi Toshkent davlat texnika universiteti</h1>
           </div>
-          <div class="content">
             <div class="email">
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
               <p class="content_text">agsu_info@edu.uz</p>
@@ -121,7 +110,6 @@ const renderR2 = () => {
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
               <p class="phone_text">71 207 14 63</p>
             </div>
-          </div>
           <div class="location">
             <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
             <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
@@ -132,7 +120,6 @@ const renderR2 = () => {
             <img src=\'assets/images/participants/tibbiyot.png' class="logo_img">
             <h1 class="logo_text">Toshkent tibbiyot universiteti Urganch filiali</h1>
           </div>
-          <div class="content">
             <div class="email">
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
               <p class="content_text"> ttaurgfil@urgfiltma.uz</p>
@@ -141,7 +128,6 @@ const renderR2 = () => {
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
               <p class="phone_text">+998 (62) 224 84 84</p>
             </div>
-          </div>
           <div class="location">
             <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
             <p class="content_text">220100, O'zbekiston Urganch shahri Al-Xorazmiy ko'chasi 28-uy</p>
@@ -152,7 +138,6 @@ const renderR2 = () => {
             <img src=\'assets/images/participants/qoqon.png' class="logo_img">
             <h1 class="logo_text">Qo'qon davlat pedagogika instituti</h1>
           </div>
-          <div class="content">
             <div class="email">
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
               <p class="content_text">kspi_info@edu.uz</p>
@@ -161,7 +146,6 @@ const renderR2 = () => {
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
               <p class="phone_text">+998735423838/p>
             </div>
-          </div>
           <div class="location">
             <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
             <p class="content_text">Qo'qon shahri, Turon ko'chasi</p>
