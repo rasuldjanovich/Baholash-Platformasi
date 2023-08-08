@@ -2,37 +2,16 @@ const regionsElem = document.querySelector(".activeRegion");
 
 
 const renderR2 = () => {
-  console.log("Hello");
   regionsElem.innerHTML = `
     <div class="card">
       <div class="left_side">
           <div class="logo_name">
-            <img src=\'assets/images/participants/andijon.png' width=\'60px\'\>
-            <h1 class="logo_text">Muhammad Al Xorazmiy nomidagi Toshkent axborot texnogoliyalari Universiteti</h1>
-          </div>
-          <div class="content">
-            <div class="email">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'40px\'\>
-              <p class="content_text">agsu_info@edu.uz</p>
-            </div>
-            <div class="phone">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="phone_text">0 (374) 223 88 14</p>
-            </div>
-          </div>
-          <div class="location">
-            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'40px\'\>
-            <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
-          </div>
-          <a href="https://adu.uz/" class="btnn">Batafsil</a>
-
-          <div class="logo_name">
-            <img src=\'assets/images/participants/andijon.png' width=\'60px\'\>
+            <img src=\'assets/images/participants/andijon.png' class="logo_img">
             <h1 class="logo_text">Andijon davlat universiteti</h1>
           </div>
           <div class="content">
             <div class="email">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'40px\'\>
+              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
               <p class="content_text">agsu_info@edu.uz</p>
             </div>
             <div class="phone">
@@ -41,133 +20,153 @@ const renderR2 = () => {
             </div>
           </div>
           <div class="location">
-            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'40px\'\>
+            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
             <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
           </div>
-          <a href="#"><button class="btn">Batafsil</button></a>
+          <a href="https://adu.uz/" class="btn">Batafsil</a>
 
           <div class="logo_name">
-            <img src=\'assets/images/participants/andijon.png' width=\'60px\'\>
-            <h1 class="logo_text">Andijon davlat universiteti</h1>
+            <img src=\'assets/images/participants/akfa.png' class="logo_img">
+            <h1 class="logo_text">Akfa universiteti</h1>
           </div>
           <div class="content">
             <div class="email">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'40px\'\>
-              <p class="content_text">agsu_info@edu.uz</p>
+              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+              <p class="content_text">info@akfauniversity.com</p>
             </div>
             <div class="phone">
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="phone_text">0 (374) 223 88 14</p>
+              <p class="phone_text">+998-71-200-05-22</p>
             </div>
           </div>
           <div class="location">
-            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'40px\'\>
-            <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
+            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
+            <p class="content_text">264, Milliy bog St, Tashkent, 111221, Uzbekistan</p>
           </div>
-          <a href="#"><button class="btn">Batafsil</button></a>
+          <a href="https://admission.akfauniversity.com/" class="btn">Batafsil</a>
 
           <div class="logo_name">
-            <img src=\'assets/images/participants/andijon.png' width=\'60px\'\>
-            <h1 class="logo_text">Andijon davlat universiteti</h1>
+            <img src=\'assets/images/participants/namangan.png' class="logo_img">
+            <h1 class="logo_text">Namangan davlat universiteti</h1>
           </div>
           <div class="content">
             <div class="email">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'40px\'\>
-              <p class="content_text">agsu_info@edu.uz</p>
+              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+              <p class="content_text">info@namdu.uz</p>
             </div>
             <div class="phone">
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="phone_text">0 (374) 223 88 14</p>
+              <p class="phone_text">+99869 228-85-25</p>
             </div>
           </div>
           <div class="location">
-            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'40px\'\>
+            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
+            <p class="content_text">160107, Boburshox ko'chasi, 161</p>
+          </div>
+          <a href="https://namdu.uz/uz" class="btn">Batafsil</a>
+
+          <div class="logo_name">
+            <img src=\'assets/images/participants/fargona.jpg' class="logo_img">
+            <h1 class="logo_text">Farg'ona davlat universiteti</h1>
+          </div>
+          <div class="content">
+            <div class="email">
+              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+              <p class="content_text">info@namdu.uz</p>
+            </div>
+            <div class="phone">
+              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+              <p class="phone_text">(+99873) 244-44-91</p>
+            </div>
+          </div>
+          <div class="location">
+            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
             <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
           </div>
-          <a href="#"><button class="btn">Batafsil</button></a>
+          <a href="https://www.fdu.uz/" class="btn">Batafsil</a>
       </div>
 
       
       <div class="right_side">
           <div class="logo_name">
-            <img src=\'assets/images/participants/andijon.png' width=\'60px\'\>
-            <h1 class="logo_text">Andijon davlat universiteti</h1>
+            <img src=\'assets/images/participants/xorazmiy.png' class="logo_img">
+            <h1 class="logo_text">Muhammad Al Xorazmiy nomidagi Toshkent axborot texnogoliyalari Universiteti</h1>
           </div>
           <div class="content">
             <div class="email">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'40px\'\>
-              <p class="content_text">agsu_info@edu.uz</p>
+              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+              <p class="content_text">ainfo@tuit.uz</p>
             </div>
             <div class="phone">
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="phone_text">0 (374) 223 88 14</p>
+              <p class="phone_text">+998 71 238 64 15</p>
             </div>
           </div>
           <div class="location">
-            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'40px\'\>
-            <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
+            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
+            <p class="content_text">Toshkent 100084, Amir Temur shox ko‘chasi 108 uy</p>
           </div>
-          <a href="#"><button class="btn">Batafsil</button></a>
+          <a href="hhttps://tuit.uz/" class="btn">Batafsil</a>
 
           <div class="logo_name">
-            <img src=\'assets/images/participants/andijon.png' width=\'60px\'\>
-            <h1 class="logo_text">Andijon davlat universiteti</h1>
+            <img src=\'assets/images/participants/islom_karimov.png' class="logo_img">
+            <h1 class="logo_text">Islom Karimov nomidagi Toshkent davlat texnika universiteti</h1>
           </div>
           <div class="content">
             <div class="email">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'40px\'\>
+              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
               <p class="content_text">agsu_info@edu.uz</p>
             </div>
             <div class="phone">
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="phone_text">0 (374) 223 88 14</p>
+              <p class="phone_text">71 207 14 63</p>
             </div>
           </div>
           <div class="location">
-            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'40px\'\>
+            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
             <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
           </div>
-          <a href="#"><button class="btn">Batafsil</button></a>
+          <a href="https://tdtu.uz/" class="btn">Batafsil</a>
 
           <div class="logo_name">
-            <img src=\'assets/images/participants/andijon.png' width=\'60px\'\>
-            <h1 class="logo_text">Andijon davlat universiteti</h1>
+            <img src=\'assets/images/participants/tibbiyot.png' class="logo_img">
+            <h1 class="logo_text">Toshkent tibbiyot universiteti Urganch filiali</h1>
           </div>
           <div class="content">
             <div class="email">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'40px\'\>
-              <p class="content_text">agsu_info@edu.uz</p>
+              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+              <p class="content_text"> ttaurgfil@urgfiltma.uz</p>
             </div>
             <div class="phone">
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="phone_text">0 (374) 223 88 14</p>
+              <p class="phone_text">+998 (62) 224 84 84</p>
             </div>
           </div>
           <div class="location">
-            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'40px\'\>
-            <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
+            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
+            <p class="content_text">220100, O'zbekiston Urganch shahri Al-Xorazmiy ko'chasi 28-uy</p>
           </div>
-          <a href="#"><button class="btn">Batafsil</button></a>
+          <a href="https://www.urgfiltma.uz/" class="btn">Batafsil</a>
 
           <div class="logo_name">
-            <img src=\'assets/images/participants/andijon.png' width=\'60px\'\>
-            <h1 class="logo_text">Andijon davlat universiteti</h1>
+            <img src=\'assets/images/participants/qoqon.png' class="logo_img">
+            <h1 class="logo_text">Qo'qon davlat pedagogika instituti</h1>
           </div>
           <div class="content">
             <div class="email">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'40px\'\>
-              <p class="content_text">agsu_info@edu.uz</p>
+              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+              <p class="content_text">kspi_info@edu.uz</p>
             </div>
             <div class="phone">
               <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="phone_text">0 (374) 223 88 14</p>
+              <p class="phone_text">+998735423838/p>
             </div>
           </div>
           <div class="location">
-            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'40px\'\>
-            <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
+            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
+            <p class="content_text">Qo'qon shahri, Turon ko'chasi</p>
           </div>
-          <a href="#"><button class="btn">Batafsil</button></a>
+          <a href="https://kspi.uz/" class="btn">Batafsil</a>
       </div>
     </div>
 
@@ -184,55 +183,55 @@ const regionsCode = [{
   },
   {
     code: "r1",
-    renderFn: () => null
+    renderFn: renderR2
   },
   {
     code: "r3",
-    renderFn: () => null
+    renderFn: renderR2
   },
   {
     code: "r5",
-    renderFn: () => null
+    renderFn: renderR2
   },
   {
     code: "r6",
-    renderFn: () => null
+    renderFn: renderR2
   },
   {
     code: "r11",
-    renderFn: () => null
+    renderFn: renderR2
   },
   {
     code: "r10",
-    renderFn: () => null
+    renderFn: renderR2
   },
   {
     code: "r8",
-    renderFn: () => null
+    renderFn: renderR2
   },
   {
     code: "r12",
-    renderFn: () => null
+    renderFn: renderR2
   },
   {
     code: "r4",
-    renderFn: () => null
+    renderFn: renderR2
   },
   {
     code: "r7",
-    renderFn: () => null
+    renderFn: renderR2
   },
   {
     code: "r9",
-    renderFn: () => null
+    renderFn: renderR2
   },
   {
     code: "r13",
-    renderFn: () => null
+    renderFn: renderR2
   },
   {
     code: "r14",
-    renderFn: () => null
+    renderFn: renderR2
   },
 
 ]
@@ -283,7 +282,7 @@ jQuery(document).ready(function () {
 
 jQuery.fn.vectorMap('addMap', 'uzbekistan_uz', {
   "height": 390,
-  "width": 540,
+  "width": 650,
   "paths": {
     "r2": {
       "path": "M 561.018,194.838 560.038,192.877 542.384,192.55 540.586,190.261 538.952,190.098 538.461,188.3 535.519,186.829 528.491,190.261 528.491,190.588 528.491,191.406 527.837,192.713 527.51,193.204 526.366,194.348 525.549,194.838 525.058,195.002 524.404,195.165 521.299,195.492 514.597,195.165 514.27,195.165 513.78,195.329 512.799,195.655 512.309,195.982 511.165,196.636 510.184,197.617 506.751,202.847 531.923,212.818 538.298,215.597 539.115,212.655 535.846,206.77 536.99,205.626 545.327,209.222 546.307,206.28 548.759,206.607 549.413,202.194",
