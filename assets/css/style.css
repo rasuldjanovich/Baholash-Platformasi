@@ -226,13 +226,14 @@ nav .logos {
     justify-content: space-between;
     align-items: center;
     width: 270px;
-    margin-top: 7px;
+    margin-top: 7px 0 1rem 0;
 }
 
 .content_text {
     font-size: 12px;
     line-height: 15px;
     margin-left: 3px;
+    margin-bottom: 1rem;
 }
 
 .btn {
@@ -242,6 +243,13 @@ nav .logos {
     border-radius: 4px;
     color: #fff;
     margin-left: 5px;
+}
+
+.btnn {
+    color: #2861F5;
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 18px;
 }
 
 #menu-icon {
