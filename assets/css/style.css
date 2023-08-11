@@ -306,7 +306,7 @@ nav .logos {
     }
 
     .navbar.open {
-        right: 2%;
+        right: 0;
     }
 
     .right_side {
@@ -360,7 +360,8 @@ nav .logos {
     }
 
     .navbar.open {
-        right: 2%;
+        right: 0;
+        top: 60px;
     }
 
     #foydali-havolalar .item p {
