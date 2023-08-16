@@ -413,3 +413,12 @@ nav .logos {
         display: block;
     }
 }
+
+
+.pagination a.active {
+    color: #ffffff;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}

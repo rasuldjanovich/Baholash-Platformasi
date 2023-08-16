@@ -26,21 +26,6 @@ window.addEventListener("scroll", function () {
   }
 })
 
-// test
-// function onToggleMenu(e) {
-//   e.name = e.name === 'menu' ? 'close' : 'menu '
-// }
-
-// const navLinks = document.querySelector('.navLinks')
-
-// let menu = document.querySelector(".menu-icon");
-// let navbar = document.querySelector(".navbar");
-
-// menu.onclick = () => {
-//   menu.classList.toggle("bx-x");
-//   navbar.classList.toggle("open")
-// }
-
 function changeImage() {
   let navbar = document.querySelector('.navbar');
   let displayImage = document.getElementById('image1')
@@ -53,16 +38,7 @@ function changeImage() {
   }
 }
 
-// const navLinks = document.querySelector('.navLinks')
-
-// function onToggleMenu(e) {
-//   e.name = e.name === 'fa-bars' ? 'fa-xmark' : 'fa-bars'
-//   navLinks.classList.toggle('top-[7%]')
-
-
-
-
-  // Wow animation
+// Wow animation
   new WOW().init();
 
   // SLider
@@ -175,15 +151,6 @@ function changeImage() {
     enableZoom: false,
     showTooltip: false
   });
+  
 
-  // $(document).ready(function(){
-  //   $("#vmap").click(function(){
-  //    var s = $("#test");
-  //    if(s == " ") {
-  //     console.log("dededed");
-  //    }else {
-  //     console.log("xaxaxaxa");
-  //    }
-
-  //   });
-  // });
+ 
