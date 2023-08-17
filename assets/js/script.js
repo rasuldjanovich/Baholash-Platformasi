@@ -50,19 +50,17 @@ function changeImage() {
     autoplay: true,
     autoplaySpeed: 2000,
     infinite: true,
-
-    breakpoints: {
-      0: {
-        slidesPerView: 1,
-      },
-      520: {
-        slidesPerView: 2,
-      },
-      950: {
-        slidesPerView: 1,
+    responsive: [
+      {
+        breakpoint: 480,
+        settings: {
+          arrows: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
       }
-    }
-
+    ]
   });
 
   // setup block
