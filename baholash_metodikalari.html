@@ -1,0 +1,1000 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Index</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Flowbite -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.css" rel="stylesheet" />
+
+    <!-- Tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+
+</head>
+
+<body>
+    <!-- Begin Page -->
+
+    <div class="container max-w-full">
+        <!-- Start Header -->
+        <header class="bg-[#211F4A]">
+            <nav class="flex items-center px-20 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] max-[480px]:px-5 max-[920px]:px-5 max-[920px]:justify-between max-[1024px]:px-8 max-[1280px]:px-8"
+                id="myHeader">
+                <ul>
+                    <li><a href="index.html"><img src="./assets/images/logo/logo_and_text.svg" width="200"
+                                class="mt-2 mb-2 cursor-pointer" alt=""></a></li>
+                    <!-- <li class="wow bounceInLeft logos" data-wow-delay="0.1s"><a href="index.html"><img
+                            src="./assets/images/logo-svg/BAHOLASH LOGO.svg" class="mt-2 mb-2 cursor-pointer"
+                            alt=""></a>
+                </li> -->
+                </ul>
+                <ul class="flex-1 text-center text-sm navbar">
+                    <li class="list-none inline-block px-2 max-[1280px]:px-0"><a href="index.html"
+                            class="no-udderline text-white block my-3 px-1">Asosiy</a></li>
+                    <li class="list-none inline-block px-2 max-[1280px]:px-0"><a href="news.html"
+                            class="no-udderline text-white block my-3 px-1">Yangiliklar</a></li>
+                    <li class="list-none inline-block px-2 max-[1280px]:px-0"><a href="#"
+                            class="no-udderline text-white block my-3 px-1">Baholash metodikalari</a></li>
+                    <li class="list-none inline-block px-2 max-[1280px]:px-0"><a href="participants.html"
+                            class="no-udderline text-white block my-3 px-1">Ishtirokchilar</a></li>
+                    <li class="list-none inline-block px-2 max-[1280px]:px-0"><a href="rating_of_participants.html"
+                            class="no-udderline text-white block my-3 px-1">Reyting</a></li>
+                    <li class="list-none inline-block px-2 max-[1280px]:px-0"><a href="regulatory_documents.html"
+                            class="no-udderline text-white block my-3 px-1">Normativ hujjatlar</a></li>
+                    <li class="list-none inline-block px-2 max-[1280px]:px-0"><a href="#"
+                            class="no-udderline text-white block my-3 px-1">Aloqa</a></li>
+                    <li class="list-none inline-block px-2 max-[1280px]:px-0"><a href="#"
+                            class="no-udderline text-white block my-3 px-1">FAQ</a></li>
+                </ul>
+
+                <img src="./assets/images/language_FILL0_wght300_GRAD0_opsz24 (1) 1 (1).svg" class="mr-2 wow bounceInRight max-[480px]:ml-6" data-wow-delay="1s" alt="">
+                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                    class="flex items-center justify-between w-full py-2 text-white rounded wow bounceInRight md:border-0 md:p-0 md:w-auto  max-[480px]:w-[80px]"
+                    data-wow-delay="1s">UZ
+                    <svg class="w-5 h-5 ml-1 dropdownn" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                            clip-rule="evenodd"></path>
+                    </svg></button>
+                <!-- Dropdown menu -->
+                <div id="dropdownNavbar"
+                    class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-20">
+                    <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
+                        <li>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-black">RU</a>
+                        </li>
+                        <li>
+                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-black">ENG</a>
+                        </li>
+                    </ul>
+                </div>
+                <span>
+                    <button class="bg-blue-700  text-white py-2 px-4 rounded ml-5 max-[480px]:hidden wow bounceInRight" data-wow-delay="1.2s">Tizimga kirish</button>
+                </span>
+                    <img id="image1" class="md:hidden" src="./assets/images/menu.svg" onclick="changeImage()" width="35" height="35" alt="">
+            </nav>
+
+            <div class="flex flex-col right-0 mt-[150px] p-3 bg-white rounded-l-lg fixed max-[480px]:hidden">
+                <button class="p-1 bg-[#e0ecf9] rounded-lg mb-5"><img
+                        src="./assets/images/dark_mode_FILL1_wght300_GRAD0_opsz24 1.svg" alt=""></button>
+                <button class="p-1 bg-[#e0ecf9] rounded-lg mb-5"><img
+                        src="./assets/images/volume_up_FILL1_wght300_GRAD0_opsz24 1.svg" alt=""></button>
+                <button class="p-1 bg-[#e0ecf9] rounded-lg"><img
+                        src="./assets/images/text_fields_FILL1_wght300_GRAD0_opsz24 1.svg" alt=""></button>
+            </div>
+        </header>
+        <!-- End Header -->
+        
+        <section class="bg-[#F1F3F9] px-20 pb-16 pt-10 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] max-[480px]:px-5 max-[920px]:px-5">
+            <h1 class="text-[#1E2128] text-3xl max-[480px]:text-xl font-bold uppercase mb-6">baholash metodikalari</h1>
+            <p class="w-[900px] text-[#1E2128] text-lg font-normal min-[1600px]:w-[1200px]">Lorem Ipsum is simply
+                dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                make a type specimen book. It has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <br><br>
+                Why do we use it?<br>
+                It is a long established fact that a reader will be distracted by the readable content of a page
+                when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                distribution of letters, as opposed to using 'Content here, content here', making it look like
+                readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
+                (injected humour and the like).
+                <br><br>
+                Where does it come from?<br>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                <br><br>
+                Where does it come from?<br>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            </p>
+
+            <div class="relative overflow-x-auto mt-10">
+                <table class="w-full text-sm text-left border border-[#CBD9F3]">
+                    <thead class="text-xs bg-white border-b">
+                        <tr>
+                            <th scope="col" class="px-6 py-3">
+                                №
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Nomi
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Lorem Ipsum is simply dummy text of
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Lorem Ipsum is simply dummy text of
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Lorem Ipsum is simply dummy text of
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Lorem Ipsum is simply dummy text of
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Lorem Ipsum is simply dummy text of
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                1
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                2
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                3
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                4
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                5
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                6
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                7
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                8
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                9
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                10
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                11
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                12
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="relative overflow-x-auto my-10">
+                <table class="w-full text-sm text-left border border-[#CBD9F3]">
+                    <thead class="text-xs bg-white border-b">
+                        <tr>
+                            <th scope="col" class="px-6 py-3">
+                                №
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Nomi
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Lorem Ipsum is simply dummy text of
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Lorem Ipsum is simply dummy text of
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Lorem Ipsum is simply dummy text of
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Lorem Ipsum is simply dummy text of
+                            </th>
+                            <th scope="col" class="px-6 py-3">
+                                Lorem Ipsum is simply dummy text of
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                1
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                2
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                3
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                4
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                5
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                6
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                7
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                8
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                9
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                10
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                11
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                        <tr class="bg-[#F1F3F9] border-b border-[#CBD9F3]">
+                            <th scope="row" class="px-6 py-4 font-medium">
+                                12
+                            </th>
+                            <td class="px-6 py-4">
+                                Lorem ipsum
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                            <td class="px-6 py-4">
+                                6546
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p class="w-[900px] text-[#1E2128] text-lg font-normal min-[1600px]:w-[1200px] mb-10">Lorem Ipsum is simply
+                dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+                dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to
+                make a type specimen book. It has survived not only five centuries, but also the leap into
+                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                <br><br>
+                Why do we use it?<br>
+                It is a long established fact that a reader will be distracted by the readable content of a page
+                when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                distribution of letters, as opposed to using 'Content here, content here', making it look like
+                readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose
+                (injected humour and the like).
+                <br><br>
+                Where does it come from?<br>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                <br><br>
+                Where does it come from?<br>
+                Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+            </p>
+
+            <!-- Chart -->
+            <div class="flex max-[920px]:block max-[480px]:block mb-10">
+                <span class="w-[450px] h-[350px] max-[480px]:w-[300px] p-2 bg-white flex justify-center rounded-xl">
+                    <canvas id="myChart1"></canvas>
+                </span>
+                <span class="w-[450px] h-[350px] max-[480px]:w-[300px] p-2 bg-white flex justify-center rounded-xl ml-5">
+                    <canvas id="myChart2"></canvas>
+                </span>
+                <span class="w-[450px] h-[350px] max-[480px]:w-[300px] p-2 bg-white flex justify-center rounded-xl ml-5">
+                    <canvas id="myChart3"></canvas>
+                </span>
+            </div>
+
+            <div class="flex max-[920px]:block max-[480px]:block">
+                <span class="w-[450px] h-[350px] max-[480px]:w-[300px] p-2 bg-white flex justify-center rounded-xl">
+                    <canvas id="myChart4"></canvas>
+                </span>
+                <span class="w-[450px] h-[350px] max-[480px]:w-[300px] p-2 bg-white flex justify-between rounded-xl ml-5">
+                    <div class="py-3 px-5 text-[#596375] text-lg font-normal">
+                        <h1 class="mb-3">Lorem ipsum</h1>
+                        <h1 class="mb-3">Lorem ipsum</h1>
+                        <h1 class="mb-3">Lorem ipsum</h1>
+                        <h1 class="mb-3">Lorem ipsum</h1>
+                        <h1 class="mb-3">Lorem ipsum</h1>
+                        <h1 class="mb-3">Lorem ipsum</h1>
+                        <h1 class="mb-3">Lorem ipsum</h1>
+                        <h1 class="mb-3">Lorem ipsum</h1>
+                    </div>
+                    <div class="py-3 px-5 text-[#000] text-lg font-normal">
+                        <p class="mb-3">3549</p>
+                        <p class="mb-3">3549</p>
+                        <p class="mb-3">3549</p>
+                        <p class="mb-3">3549</p>
+                        <p class="mb-3">3549</p>
+                        <p class="mb-3">3549</p>
+                        <p class="mb-3">3549</p>
+                        <p class="mb-3">3549</p>
+                    </div>
+                </span>
+                <span class="w-[450px] h-[350px] max-[480px]:w-[300px] p-2 bg-white flex justify-between rounded-xl ml-5">
+                    <div class="py-3 px-5 text-[#596375] text-lg font-normal">
+                        <h1 class="mb-3">Lorem ipsum</h1>
+                        <h1 class="mb-3">Lorem ipsum</h1>
+                        <h1 class="mb-3">Lorem ipsum</h1>
+                        <h1 class="mb-3">Lorem ipsum</h1>
+                        <h1 class="mb-3">Lorem ipsum</h1>
+                        <h1 class="mb-3">Lorem ipsum</h1>
+                        <h1 class="mb-3">Lorem ipsum</h1>
+                        <h1 class="mb-3">Lorem ipsum</h1>
+                    </div>
+                    <div class="py-3 px-5 text-[#000] text-lg font-normal">
+                        <p class="mb-3">3549</p>
+                        <p class="mb-3">3549</p>
+                        <p class="mb-3">3549</p>
+                        <p class="mb-3">3549</p>
+                        <p class="mb-3">3549</p>
+                        <p class="mb-3">3549</p>
+                        <p class="mb-3">3549</p>
+                        <p class="mb-3">3549</p>
+                    </div>
+                </span>
+            </div>
+        </section>
+        <!-- Start Footer -->
+        <footer class="bg-[#211F4A]">
+            <nav
+                class="flex items-center px-20 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] max-[480px]:px-5 max-[1280px]:px-5 max-[920px]:px-5 max-[920px]:justify-between">
+                <a href="index.html"><img src="./assets/images/logo/logo_and_text.svg" width="200"
+                        class="mt-2 mb-2 cursor-pointer" alt=""></a>
+                <ul class="flex-1 text-center text-sm my-8 max-[480px]:hidden max-[920px]:hidden max-[1024px]:hidden">
+                    <li class="list-none inline-block px-2"><a href="index.html"
+                            class="no-udderline text-white">Asosiy</a></li>
+                    <li class="list-none inline-block px-2"><a href="news.html"
+                            class="no-udderline text-white">Yangiliklar</a>
+                    </li>
+                    <li class="list-none inline-block px-2"><a href="#" class="no-udderline text-white">Baholash
+                            metodikalari</a></li>
+                    <li class="list-none inline-block px-2"><a href="participants.html"
+                            class="no-udderline text-white">Ishtirokchilar</a></li>
+                    <li class="list-none inline-block px-2"><a href="rating_of_participants.html"
+                            class="no-udderline text-white">Reyting</a></li>
+                    <li class="list-none inline-block px-2"><a href="regulatory_documents.html"
+                            class="no-udderline text-white">Normativ
+                            hujjatlar</a></li>
+                    <li class="list-none inline-block px-2"><a href="faq.html" class="no-udderline text-white">FAQ</a>
+                    </li>
+                </ul>
+                <!-- Start Social Media -->
+                <div class="flex">
+                    <a class="mx-1.5" href="#"><img src="./assets/images/social_media/youtube.svg" alt=""></a>
+                    <a class="mx-1.5" href="#"><img src="./assets/images/social_media/telegram.svg" alt=""></a>
+                    <a class="mx-1.5" href="#"><img src="./assets/images/social_media/facebook.svg" alt=""></a>
+                    <a class="mx-1.5" href="#"><img src="./assets/images/social_media/instagram.svg" alt=""></a>
+                </div>
+                <!-- End Social Media -->
+            </nav>
+            <span class="flex justify-center text-[#FFFFFF80] max-[480px]:block max-[480px]:px-5">
+                <a href="#">www.loremipsum.uz</a>
+                <p class="pb-5 ml-6 max-[480px]:m-0">Barcha huquqlar himoyalangan</p>
+            </span>
+        </footer>
+        <!-- End Footer -->
+    </div>
+    <!-- End Page -->
+
+    <!-- Tailwind JS -->
+    <script src="./assets/tailwind.config.js"></script>
+    <!-- Flowbite -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.js"></script>
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- Chart JS -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Script JS -->
+    <script src="./assets/js/script.js"></script>
+
+    <script>
+        const ctx = document.getElementById('myChart1');
+
+        new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ['Lorem ipsum', 'Lorem ipsum', 'Lorem ipsum'],
+                datasets: [{
+                    label: '',
+                    data: [70, 90, 150],
+                    backgroundColor: [
+                        '#05AD48',
+                        '#E42D90',
+                        '#0D5CD1'
+                    ],
+                    hoverOffset: 4,
+                    cutout: "65%"
+                }]
+            }
+        });
+
+        const ctx2 = document.getElementById('myChart2');
+
+        new Chart(ctx2, {
+            type: 'doughnut',
+            data: {
+                labels: ['Lorem ipsum', 'Lorem ipsum', 'Lorem ipsum'],
+                datasets: [{
+                    label: '',
+                    data: [70, 90, 150],
+                    backgroundColor: [
+                        '#05AD48',
+                        '#E42D90',
+                        '#0D5CD1'
+                    ],
+                    hoverOffset: 4,
+                    cutout: "65%"
+                }]
+            }
+        });
+
+        const ctx3 = document.getElementById('myChart3');
+
+        new Chart(ctx3, {
+            type: 'doughnut',
+            data: {
+                labels: ['Lorem ipsum', 'Lorem ipsum', 'Lorem ipsum'],
+                datasets: [{
+                    label: '',
+                    data: [70, 90, 150],
+                    backgroundColor: [
+                        '#05AD48',
+                        '#E42D90',
+                        '#0D5CD1'
+                    ],
+                    hoverOffset: 4,
+                    cutout: "65%"
+                }]
+            }
+        });
+
+        const ctx4 = document.getElementById('myChart4');
+
+        new Chart(ctx4, {
+            type: 'doughnut',
+            data: {
+                labels: ['Lorem ipsum', 'Lorem ipsum', 'Lorem ipsum'],
+                datasets: [{
+                    label: '',
+                    data: [70, 90, 150],
+                    backgroundColor: [
+                        '#05AD48',
+                        '#E42D90',
+                        '#0D5CD1'
+                    ],
+                    hoverOffset: 4,
+                    cutout: "65%"
+                }]
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>
