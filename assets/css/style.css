@@ -92,13 +92,21 @@ nav.scrolled {
     opacity: 0.98;
 }
 
+nav .logos {
+    display: none;
+}
+
 nav.scrolled a, 
 nav.scrolled {
     color: #000;
 }
 
-nav .logos {
+nav.scrolled .logo {
     display: none;
+}
+
+nav.scrolled .logos {
+    display: block;
 }
 
 /* Slide */
