@@ -2,155 +2,177 @@ const regionsElem = document.querySelector(".activeRegion");
 
 
 const renderR2 = () => {
+  // $.ajax({
+  //   type: "GET",
+  //   dataType: "json",
+  //   data: { name: name },
+  //   url: "http://localhost:8000/api/tt",
+  //   success: function (data) {
+  //     document.getElementById('mapper-list').style.removeProperty("display");
+  //     document.getElementById('mapper-def').style.display = "none";
+  //     document.getElementById('mapper-def-one').style.display = "none";
+  //   }
+  // });
   regionsElem.innerHTML = `
     <div class="card">
-      <div class="left_side">
-          <div class="logo_name">
-            <img src=\'assets/images/participants/andijon.png' class="logo_img">
-            <h1 class="logo_text">Andijon davlat universiteti</h1>
-          </div>
-            <div class="email">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="content_text">agsu_info@edu.uz</p>
-            </div>
-            <div class="phone">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="phone_text">0 (374) 223 88 14</p>
-            </div>
-          <div class="location">
-            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
-            <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
-          </div>
-          <a href="https://adu.uz/" class="btn">Batafsil</a>
-
-          <div class="logo_name">
-            <img src=\'assets/images/participants/akfa.png' class="logo_img">
-            <h1 class="logo_text">Akfa universiteti</h1>
-          </div>
-            <div class="email">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="content_text">info@akfauniversity.com</p>
-            </div>
-            <div class="phone">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="phone_text">+998-71-200-05-22</p>
-            </div>
-          <div class="location">
-            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
-            <p class="content_text">264, Milliy bog St, Tashkent, 111221, Uzbekistan</p>
-          </div>
-          <a href="https://admission.akfauniversity.com/" class="btn">Batafsil</a>
-
-          <div class="logo_name">
-            <img src=\'assets/images/participants/namangan.png' class="logo_img">
-            <h1 class="logo_text">Namangan davlat universiteti</h1>
-          </div>
-            <div class="email">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="content_text">info@namdu.uz</p>
-            </div>
-            <div class="phone">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="phone_text">+99869 228-85-25</p>
-            </div>
-          <div class="location">
-            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
-            <p class="content_text">160107, Boburshox ko'chasi, 161</p>
-          </div>
-          <a href="https://namdu.uz/uz" class="btn">Batafsil</a>
-
-          <div class="logo_name">
-            <img src=\'assets/images/participants/fargona.jpg' class="logo_img">
-            <h1 class="logo_text">Farg'ona davlat universiteti</h1>
-          </div>
-            <div class="email">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="content_text">info@namdu.uz</p>
-            </div>
-            <div class="phone">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="phone_text">(+99873) 244-44-91</p>
-            </div>
-          <div class="location">
-            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
-            <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
-          </div>
-          <a href="https://www.fdu.uz/" class="btn">Batafsil</a>
+      <div class="box">
+        <div class="logo_name">
+          <img src=\'assets/images/participants/andijon.png' class="logo_img">
+          <h1 class="logo_text">Andijon davlat universiteti</h1>
+        </div>
+        <div class="email">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+          <p class="content_text">agsu_info@edu.uz</p>
+        </div>
+        <div class="phone">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+          <p class="phone_text">0 (374) 223 88 14</p>
+        </div>
+        <div class="location">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
+          <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
+        </div>
+        <a href="https://adu.uz/" class="btn">Batafsil</a>
+      </div>
+      
+      <div class="box">
+        <div class="logo_name">
+          <img src=\'assets/images/participants/andijon.png' class="logo_img">
+          <h1 class="logo_text">Andijon davlat universiteti</h1>
+        </div>
+        <div class="email">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+          <p class="content_text">agsu_info@edu.uz</p>
+        </div>
+        <div class="phone">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+          <p class="phone_text">0 (374) 223 88 14</p>
+        </div>
+        <div class="location">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
+          <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
+        </div>
+        <a href="https://adu.uz/" class="btn">Batafsil</a>
       </div>
 
-      
-      <div class="right_side">
-          <div class="logo_name">
-            <img src=\'assets/images/participants/xorazmiy.png' class="logo_img">
-            <h1 class="logo_text">Muhammad Al Xorazmiy nomidagi Toshkent axborot texnogoliyalari Universiteti</h1>
-          </div>
-            <div class="email">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="content_text">ainfo@tuit.uz</p>
-            </div>
-            <div class="phone">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="phone_text">+998 71 238 64 15</p>
-            </div>
-          <div class="location">
-            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
-            <p class="content_text">Toshkent 100084, Amir Temur shox ko‘chasi 108 uy</p>
-          </div>
-          <a href="hhttps://tuit.uz/" class="btn">Batafsil</a>
+      <div class="box">
+        <div class="logo_name">
+          <img src=\'assets/images/participants/andijon.png' class="logo_img">
+          <h1 class="logo_text">Andijon davlat universiteti</h1>
+        </div>
+        <div class="email">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+          <p class="content_text">agsu_info@edu.uz</p>
+        </div>
+        <div class="phone">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+          <p class="phone_text">0 (374) 223 88 14</p>
+        </div>
+        <div class="location">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
+          <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
+        </div>
+        <a href="https://adu.uz/" class="btn">Batafsil</a>
+      </div>
 
-          <div class="logo_name">
-            <img src=\'assets/images/participants/islom_karimov.png' class="logo_img">
-            <h1 class="logo_text">Islom Karimov nomidagi Toshkent davlat texnika universiteti</h1>
-          </div>
-            <div class="email">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="content_text">agsu_info@edu.uz</p>
-            </div>
-            <div class="phone">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="phone_text">71 207 14 63</p>
-            </div>
-          <div class="location">
-            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
-            <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
-          </div>
-          <a href="https://tdtu.uz/" class="btn">Batafsil</a>
+      <div class="box">
+        <div class="logo_name">
+          <img src=\'assets/images/participants/andijon.png' class="logo_img">
+          <h1 class="logo_text">Andijon davlat universiteti</h1>
+        </div>
+        <div class="email">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+          <p class="content_text">agsu_info@edu.uz</p>
+        </div>
+        <div class="phone">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+          <p class="phone_text">0 (374) 223 88 14</p>
+        </div>
+        <div class="location">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
+          <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
+        </div>
+        <a href="https://adu.uz/" class="btn">Batafsil</a>
+      </div>
 
-          <div class="logo_name">
-            <img src=\'assets/images/participants/tibbiyot.png' class="logo_img">
-            <h1 class="logo_text">Toshkent tibbiyot universiteti Urganch filiali</h1>
-          </div>
-            <div class="email">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="content_text"> ttaurgfil@urgfiltma.uz</p>
-            </div>
-            <div class="phone">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="phone_text">+998 (62) 224 84 84</p>
-            </div>
-          <div class="location">
-            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
-            <p class="content_text">220100, O'zbekiston Urganch shahri Al-Xorazmiy ko'chasi 28-uy</p>
-          </div>
-          <a href="https://www.urgfiltma.uz/" class="btn">Batafsil</a>
+      <div class="box">
+        <div class="logo_name">
+          <img src=\'assets/images/participants/andijon.png' class="logo_img">
+          <h1 class="logo_text">Andijon davlat universiteti</h1>
+        </div>
+        <div class="email">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+          <p class="content_text">agsu_info@edu.uz</p>
+        </div>
+        <div class="phone">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+          <p class="phone_text">0 (374) 223 88 14</p>
+        </div>
+        <div class="location">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
+          <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
+        </div>
+        <a href="https://adu.uz/" class="btn">Batafsil</a>
+      </div>
 
-          <div class="logo_name">
-            <img src=\'assets/images/participants/qoqon.png' class="logo_img">
-            <h1 class="logo_text">Qo'qon davlat pedagogika instituti</h1>
-          </div>
-            <div class="email">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="content_text">kspi_info@edu.uz</p>
-            </div>
-            <div class="phone">
-              <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
-              <p class="phone_text">+998735423838/p>
-            </div>
-          <div class="location">
-            <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
-            <p class="content_text">Qo'qon shahri, Turon ko'chasi</p>
-          </div>
-          <a href="https://kspi.uz/" class="btn">Batafsil</a>
+      <div class="box">
+        <div class="logo_name">
+          <img src=\'assets/images/participants/andijon.png' class="logo_img">
+          <h1 class="logo_text">Andijon davlat universiteti</h1>
+        </div>
+        <div class="email">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+          <p class="content_text">agsu_info@edu.uz</p>
+        </div>
+        <div class="phone">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+          <p class="phone_text">0 (374) 223 88 14</p>
+        </div>
+        <div class="location">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
+          <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
+        </div>
+        <a href="https://adu.uz/" class="btn">Batafsil</a>
+      </div>
+
+      <div class="box">
+        <div class="logo_name">
+          <img src=\'assets/images/participants/andijon.png' class="logo_img">
+          <h1 class="logo_text">Andijon davlat universiteti</h1>
+        </div>
+        <div class="email">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+          <p class="content_text">agsu_info@edu.uz</p>
+        </div>
+        <div class="phone">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+          <p class="phone_text">0 (374) 223 88 14</p>
+        </div>
+        <div class="location">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
+          <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
+        </div>
+        <a href="https://adu.uz/" class="btn">Batafsil</a>
+      </div>
+
+      <div class="box">
+        <div class="logo_name">
+          <img src=\'assets/images/participants/andijon.png' class="logo_img">
+          <h1 class="logo_text">Andijon davlat universiteti</h1>
+        </div>
+        <div class="email">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+          <p class="content_text">agsu_info@edu.uz</p>
+        </div>
+        <div class="phone">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'20px\'\>
+          <p class="phone_text">0 (374) 223 88 14</p>
+        </div>
+        <div class="location">
+          <img src=\'assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg' width=\'30px\'\>
+          <p class="content_text">170100, O'zbekiston Respublikasi, Andijon shahar, Universitet ko'chasi 129-uy</p>
+        </div>
+        <a href="https://adu.uz/" class="btn">Batafsil</a>
       </div>
     </div>
 

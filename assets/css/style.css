@@ -164,6 +164,19 @@ nav .logos {
     height: 500px;
 }
 
+.box{
+    width: 50%;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 650px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
 .logo_name {
     display: flex;
     align-items: center;
@@ -173,14 +186,6 @@ nav .logos {
 .logo_img {
     width: 70px;
     height: 70px;
-}
-
-.card {
-    display: flex;
-    justify-content: space-between;
-    height: 650px;
-    overflow: hidden;
-    overflow-y: scroll;
 }
 
 ::-webkit-scrollbar {
