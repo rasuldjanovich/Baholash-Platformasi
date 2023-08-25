@@ -258,7 +258,7 @@ jQuery(document).ready(function () {
 
   jQuery('#vmap').vectorMap({
     map: 'uzbekistan_uz',
-    backgroundColor: '#fff',
+    // backgroundColor: '#fff',
     borderColor: '#818181',
     borderOpacity: 0.50,
     borderWidth: 2,
@@ -272,16 +272,13 @@ jQuery(document).ready(function () {
     selectedRegions: null,
     showTooltip: true,
     onRegionClick: function (element, code, region) {
-      var message = 'You clicked "' +
-        region +
-        '" which has the code: ' +
-        code.toUpperCase();
+      // var message = 'You clicked "' +
+      //   region 
+      //   +
+      //   '" which has the code: ' +
+      //   code.toUpperCase();
 
       handleRegion(code)
-
-
-
-      // alert(message);
     }
   });
 });;

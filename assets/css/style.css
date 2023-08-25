@@ -13,6 +13,11 @@ body {
   transition: all 0.225 ease-in-out;
 }
 
+body.dark {
+  background-color: #030205;
+  color: #fff;
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -138,7 +143,7 @@ nav .logos {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  background: #292929;
+  /* background: #292929; */
   color: white;
   font-family: sans-serif, Verdana;
   font-size: smaller;

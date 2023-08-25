@@ -1,1212 +1,1240 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>National Index</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>National Index</title>
 
-    <link rel="stylesheet" href="./assets/fontawesome-free-6.4.0-web/css/all.min.css">
+        <link rel="stylesheet" href="./assets/fontawesome-free-6.4.0-web/css/all.min.css">
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
+        <!-- CSS -->
+        <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- Tailwind css -->
-    <script src="https://cdn.tailwindcss.com"></script>
+        <!-- Tailwind css -->
+        <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="./assets/js/wow/animate.css">
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="./assets/js/wow/animate.css">
 
-    <!-- Map CSS -->
-    <link rel="stylesheet" href="./assets/js/jqvmap/jqvmap.min.css">
+        <!-- Map CSS -->
+        <link rel="stylesheet" href="./assets/js/jqvmap/jqvmap.min.css">
 
-    <!-- Flowbite -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.css" rel="stylesheet" />
+        <!-- Flowbite -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.css" rel="stylesheet" />
 
-    <!-- Slick CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
-</head>
+        <!-- Slick CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    </head>
 
-<body>
-    <!-- Preloader -->
-    <div class="preloader container max-w-full lg:max-w-full mx-auto 2xl:w-[2000px]">
-        <div class="circle">
-            <img src="./assets/images/logo/white.svg" alt="">
-            <span></span>
+    <body>
+        <!-- Preloader -->
+        <div class="preloader container max-w-full lg:max-w-full mx-auto 2xl:w-[2000px]">
+            <div class="circle">
+                <img src="./assets/images/logo/white.svg" alt="">
+                <span></span>
+            </div>
         </div>
-    </div>
 
-    <!-- Begin Page -->
-    <div class="container max-w-full lg:max-w-full mx-auto 2xl:w-[2000px]">
-        <!-- Start Header -->
-        <header class="bg-[#211F4A]">
-            <!-- Start Navbar -->
-            <nav class="flex items-center px-20 xl:max-w-full xl:fixed xl:z-50 lg:max-w-full mx-auto 2xl:w-[2000px] max-[480px]:px-5 max-[920px]:px-5 max-[920px]:justify-between max-[1024px]:px-8 max-[1280px]:px-8"
-                id="myHeader">
-                <ul>
-                    <li class="wow bounceInLeft logo" data-wow-delay="0.1s"><a href="index.html"><img
-                                src="./assets/images/logo/3494.svg" width="230"
-                                class="mt-2 mb-2 cursor-pointer" alt=""></a></li>
-                    <li class="logos" data-wow-delay="0.1s"><a href="index.html"><img
-                                src="./assets/images/logo/color.svg" width="230" class="mt-2 mb-2 cursor-pointer"
-                                alt=""></a>
-                    </li>
-                </ul>
-                <ul class="flex-1 text-center text-sm navbar">
-                    <li class="list-none inline-block px-2 max-[1280px]:px-0 wow bounceInRight" data-wow-delay="0.2s"><a
-                            href="index.html" class="no-udderline text-white block my-3 px-1">Asosiy</a></li>
-                    <li class="list-none inline-block px-2 max-[1280px]:px-0 wow bounceInRight" data-wow-delay="0.3s"><a
-                            href="#news" class="no-udderline text-white block my-3 px-1">Yangiliklar</a></li>
-                    <li class="list-none inline-block px-2 max-[1280px]:px-0 wow bounceInRight" data-wow-delay="0.4s"><a
-                            href="baholash_metodikalari.html" class="no-udderline text-white block my-3 px-1">Baholash
-                            metodikalari</a></li>
-                    <li class="list-none inline-block px-2 max-[1280px]:px-0 wow bounceInRight" data-wow-delay="0.5s"><a
-                            href="#participants" class="no-udderline text-white block my-3 px-1">Ishtirokchilar</a></li>
-                    <li class="list-none inline-block px-2 max-[1280px]:px-0 wow bounceInRight" data-wow-delay="0.6s"><a
-                            href="#rating" class="no-udderline text-white block my-3 px-1">Reyting</a></li>
-                    <li class="list-none inline-block px-2 max-[1280px]:px-0 wow bounceInRight" data-wow-delay="0.7s"><a
-                            href="#regulatory_documents" class="no-udderline text-white block my-3 px-1">Normativ
-                            hujjatlar</a></li>
-                    <li class="list-none inline-block px-2 max-[1280px]:px-0 wow bounceInRight" data-wow-delay="0.8s"><a
-                            href="#contact" class="no-udderline text-white block my-3 px-1">Aloqa</a></li>
-                    <li class="list-none inline-block px-2 max-[1280px]:px-0 wow bounceInRight" data-wow-delay="0.9s"><a
-                            href="faq.html" class="no-udderline text-white block my-3 px-1">FAQ</a></li>
-                </ul>
-
-                <img src="./assets/images/language_FILL0_wght300_GRAD0_opsz24 (1) 1 (1).svg"
-                    class="mr-2 wow bounceInRight max-[480px]:ml-6 md:hidden" data-wow-delay="1s" alt="">
-                <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
-                    class="flex items-center justify-between w-full py-2 text-white rounded wow bounceInRight md:border-0 md:p-0 md:w-auto  max-[480px]:w-[80px]"
-                    data-wow-delay="1s">UZ
-                    <svg class="w-5 h-5 ml-1 dropdownn" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd"
-                            d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                            clip-rule="evenodd"></path>
-                    </svg></button>
-                <!-- Dropdown menu -->
-                <div id="dropdownNavbar"
-                    class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-20">
-                    <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
-                        <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-black">RU</a>
-                        </li>
-                        <li>
-                            <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-black">ENG</a>
+        <!-- Begin Page -->
+        <div class="container max-w-full lg:max-w-full mx-auto 2xl:w-[2000px]">
+            <!-- Start Header -->
+            <header class="bg-[#211F4A]">
+                <!-- Start Navbar -->
+                <nav class="flex items-center px-20 xl:max-w-full xl:fixed xl:z-50 lg:max-w-full mx-auto 2xl:w-[2000px] max-[480px]:px-5 max-[920px]:px-5 max-[920px]:justify-between max-[1024px]:px-8 max-[1280px]:px-8"
+                    id="myHeader">
+                    <ul>
+                        <li class="wow bounceInLeft logo" data-wow-delay="0.1s"><a href="index.html"><img
+                                    src="./assets/images/logo/3494.svg" width="230" class="mt-2 mb-2 cursor-pointer"
+                                    alt=""></a></li>
+                        <li class="logos" data-wow-delay="0.1s"><a href="index.html"><img
+                                    src="./assets/images/logo/color.svg" width="230" class="mt-2 mb-2 cursor-pointer"
+                                    alt=""></a>
                         </li>
                     </ul>
-                </div>
-                <span>
-                    <button class="bg-blue-700  text-white py-2 px-4 rounded ml-5 max-[480px]:hidden wow bounceInRight"
-                        data-wow-delay="1.2s">Tizimga kirish</button>
-                </span>
-                <img id="image1" class="xl:hidden" src="./assets/images/menu.svg" onclick="changeImage()" width="35"
-                    height="35" alt="">
-            </nav>
-            <!-- End Navbar -->
+                    <ul class="flex-1 text-center text-sm navbar">
+                        <li class="list-none inline-block px-2 max-[1280px]:px-0 wow bounceInRight"
+                            data-wow-delay="0.2s"><a href="index.html"
+                                class="no-udderline text-white block my-3 px-1">Asosiy</a></li>
+                        <li class="list-none inline-block px-2 max-[1280px]:px-0 wow bounceInRight"
+                            data-wow-delay="0.3s"><a href="#news"
+                                class="no-udderline text-white block my-3 px-1">Yangiliklar</a></li>
+                        <li class="list-none inline-block px-2 max-[1280px]:px-0 wow bounceInRight"
+                            data-wow-delay="0.4s"><a href="baholash_metodikalari.html"
+                                class="no-udderline text-white block my-3 px-1">Baholash
+                                metodikalari</a></li>
+                        <li class="list-none inline-block px-2 max-[1280px]:px-0 wow bounceInRight"
+                            data-wow-delay="0.5s"><a href="#participants"
+                                class="no-udderline text-white block my-3 px-1">Ishtirokchilar</a></li>
+                        <li class="list-none inline-block px-2 max-[1280px]:px-0 wow bounceInRight"
+                            data-wow-delay="0.6s"><a href="#rating"
+                                class="no-udderline text-white block my-3 px-1">Reyting</a></li>
+                        <li class="list-none inline-block px-2 max-[1280px]:px-0 wow bounceInRight"
+                            data-wow-delay="0.7s"><a href="#regulatory_documents"
+                                class="no-udderline text-white block my-3 px-1">Normativ
+                                hujjatlar</a></li>
+                        <li class="list-none inline-block px-2 max-[1280px]:px-0 wow bounceInRight"
+                            data-wow-delay="0.8s"><a href="#contact"
+                                class="no-udderline text-white block my-3 px-1">Aloqa</a></li>
+                        <li class="list-none inline-block px-2 max-[1280px]:px-0 wow bounceInRight"
+                            data-wow-delay="0.9s"><a href="faq.html"
+                                class="no-udderline text-white block my-3 px-1">FAQ</a></li>
+                    </ul>
 
-            <!-- Start page-content  -->
-            <div
-                class="flex  justify-between px-36 mb-12 xl:max-w-full lg:max-w-full pt-[70px]  mx-auto 2xl:w-[2000px] pb-20 max-[480px]:block max-[480px]:px-5 max-[920px]:px-8 max-[1024px]:px-8 max-[1280px]:px-8">
-                <div class="text-white mt-48">
-                    <h4 class="text-2xl w-[600px] font-medium wow bounceInUp max-[920px]:text-xl max-[920px]:w-[370px] max-[920px]:mb-2"
-                        data-wow-delay="1s">Oliy ta'lim
-                        muassalarining ilmiy ishlari va innovatsion
-                        faoliyati natijalarining</h4>
-                    <h1 class="text-5xl leading-normal font-bold uppercase wow bounceInUp max-[920px]:text-2xl max-[920px]:mb-2"
-                        data-wow-delay="1.1s">
-                        baholash platformasi</h1>
-                    <p class="max-w-2xl w-[600px] wow bounceInUp max-[920px]:text-base max-[920px]:w-[370px]"
-                        data-wow-delay="1.2s">Lorem ipsum dolor sit amet
-                        consectetur, adipisicing elit. Ad,
-                        impedit, minima
-                        id corrupti nisi corporis, facere labore aperiam assumenda ratione ullam aliquam veniam
-                        asperiores quasi omnis amet eos iste possimus.</p>
-                    <button class="bg-blue-700 mt-5 text-white font-bold py-2 px-16 rounded wow bounceInUp"
-                        data-wow-delay="1.3s">Batafsil</button>
-                </div>
-
-                <div class="max-[480px]:hidden border rounded-full w-[500px] shadow-[0_10px_20px_0_rgba(47, 114, 215, 0.50)] border-t-[#0d5cd1] border-[#084CB1] p-20 mt-16 img wow bounceInRight max-[480px]:w-[350px] max-[768px]:w-[400px] max-[920px]:mt-[150px] max-[1024px]:mt-[180px]"
-                    data-wow-delay="1.5s">
-                    <img src="./assets/images/logo/header_logo.png" alt="">
-                </div>
-            </div>
-
-            <div class="flex flex-col right-0 mt-[-450px] p-3 bg-white rounded-l-lg fixed help  max-[480px]:hidden">
-                <button class="p-1 bg-[#e0ecf9] rounded-lg mb-5"><img
-                        src="./assets/images/dark_mode_FILL1_wght300_GRAD0_opsz24 1.svg" alt=""></button>
-                <button class="p-1 bg-[#e0ecf9] rounded-lg mb-5"><img
-                        src="./assets/images/volume_up_FILL1_wght300_GRAD0_opsz24 1.svg" alt=""></button>
-                <button class="p-1 bg-[#e0ecf9] rounded-lg"><img
-                        src="./assets/images/text_fields_FILL1_wght300_GRAD0_opsz24 1.svg" alt=""></button>
-            </div>
-            <!-- End page-content -->
-        </header>
-        <!-- End Header -->
-
-        <!-- Start page News  -->
-        <section
-            class="bg-[#fff] px-20 pb-16 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] max-[480px]:px-5 max-[920px]:px-5"
-            id="news">
-            <div class="flex items-center justify-between mt-16 max-[480px]:block">
-                <h1 class="uppercase text-3xl mt-5 font-bold text-[#000] max-[480px]:text-xl">
-                    yangiliklar</h1>
-                <button
-                    class="bg-[#2256DD] mt-6 text-white font-bold py-3 px-11 rounded uppercase max-[480px]:hidden"><a
-                        href="news.html">barchasi</a></button>
-            </div>
-
-            <div class="grid mx-auto lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 mt-5 gap-5 max-[480px]:hidden">
-                <div
-                    class="rounded-xl lg:col-span-2 md:col-span-2 group relative items-start overflow-hidden hover:shadow-black/30 transition-shadow max-[920px]:h-[290px] max-[1024px]:h-[320px] max-[1280px]:h-[350px]">
-                    <a href="news.html" class="relative inline-block overflow-hidden">
-                        <img class="w-[1200px] h-[500px] object-cover transition-transform group-hover:scale-110 duration-500 max-[480px]:clear-none max-[480px]:w-auto"
-                            src="./assets/images/news/Rectangle 14.png" alt="">
-                        <div
-                            class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/50 group-hover:via-black/30 group-hover:to-black/70 hover:rounded-xl">
-                        </div>
-                        <div
-                            class="absolute inset-0 flex flex-col items-start justify-end px-5 translate-y-[10%] group-hover:translate-y-0 transition-all duration-500">
-                            <p class="uppercase text-[#fff] text-lg font-normal mb-2">ilm 11.06.2023 13:00</p>
-                            <h1 class="text-[#fff] w-[700px] font-bold text-xl">Ilmiy maqola nima uchun va qanday
-                                yoziladi? - xorijiy universitetda ishlayotgan o‘zbek olimidan maslahatlar</h1>
-                            <p
-                                class="text-[#fff] w-[700px] font-bold text-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 mb-5">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam molestiae corporis
-                                fugit veritatis doloribus?</p>
-                        </div>
-                    </a>
-                </div>
-                <div>
-                    <a href="news.html">
-                        <img class="w-[1200px] h-[350px]" src="./assets/images/news/Rectangle 19.png" alt="">
-                        <p class="uppercase text-[#1E2128] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
-                        <h1
-                            class="text-[#1E2128] font-bold text-xl w-[380px] max-[920px]:w-[245px] max-[920px]:text-lg max-[920px]:font-bold max-[1024px]:w-[290px] max-[1024px]:text-lg max-[1024px]:font-bold">
-                            Yaponiya toza energiya eksport qilish
-                            uchun pauerbank-kema quradi</h1>
-                    </a>
-                </div>
-                <div>
-                    <a href="news.html">
-                        <img class="w-[1200px] h-[350px]" src="./assets/images/news/Rectangle 18.png" alt="">
-                        <p class="uppercase text-[#1E2128] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
-                        <h1
-                            class="text-[#1E2128] font-bold text-xl w-[380px] max-[920px]:w-[245px] max-[920px]:text-lg max-[920px]:font-bold max-[1024px]:w-[290px] max-[1024px]:text-lg max-[1024px]:font-bold">
-                            Jahlim chiqqanda sotuvchilarning mahsulot
-                            solingan qopi</h1>
-                    </a>
-                </div>
-                <div>
-                    <a href="news.html">
-                        <img class="w-[1200px] h-[350px]" src="./assets/images/news/Rectangle 17.png" alt="">
-                        <p class="uppercase text-[#1E2128] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
-                        <h1
-                            class="text-[#1E2128] font-bold text-xl w-[380px] max-[920px]:w-[245px] max-[920px]:text-lg max-[920px]:font-bold max-[1024px]:w-[245px] max-[1024px]:text-lg max-[1024px]:font-bold">
-                            Abituriyentlarga imtihon javoblari
-                            chiqqandan keyin yo‘nalish tanlash</h1>
-                    </a>
-                </div>
-                <div>
-                    <a href="news.html">
-                        <img class="w-[1200px] h-[350px]" src="./assets/images/news/Rectangle 19.png" alt="">
-                        <p class="uppercase text-[#1E2128] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
-                        <h1
-                            class="text-[#1E2128] font-bold text-xl w-[380px] max-[920px]:w-[245px] max-[920px]:text-lg max-[920px]:font-bold max-[1024px]:w-[245px] max-[1024px]:text-lg max-[1024px]:font-bold">
-                            Kommunizmdan 32 yil o‘tib: o‘tmish
-                            izlari
-                            qolgan «arvoh» shaharlar</h1>
-                    </a>
-                </div>
-            </div>
-
-            <div class="logo-slider md:hidden">
-                <a href="news.html">
-                    <img class="w-[1200px] h-[200px]" src="./assets/images/news/Rectangle 14.png" alt="">
-                    <p class="uppercase text-[#1E2128] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
-                    <h1
-                        class="text-[#1E2128] font-bold text-xl w-[380px] max-[920px]:w-[245px] max-[920px]:text-lg max-[920px]:font-bold max-[1024px]:w-[290px] max-[1024px]:text-lg max-[1024px]:font-bold">
-                        Jahlim chiqqanda sotuvchilarning mahsulot
-                        solingan qopi</h1>
-                </a>
-                <div>
-                    <a href="news.html">
-                        <img class="w-[1200px] h-[200px]" src="./assets/images/news/Rectangle 15.png" alt="">
-                        <p class="uppercase text-[#1E2128] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
-                        <h1
-                            class="text-[#1E2128] font-bold text-xl w-[380px] max-[920px]:w-[245px] max-[920px]:text-lg max-[920px]:font-bold max-[1024px]:w-[290px] max-[1024px]:text-lg max-[1024px]:font-bold">
-                            Yaponiya toza energiya eksport qilish
-                            uchun pauerbank-kema quradi</h1>
-                    </a>
-                </div>
-                <div>
-                    <a href="news.html">
-                        <img class="w-[1200px] h-[200px] h-[350px]" src="./assets/images/news/Rectangle 18.png" alt="">
-                        <p class="uppercase text-[#1E2128] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
-                        <h1
-                            class="text-[#1E2128] font-bold text-xl w-[380px] max-[920px]:w-[245px] max-[920px]:text-lg max-[920px]:font-bold max-[1024px]:w-[290px] max-[1024px]:text-lg max-[1024px]:font-bold">
-                            Jahlim chiqqanda sotuvchilarning mahsulot
-                            solingan qopi</h1>
-                    </a>
-                </div>
-                <div>
-                    <a href="news.html">
-                        <img class="w-[1200px] h-[200px] h-[350px]" src="./assets/images/news/Rectangle 17.png" alt="">
-                        <p class="uppercase text-[#1E2128] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
-                        <h1
-                            class="text-[#1E2128] font-bold text-xl w-[380px] max-[920px]:w-[245px] max-[920px]:text-lg max-[920px]:font-bold max-[1024px]:w-[245px] max-[1024px]:text-lg max-[1024px]:font-bold">
-                            Abituriyentlarga imtihon javoblari
-                            chiqqandan keyin yo‘nalish tanlash</h1>
-                    </a>
-                </div>
-                <div>
-                    <a href="news.html">
-                        <img class="w-[1200px] h-[200px] h-[350px]" src="./assets/images/news/Rectangle 19.png" alt="">
-                        <p class="uppercase text-[#1E2128] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
-                        <h1
-                            class="text-[#1E2128] font-bold text-xl w-[380px] max-[920px]:w-[245px] max-[920px]:text-lg max-[920px]:font-bold max-[1024px]:w-[245px] max-[1024px]:text-lg max-[1024px]:font-bold">
-                            Kommunizmdan 32 yil o‘tib: o‘tmish
-                            izlari
-                            qolgan «arvoh» shaharlar</h1>
-                    </a>
-                </div>
-            </div>
-        </section>
-        <!-- End page News -->
-
-        <!-- Start page Participants -->
-        <section
-            class="bg-[#F1F3F9] xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] pb-16 px-20 max-[480px]:px-5 max-[920px]:px-5"
-            id="participants">
-            <div class="flex items-center justify-between mt-16 mb-5 max-[480px]:block">
-                <span class="mt-16">
-                    <h1 class="uppercase text-3xl mt-5 font-bold text-[#1E2128] mb-2 max-[480px]:text-xl">ishtirokchilar
-                    </h1>
-                    <p class=" font-normal text-base text-[#596375]">Bu yerda baholashda ishtirok etayotgan tashkilotlar
-                        ro’yxati keltirilgan</p>
-                </span>
-                <button
-                    class="bg-[#2256DD] mt-6 text-white font-bold py-3 px-11 rounded uppercase max-[480px]:hidden"><a
-                        href="participants.html">barchasi</a></button>
-            </div>
-
-            <div class="logo-slider">
-                <span class="grid">
-                    <div class="item bg-white rounded-xl"><a href="participants.html" class="grid justify-items-center">
-                            <img class="w-[100px] h-[180px] max-[480px]:w-[100px] max-[480px]:h-[100px] py-12 max-[920px]:w-[100px] max-[920px]:py-3"
-                                src="./assets/images/participants/image 1.png" alt=""></a></div>
-                    <h1
-                        class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4 max-[920px]:text-base max-[920px]:leading-6">
-                        farg'ona davlat universiteti
-                    </h1>
-                    <span class="flex items-center">
-                        <img class="max-[920px]:w-[50px] max-[480px]:w-[30px]"
-                            src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                        <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
-                    </span>
-                </span>
-                <span class="grid">
-                    <div class="item bg-white rounded-xl"><a href="participants.html" class="grid justify-items-center">
-                            <img class="w-[100px] h-[180px] max-[480px]:w-[100px] max-[480px]:h-[100px] py-12 max-[920px]:w-[100px] max-[920px]:py-3"
-                                src="./assets/images/participants/image 1.png" alt=""></a></div>
-                    <h1
-                        class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4 max-[920px]:text-base max-[920px]:leading-6">
-                        farg'ona davlat universiteti
-                    </h1>
-                    <span class="flex items-center">
-                        <img class="max-[920px]:w-[50px] max-[480px]:w-[30px]"
-                            src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                        <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
-                    </span>
-                </span>
-                <span class="grid">
-                    <div class="item bg-white rounded-xl"><a href="participants.html" class="grid justify-items-center">
-                            <img class="w-[100px] h-[180px] max-[480px]:w-[100px] max-[480px]:h-[100px] py-12 max-[920px]:w-[100px] max-[920px]:py-3"
-                                src="./assets/images/participants/image 1.png" alt=""></a></div>
-                    <h1
-                        class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4 max-[920px]:text-base max-[920px]:leading-6">
-                        farg'ona davlat universiteti
-                    </h1>
-                    <span class="flex items-center">
-                        <img class="max-[920px]:w-[50px] max-[480px]:w-[30px]"
-                            src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                        <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
-                    </span>
-                </span>
-                <span class="grid">
-                    <div class="item bg-white rounded-xl"><a href="participants.html"
-                            class="grid justify-items-center"><img
-                                class="w-[100px] h-[180px] max-[480px]:w-[100px] max-[480px]:h-[100px] py-12 max-[920px]:w-[100px] max-[920px]:py-3"
-                                src="./assets/images/participants/image 1.png" alt=""></a></div>
-                    <h1
-                        class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4 max-[920px]:text-base max-[920px]:leading-6">
-                        farg'ona davlat universiteti
-                    </h1>
-                    <span class="flex items-center">
-                        <img class="max-[920px]:w-[50px] max-[480px]:w-[30px]"
-                            src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                        <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
-                    </span>
-                </span>
-                <span class="grid">
-                    <div class="item bg-white rounded-xl"><a href="participants.html"
-                            class="grid justify-items-center"><img
-                                class="w-[100px] h-[180px] max-[480px]:w-[100px] max-[480px]:h-[100px] py-12 max-[920px]:w-[100px] max-[920px]:py-3"
-                                src="./assets/images/participants/image 1.png" alt=""></a></div>
-                    <h1
-                        class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4 max-[920px]:text-base max-[920px]:leading-6">
-                        farg'ona davlat universiteti
-                    </h1>
-                    <span class="flex items-center">
-                        <img class="max-[920px]:w-[50px] max-[480px]:w-[30px]"
-                            src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                        <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
-                    </span>
-                </span>
-                <span class="grid">
-                    <div class="item bg-white rounded-xl"><a href="participants.html"
-                            class="grid justify-items-center"><img
-                                class="w-[100px] h-[180px] max-[480px]:w-[100px] max-[480px]:h-[100px] py-12 max-[920px]:w-[100px] max-[920px]:py-3"
-                                src="./assets/images/participants/image 1.png" alt=""></a></div>
-                    <h1
-                        class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4 max-[920px]:text-base max-[920px]:leading-6">
-                        farg'ona davlat universiteti
-                    </h1>
-                    <span class="flex items-center">
-                        <img class="max-[920px]:w-[50px] max-[480px]:w-[30px]"
-                            src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                        <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
-                    </span>
-                </span>
-            </div>
-        </section>
-        <!-- End page Participants -->
-
-        <!-- Start page Rating of participants -->
-        <section
-            class="bg-[#fff] px-20 pb-16 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] max-[480px]:px-5 max-[920px]:px-5"
-            id="rating">
-            <div class="flex items-center justify-between mt-16 max-[480px]:block">
-                <h1 class="uppercase text-3xl mt-5 font-bold text-[#000] max-[480px]:text-xl">
-                    ishtirokchilar reytingi</h1>
-                <button
-                    class="bg-[#2256DD] mt-6 text-white font-bold py-3 px-11 rounded uppercase max-[480px]:hidden"><a
-                        href="rating_of_participants.html">barchasi</a></button>
-            </div>
-
-            <div class="relative overflow-x-auto mt-8">
-                <table class="w-full text-sm text-left text-gray-500 border border-[#CBD9F3]">
-                    <thead class="text-xs text-gray-700 uppercase bg-white">
-                        <tr>
-                            <th
-                                class="px-6 py-3 text-[#596375] text-base font-normal grid justify-center max-[480px]:hidden">
-                                Reyting
-                            </th>
-                            <th class="px-6 py-3 border border-[#CBD9F3] text-[#596375] text-base font-normal">
-                                Nomi
-                            </th>
-                            <th
-                                class="px-6 py-3 border border-[#CBD9F3] text-[#596375] text-base font-normal max-[480px]:hidden">
-                                Hudud
-                            </th>
-                            <th
-                                class="px-6 py-3 border border-[#CBD9F3] text-[#596375] text-base font-normal grid justify-center max-[480px]:hidden">
-                                To'plangan ballari
-                            </th>
-                            <th class="px-6 py-3 border border-[#CBD9F3] max-[480px]:hidden"></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="bg-[#FAFBFF] border-b">
-                            <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <div class="grid justify-center">
-                                    <img src="./assets/images/participants/1.svg" class="w-[40px]" alt="">
-                                </div>
-                            </td>
-                            <td class="px-6 py-4 border  max-[480px]:px-4 border-[#CBD9F3]">
-                                <span class="flex items-center">
-                                    <img src="./assets/images/participants/akfa.png"
-                                        class="w-[70px] h-[80px] bg-white py-5 px-3.5 rounded-lg max-[480px]:hidden"
-                                        alt="">
-                                    <a href="rating_of_participants.html"
-                                        class="w-[250px] text-[#1E2128] text-base font-medium ml-4">Akfa
-                                        universiteti</a>
-                                    <p
-                                        class="p-2.5 rounded-lg bg-[#dfeadd] text-[#5BBA54] text-xl max-[480px]:text-base max-[480px]:p-1 md:hidden font-medium">
-                                        6546</p>
-                                </span>
-                            </td>
-                            <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <span class="flex">
-                                    <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                                    <p class="text-[#596375] text-base font-normal ml-2">Toshkent shahri</p>
-                                </span>
-                            </td>
-                            <td class="max-[480px]:hidden">
-                                <div class="flex justify-center">
-                                    <p class="p-2.5 rounded-lg bg-[#dfeadd] text-[#5BBA54] text-xl font-medium">6546</p>
-                                </div>
-                            </td>
-                            <td class="border border-[#CBD9F3] max-[480px]:hidden">
-                                <a href="rating_of_participants.html" class="flex justify-center">
-                                    <button
-                                        class="bg-white px-6 py-2.5 rounded-lg border border-[#2861F5] max-[480px]:border-none text-[#2861F5] text-center text-base font-medium uppercase">
-                                        <p class="max-[480px]:hidden">batafsil</p>
-                                        <img src="./assets/images/icons8-eye-30.png" class="md:hidden" width="20"
-                                            alt="">
-                                    </button>
-                                </a>
-                            </td>
-                        </tr>
-                        <tr class="bg-[#FAFBFF] border-b">
-                            <th class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <div class="grid justify-center">
-                                    <img src="./assets/images/participants/2.svg" class="w-[40px]" alt="">
-                                </div>
-                            </th>
-                            <td class="px-6 py-4  max-[480px]:px-4 border border-[#CBD9F3]">
-                                <span class="flex items-center">
-                                    <img src="./assets/images/participants/fargona.jpg"
-                                        class="w-[70px] h-[80px] bg-white py-5 px-3.5 rounded-lg max-[480px]:hidden"
-                                        alt="">
-                                    <a href="rating_of_participants.html"
-                                        class="w-[250px] text-[#1E2128] text-base font-medium ml-4">Farg'ona davlat
-                                        universiteti</a>
-                                    <p
-                                        class="p-2.5 rounded-lg bg-[#dfeadd] text-[#5BBA54] text-xl font-medium max-[480px]:p-1 max-[480px]:text-base md:hidden">
-                                        6423</p>
-                                </span>
-                            </td>
-                            <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <span class="flex">
-                                    <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                                    <p class="text-[#596375] text-base font-normal ml-2">Farg'ona shahri</p>
-                                </span>
-                            </td>
-                            <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <div class="flex justify-center">
-                                    <p class="p-2.5 rounded-lg bg-[#dfeadd] text-[#5BBA54] text-xl font-medium">6423</p>
-                                </div>
-                            </td>
-                            <td class=" max-[480px]:hidden">
-                                <a href="rating_of_participants.html" class="flex justify-center">
-                                    <button
-                                        class="bg-white px-6 py-2.5 rounded-lg border border-[#2861F5] max-[480px]:border-none text-[#2861F5] text-center text-base font-medium uppercase">
-                                        <p class="max-[480px]:hidden">batafsil</p>
-                                        <img src="./assets/images/icons8-eye-30.png" class="md:hidden" width="20"
-                                            alt="">
-                                    </button>
-                                </a>
-                            </td>
-                        </tr>
-                        <tr class="bg-[#FAFBFF] border-b">
-                            <th class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <div class="grid justify-center">
-                                    <img src="./assets/images/participants/3.svg" class="w-[40px]" alt="">
-                                </div>
-                            </th>
-                            <td class="px-6 py-4  max-[480px]:px-4 border border-[#CBD9F3]">
-                                <span class="flex items-center">
-                                    <img src="./assets/images/participants/andijon.png"
-                                        class="w-[70px] h-[80px] bg-white py-5 px-3.5 rounded-lg max-[480px]:hidden"
-                                        alt="">
-                                    <a href="rating_of_participants.html"
-                                        class="w-[250px] text-[#1E2128] text-base font-medium ml-4">Andijon davlat
-                                        universiteti</a>
-                                    <p
-                                        class="p-2.5 rounded-lg bg-[#e6ede5] text-[#93CC88] text-xl font-medium max-[480px]:p-1 max-[480px]:text-base md:hidden">
-                                        6130</p>
-                                </span>
-                            </td>
-                            <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <span class="flex">
-                                    <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                                    <p class="text-[#596375] text-base font-normal ml-2">Andijon shahri</p>
-                                </span>
-                            </td>
-                            <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <div class="flex justify-center">
-                                    <p class="p-2.5 rounded-lg bg-[#e6ede5] text-[#93CC88] text-xl font-medium">6130</p>
-                                </div>
-                            </td>
-                            <td class=" max-[480px]:hidden">
-                                <a href="rating_of_participants.html" class="flex justify-center">
-                                    <button
-                                        class="bg-white px-6 py-2.5 rounded-lg border border-[#2861F5] max-[480px]:border-none text-[#2861F5] text-center text-base font-medium uppercase">
-                                        <p class="max-[480px]:hidden">batafsil</p>
-                                        <img src="./assets/images/icons8-eye-30.png" class="md:hidden" width="20"
-                                            alt="">
-                                    </button>
-                                </a>
-                            </td>
-                        </tr>
-                        <tr class="bg-[#FAFBFF] border-b">
-                            <th class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <div class="grid justify-center text-[#1E2128] text-2xl font-medium">
-                                    4
-                                </div>
-                            </th>
-                            <td class="px-6 py-4 max-[480px]:px-4 ">
-                                <span class="flex items-center">
-                                    <img src="./assets/images/participants/namangan.png"
-                                        class="w-[70px] h-[80px] bg-white py-5 px-3.5 rounded-lg max-[480px]:hidden"
-                                        alt="">
-                                    <a href="rating_of_participants.html"
-                                        class="w-[250px] text-[#1E2128] text-base font-medium ml-4">Namangan davlat
-                                        universiteti</a>
-                                    <p
-                                        class="p-2.5 rounded-lg bg-[#f9f4e7] text-[#E0AA0D] text-xl font-medium max-[480px]:p-1 max-[480px]:text-base md:hidden">
-                                        5406</p>
-                                </span>
-                            </td>
-                            <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <span class="flex">
-                                    <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                                    <p class="text-[#596375] text-base font-normal ml-2">Namangan shahri</p>
-                                </span>
-                            </td>
-                            <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <div class="flex justify-center">
-                                    <p class="p-2.5 rounded-lg bg-[#f9f4e7] text-[#E0AA0D] text-xl font-medium">5406</p>
-                                </div>
-                            </td>
-                            <td class="border border-[#CBD9F3] max-[480px]:hidden">
-                                <a href="rating_of_participants.html" class="flex justify-center">
-                                    <button
-                                        class="bg-white px-6 py-2.5 rounded-lg border border-[#2861F5] max-[480px]:border-none text-[#2861F5] text-center text-base font-medium uppercase">
-                                        <p class="max-[480px]:hidden">batafsil</p>
-                                        <img src="./assets/images/icons8-eye-30.png" class="md:hidden" width="20"
-                                            alt="">
-                                    </button>
-                                </a>
-                            </td>
-                        </tr>
-                        <tr class="bg-[#FAFBFF] border-b">
-                            <th class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <div class="grid justify-center text-[#1E2128] text-2xl font-medium">
-                                    5
-                                </div>
-                            </th>
-                            <td class="px-6 py-4  max-[480px]:px-4 border border-[#CBD9F3]">
-                                <span class="flex items-center">
-                                    <img src="./assets/images/participants/islom_karimov.png"
-                                        class="w-[70px] h-[80px] bg-white py-5 px-3.5 rounded-lg max-[480px]:hidden"
-                                        alt="">
-                                    <a href="rating_of_participants.html"
-                                        class="w-[250px] text-[#1E2128] text-base font-medium ml-4">Islom Karimov
-                                        nomidagi Toshkent davlat texnika universiteti</a>
-                                    <p
-                                        class="p-2.5 rounded-lg bg-[#f9f4e7] text-[#E0AA0D] text-xl font-medium max-[480px]:p-1 max-[480px]:text-base md:hidden">
-                                        5001</p>
-                                </span>
-                            </td>
-                            <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <span class="flex">
-                                    <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                                    <p class="text-[#596375] text-base font-normal ml-2">Toshkent shahri</p>
-                                </span>
-                            </td>
-                            <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <div class="flex justify-center">
-                                    <p class="p-2.5 rounded-lg bg-[#f9f4e7] text-[#E0AA0D] text-xl font-medium">5001</p>
-                                </div>
-                            </td>
-                            <td class="border border-[#CBD9F3] max-[480px]:hidden">
-                                <a href="rating_of_participants.html" class="flex justify-center">
-                                    <button
-                                        class="bg-white px-6 py-2.5 rounded-lg border border-[#2861F5] max-[480px]:border-none text-[#2861F5] text-center text-base font-medium uppercase">
-                                        <p class="max-[480px]:hidden">batafsil</p>
-                                        <img src="./assets/images/icons8-eye-30.png" class="md:hidden" width="20"
-                                            alt="">
-                                    </button>
-                                </a>
-                            </td>
-                        </tr>
-                        <tr class="bg-[#FAFBFF] border-b">
-                            <th class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <div class="grid justify-center text-[#1E2128] text-2xl font-medium">
-                                    6
-                                </div>
-                            </th>
-                            <td class="px-6 py-4  max-[480px]:px-4 border border-[#CBD9F3]">
-                                <span class="flex items-center">
-                                    <img src="./assets/images/participants/tibbiyot.png"
-                                        class="w-[70px] h-[80px] bg-white py-5 px-3.5 rounded-lg max-[480px]:hidden"
-                                        alt="">
-                                    <a href="rating_of_participants.html"
-                                        class="w-[250px] text-[#1E2128] text-base font-medium ml-4">Toshkent tibbiyot
-                                        universiteti Urganch filiali</a>
-                                    <p
-                                        class="p-2.5 rounded-lg bg-[#faede2] text-[#F59038] text-xl font-medium max-[480px]:p-1 max-[480px]:text-base md:hidden">
-                                        4509</p>
-                                </span>
-                            </td>
-                            <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <span class="flex">
-                                    <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                                    <p class="text-[#596375] text-base font-normal ml-2">Urganch shahri</p>
-                                </span>
-                            </td>
-                            <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <div class="flex justify-center">
-                                    <p class="p-2.5 rounded-lg bg-[#faede2] text-[#F59038] text-xl font-medium">4509</p>
-                                </div>
-                            </td>
-                            <td class="border border-[#CBD9F3] max-[480px]:hidden">
-                                <a href="rating_of_participants.html" class="flex justify-center">
-                                    <button
-                                        class="bg-white px-6 py-2.5 rounded-lg border border-[#2861F5] max-[480px]:border-none text-[#2861F5] text-center text-base font-medium uppercase">
-                                        <p class="max-[480px]:hidden">batafsil</p>
-                                        <img src="./assets/images/icons8-eye-30.png" class="md:hidden" width="20"
-                                            alt="">
-                                    </button>
-                                </a>
-                            </td>
-                        </tr>
-                        <tr class="bg-[#FAFBFF] border-b">
-                            <th class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <div class="grid justify-center text-[#1E2128] text-2xl font-medium">
-                                    7
-                                </div>
-                            </th>
-                            <td class="px-6 py-4  max-[480px]:px-4 border border-[#CBD9F3]">
-                                <span class="flex items-center">
-                                    <img src="./assets/images/participants/xorazmiy.png"
-                                        class="w-[70px] h-[80px] bg-white py-5 px-3.5 rounded-lg max-[480px]:hidden"
-                                        alt="">
-                                    <a href="rating_of_participants.html"
-                                        class="w-[250px] text-[#1E2128] text-base font-medium ml-4">Muhammad Al-Xorazmiy
-                                        nomidagi Toshkent axborot texnologiyalari Universiteti</a>
-                                    <p
-                                        class="p-2.5 rounded-lg bg-[#fae8e8] text-[#FF767D] text-xl font-medium max-[480px]:p-1 max-[480px]:text-base md:hidden">
-                                        4438</p>
-                                </span>
-                            </td>
-                            <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <span class="flex">
-                                    <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                                    <p class="text-[#596375] text-base font-normal ml-2">Toshkent shahri</p>
-                                </span>
-                            </td>
-                            <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <div class="flex justify-center">
-                                    <p class="p-2.5 rounded-lg bg-[#fae8e8] text-[#FF767D] text-xl font-medium">4438</p>
-                                </div>
-                            </td>
-                            <td class="border border-[#CBD9F3] max-[480px]:hidden">
-                                <a href="rating_of_participants.html" class="flex justify-center">
-                                    <button
-                                        class="bg-white px-6 py-2.5 rounded-lg border border-[#2861F5] max-[480px]:border-none text-[#2861F5] text-center text-base font-medium uppercase">
-                                        <p class="max-[480px]:hidden">batafsil</p>
-                                        <img src="./assets/images/icons8-eye-30.png" class="md:hidden" width="20"
-                                            alt="">
-                                    </button>
-                                </a>
-                            </td>
-                        </tr>
-                        <tr class="bg-[#FAFBFF] border-b">
-                            <th class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <div class="grid justify-center text-[#1E2128] text-2xl font-medium">
-                                    8
-                                </div>
-                            </th>
-                            <td class="px-6 py-4  max-[480px]:px-4 border border-[#CBD9F3]">
-                                <span class="flex items-center">
-                                    <img src="./assets/images/participants/qoqon.png"
-                                        class="w-[70px] h-[80px] bg-white py-5 px-3.5 rounded-lg max-[480px]:hidden"
-                                        alt="">
-                                    <a href="rating_of_participants.html"
-                                        class="w-[250px] text-[#1E2128] text-base font-medium ml-4">Qo'qon davlat
-                                        pedagogika instituti</a>
-                                    <p
-                                        class="p-2.5 rounded-lg bg-[#fae8e8] text-[#DA2129] text-xl font-medium max-[480px]:p-1 max-[480px]:text-base md:hidden">
-                                        3251</p>
-                                </span>
-                            </td>
-                            <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <span class="flex">
-                                    <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                                    <p class="text-[#596375] text-base font-normal ml-2">Qo'qon shahri</p>
-                                </span>
-                            </td>
-                            <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <div class="flex justify-center">
-                                    <p class="p-2.5 rounded-lg bg-[#fae8e8] text-[#DA2129] text-xl font-medium">3251</p>
-                                </div>
-                            </td>
-                            <td class="border border-[#CBD9F3] max-[480px]:hidden">
-                                <a href="rating_of_participants.html" class="flex justify-center">
-                                    <button
-                                        class="bg-white px-6 py-2.5 rounded-lg border border-[#2861F5] max-[480px]:border-none text-[#2861F5] text-center text-base font-medium uppercase">
-                                        <p class="max-[480px]:hidden">batafsil</p>
-                                        <img src="./assets/images/icons8-eye-30.png" class="md:hidden" width="20"
-                                            alt="">
-                                    </button>
-                                </a>
-                            </td>
-                        </tr>
-                        <tr class="bg-[#FAFBFF] border-b">
-                            <th class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <div class="grid justify-center text-[#1E2128] text-2xl font-medium">
-                                    9
-                                </div>
-                            </th>
-                            <td class="px-6 py-4  max-[480px]:px-4 border border-[#CBD9F3]">
-                                <span class="flex items-center">
-                                    <img src="./assets/images/participants/politex_fargona.png"
-                                        class="w-[70px] h-[80px] bg-white py-5 px-3.5 rounded-lg max-[480px]:hidden"
-                                        alt="">
-                                    <a href="rating_of_participants.html"
-                                        class="w-[250px] text-[#1E2128] text-base font-medium ml-4">Farg'ona politexnika
-                                        instituti</a>
-                                    <p
-                                        class="p-2.5 rounded-lg bg-[#fae8e8] text-[#DA2129] text-xl font-medium max-[480px]:p-1 max-[480px]:text-base md:hidden">
-                                        3251</p>
-                                </span>
-                            </td>
-                            <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <span class="flex">
-                                    <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                                    <p class="text-[#596375] text-base font-normal ml-2">Farg'ona shahri</p>
-                                </span>
-                            </td>
-                            <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
-                                <div class="flex justify-center">
-                                    <p class="p-2.5 rounded-lg bg-[#fae8e8] text-[#DA2129] text-xl font-medium">3251</p>
-                                </div>
-                            </td>
-                            <td class="border border-[#CBD9F3] max-[480px]:hidden">
-                                <a href="rating_of_participants.html" class="flex justify-center">
-                                    <button
-                                        class="bg-white px-6 py-2.5 rounded-lg border border-[#2861F5] max-[480px]:border-none text-[#2861F5] text-center text-base font-medium uppercase">
-                                        <p class="">batafsil</p>
-                                        <img src="" alt="">
-                                    </button>
-                                </a>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-
-        </section>
-        <!-- End page Rating of participants -->
-
-        <!-- Start page Statistics -->
-        <section
-            class="bg-[#F1F3F9] px-20 pb-16 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] max-[480px]:px-5 max-[920px]:hidden"
-            id="statistics">
-            <div class="flex mt-16 mb-5"></div>
-            <div class="chartBox mx-auto bg-white rounded-3xl">
-                <h1 class="uppercase text-3xl mt-20 font-bold text-[#1E2128] px-5 pt-5 mb-2">Statistika</h1>
-                <canvas width="1760" height="450" class="py-3 px-5" id="myChart"></canvas>
-            </div>
-
-            <div class="flex items-center justify-between mt-16 mb-5">
-                <span>
-                    <h1 class="uppercase text-3xl mt-5 font-bold text-[#1E2128] mb-2" id="regulatory_documents">normativ
-                        hujjatlar</h1>
-                    <p class=" font-normal text-base text-[#596375]">Bu yerda ballarni hisoblash uchun foydalanilgan
-                        normativ hujjatlar
-                        ro’yxati keltirilgan</p>
-                </span>
-                <a href="regulatory_documents.html"
-                    class="bg-[#2256DD] mt-6 text-white font-bold py-3 px-11 rounded uppercase">barchasi</a>
-            </div>
-
-            <code class="logo-slider">
-                <main class="item bg-white rounded p-4">
-                    <h1 class="text-[#1E2128] text-xl font-semibold">Lorem ipsum is simply</h1>
-                    <p class="my-3 text-[#596375] text-base font-normal">Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Magni, fuga quidem repellendus, unde eum accusantium voluptatum suscipit
-                        obcaecati quasi numquam dignissimos laboriosam.</p>
-                    <a href="#"
-                        class="bg-[#F9FBFF] flex py-2.5 justify-center rounded-xl w-7/12 min-[1700px]:w-6/12 max-[480px]:w-[170px]">
-                        <img src="./assets/images/pdf (1).svg" alt="">
-                        <h1 class="text-[#1E2128] text-base font-medium">Yuklab olish.pdf</h1>
-                    </a>
-                </main>
-                <main class="item bg-white rounded p-4">
-                    <h1 class="text-[#1E2128] text-xl font-semibold">Lorem ipsum is simply</h1>
-                    <p class="my-3 text-[#596375] text-base font-normal">Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Magni, fuga quidem repellendus, unde eum accusantium voluptatum suscipit
-                        obcaecati quasi numquam dignissimos laboriosam.</p>
-                    <a href="regulatory_documents.html"
-                        class="bg-[#F9FBFF] flex py-2.5 justify-center rounded-xl w-7/12 min-[1700px]:w-6/12 max-[480px]:w-[170px]">
-                        <img src="./assets/images/pdf (1).svg" alt="">
-                        <h1 class="text-[#1E2128] text-base font-medium">Yuklab olish.pdf</h1>
-                    </a>
-                </main>
-                <main class="item bg-white rounded p-4">
-                    <h1 class="text-[#1E2128] text-xl font-semibold">Lorem ipsum is simply</h1>
-                    <p class="my-3 text-[#596375] text-base font-normal">Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Magni, fuga quidem repellendus, unde eum accusantium voluptatum suscipit
-                        obcaecati quasi numquam dignissimos laboriosam.</p>
-                    <a href="regulatory_documents.html"
-                        class="bg-[#F9FBFF] flex py-2.5 justify-center rounded-xl w-7/12 min-[1700px]:w-6/12 max-[480px]:w-[170px]">
-                        <img src="./assets/images/pdf (1).svg" alt="">
-                        <h1 class="text-[#1E2128] text-base font-medium">Yuklab olish.pdf</h1>
-                    </a>
-                </main>
-                <main class="item bg-white rounded p-4">
-                    <h1 class="text-[#1E2128] text-xl font-semibold">Lorem ipsum is simply</h1>
-                    <p class="my-3 text-[#596375] text-base font-normal">Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Magni, fuga quidem repellendus, unde eum accusantium voluptatum suscipit
-                        obcaecati quasi numquam dignissimos laboriosam.</p>
-                    <a href="regulatory_documents.html"
-                        class="bg-[#F9FBFF] flex py-2.5 justify-center rounded-xl w-7/12 min-[1700px]:w-6/12 max-[480px]:w-[170px]">
-                        <img src="./assets/images/pdf (1).svg" alt="">
-                        <h1 class="text-[#1E2128] text-base font-medium">Yuklab olish.pdf</h1>
-                    </a>
-                </main>
-                <main class="item bg-white rounded p-4">
-                    <h1 class="text-[#1E2128] text-xl font-semibold">Lorem ipsum is simply</h1>
-                    <p class="my-3 text-[#596375] text-base font-normal">Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Magni, fuga quidem repellendus, unde eum accusantium voluptatum suscipit
-                        obcaecati quasi numquam dignissimos laboriosam.</p>
-                    <a href="regulatory_documents.html"
-                        class="bg-[#F9FBFF] flex py-2.5 justify-center rounded-xl w-7/12 min-[1700px]:w-6/12 max-[480px]:w-[170px]">
-                        <img src="./assets/images/pdf (1).svg" alt="">
-                        <h1 class="text-[#1E2128] text-base font-medium">Yuklab olish.pdf</h1>
-                    </a>
-                </main>
-                <main class="item bg-white rounded p-4">
-                    <h1 class="text-[#1E2128] text-xl font-semibold">Lorem ipsum is simply</h1>
-                    <p class="my-3 text-[#596375] text-base font-normal">Lorem ipsum dolor sit amet consectetur
-                        adipisicing elit. Magni, fuga quidem repellendus, unde eum accusantium voluptatum suscipit
-                        obcaecati quasi numquam dignissimos laboriosam.</p>
-                    <a href="regulatory_documents.html"
-                        class="bg-[#F9FBFF] flex py-2.5 justify-center rounded-xl w-7/12 min-[1700px]:w-6/12 max-[480px]:w-[170px]">
-                        <img src="./assets/images/pdf (1).svg" alt="">
-                        <h1 class="text-[#1E2128] text-base font-medium">Yuklab olish.pdf</h1>
-                    </a>
-                </main>
-            </code>
-        </section>
-        <!-- End page Statistics -->
-
-        <!-- Start page Map -->
-        <section
-            class="bg-[#fff] px-20 pb-16 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] max-[480px]:px-5 max-[480px]:hidden"
-            id="education">
-            <div class="mt-16">
-                <h1 class="uppercase text-3xl mt-5 font-bold text-[#000]">oliy ta'lim muassalari</h1>
-            </div>
-
-            <div
-                class="flex justify-between education-text max-[480px]:block min-[1600px]:px-32 max-[920px]:block max-[1024px]:block max-[1280px]:block">
-                <div id="vmap" class="mt-20">
-                    <h1 class="text-[#1E2128] text-2xl text-end font-bold mb-1 mr-56 max-[480px]:w-[300px]">O'zbekiston
-                        Respublikasi</h1>
-                    <p class="text-[#1E2128] text-lg font-medium text-end mr-56 max-[480px]:w-[300px]">Barcha OTM lar
-                        soni: 450ta</p>
-                </div>
-                <span  class="bg-[#FAFBFF] w-[800px] activeRegion mt-10 p-6 rounded-3xl flex justify-between span-text max-[480px]:block max-[480px]:p-0">
-                    <div class="flex  flex-wrap justify-between pl-10">
-                        <div class="w-2/4 h-0">
-                            <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Qoraqalpog'iston Respublikasi</h1>
-                            <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
-                        </div>
-                        <div class="w-2/4 h-0">
-                            <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
-                            <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
-                        </div>
-                        <div class="w-2/4 h-0">
-                            <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
-                            <p class="text-[#1E2128] text-base font-normal" id="estS">OTM lar soni: 30 ta</p>
-                        </div>
-                        <div class="w-2/4 h-0">
-                            <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
-                            <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
-                        </div>
-                        <div class="w-2/4 h-0">
-                            <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
-                            <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
-                        </div>
-                        <div class="w-2/4 h-0">
-                            <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
-                            <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
-                        </div>
-                        <div class="w-2/4 h-0">
-                            <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
-                            <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
-                        </div>
-                        <div class="w-2/4 h-0">
-                            <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
-                            <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
-                        </div>
-                        <div class="w-2/4 h-0">
-                            <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
-                            <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
-                        </div>
-                        <div class="w-2/4 h-0">
-                            <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
-                            <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
-                        </div>
-                        <div class="w-2/4 h-0">
-                            <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
-                            <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
-                        </div>
-                        <div class="w-2/4 h-0">
-                            <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
-                            <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
-                        </div>
-                        <div class="w-2/4 h-0">
-                            <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
-                            <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
-                        </div>
+                    <img src="./assets/images/language_FILL0_wght300_GRAD0_opsz24 (1) 1 (1).svg"
+                        class="mr-2 wow bounceInRight max-[480px]:ml-6 md:hidden" data-wow-delay="1s" alt="">
+                    <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar"
+                        class="flex items-center justify-between w-full py-2 text-white rounded wow bounceInRight md:border-0 md:p-0 md:w-auto  max-[480px]:w-[80px]"
+                        data-wow-delay="1s">UZ
+                        <svg class="w-5 h-5 ml-1 dropdownn" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+                                clip-rule="evenodd"></path>
+                        </svg></button>
+                    <!-- Dropdown menu -->
+                    <div id="dropdownNavbar"
+                        class="z-10 hidden font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-20">
+                        <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownLargeButton">
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-black">RU</a>
+                            </li>
+                            <li>
+                                <a href="#" class="block px-4 py-2 hover:bg-gray-100 text-black">ENG</a>
+                            </li>
+                        </ul>
                     </div>
-                    <!-- <code id="mapper-def">
-                        <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
-                        <p class="text-[#1E2128] text-base font-normal mb-6" id="est">OTM lar soni: 30 ta</p>
-                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
-                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
-                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
-                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
-                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
-                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
-                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
-                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
-                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
-                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
-                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
-                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
-                    </code>
-
-                    <code class="ml-32" id="mapper-def-one">
-                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
-                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
-                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
-                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
-                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
-                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
-                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
-                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
-                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
-                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
-                        <h1 class="text-[#1E2128] text-xl font-bold mb-2">Toshkent viloyati</h1>
-                        <p class="text-[#1E2128] text-base font-normal mb-6">OTM lar soni: 30 ta</p>
-                    </code> -->
-                </span>
-            </div>
-        </section>
-        <!-- End page Map -->
-
-        <!-- Start page Useful links -->
-        <section id="foydali-havolalar"
-            class="bg-[#F1F3F9] xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] pb-16 px-20 max-[480px]:px-5 max-[920px]:px-5">
-            <div class="flex mt-16 mb-5">
-                <h1 class="uppercase text-3xl mt-20 font-bold text-[#1E2128] mb-2 max-[480px]:text-xl">foydali havolalar
-                </h1>
-            </div>
-
-            <div class="logo-slider">
-                <div class="item bg-white rounded max-[480px]:h-[200px]">
-                    <a href="#" class="grid justify-center mt-[-15px] mb-7"><img
-                            class="w-[90px] h-[90px] border-4 rounded-full border-[#F1F3F9] max-[920px]:w-20"
-                            src="./assets/images/useful_links/lex.png" alt=""></a>
-                    <p
-                        class="text-[#1E2128] w-[300px] max-[480px]:w-[200px] text-base font-medium mx-4 mb-5 max-[920px]:w-20 max-[920px]:text-sm max-[1024px]:w-48 max-[1024px]:text-sm max-[1280px]:w-60 max-[1280px]:text-sm">
-                        O'zbekiston respublikasi, milliy
-                        hujjatlar bazasi</p>
-                </div>
-                <div class="item bg-white rounded max-[480px]:h-[200px]">
-                    <a href="#" class="grid justify-center mt-[-15px] mb-7"><img
-                            class="w-[90px] h-[90px] border-4 rounded-full border-[#F1F3F9] max-[920px]:w-20"
-                            src="./assets/images/useful_links/gerb.png" alt=""></a>
-                    <p
-                        class="text-[#1E2128] w-[300px] max-[480px]:w-[200px]  text-base font-medium mx-4 mb-5 max-[920px]:w-20 max-[920px]:text-sm max-[1024px]:w-48 max-[1024px]:text-sm  max-[1280px]:w-60 max-[1280px]:text-sm">
-                        O'zbekiston respublikasi,
-                        milliy prezident
-                        virtual qabulxonasi</p>
-                </div>
-                <div class="item bg-white rounded max-[480px]:h-[200px]">
-                    <a href="#" class="grid justify-center mt-[-15px] mb-7"><img
-                            class="w-[90px] h-[90px] border-4 rounded-full border-[#F1F3F9] max-[920px]:w-20"
-                            src="./assets/images/useful_links/lex.png" alt=""></a>
-                    <p
-                        class="text-[#1E2128] w-[300px] max-[480px]:w-[200px]  text-base font-medium mx-4 mb-5 max-[920px]:w-20 max-[920px]:text-sm max-[1024px]:w-48 max-[1024px]:text-sm  max-[1280px]:w-60 max-[1280px]:text-sm">
-                        O'zbekiston respublikasi,
-                        milliy hujjatlar
-                        bazasi</p>
-                </div>
-                <div class="item bg-white rounded max-[480px]:h-[200px]">
-                    <a href="#" class="grid justify-center mt-[-15px] mb-7"><img
-                            class="w-[90px] h-[90px] border-4 rounded-full border-[#F1F3F9] max-[920px]:w-20"
-                            src="./assets/images/useful_links/gerb.png" alt=""></a>
-                    <p
-                        class="text-[#1E2128] w-[300px] max-[480px]:w-[200px]  text-base font-medium mx-4 mb-5 max-[920px]:w-20 max-[920px]:text-sm max-[1024px]:w-48 max-[1024px]:text-sm  max-[1280px]:w-60 max-[1280px]:text-sm">
-                        O'zbekiston respublikasi,
-                        milliy prezident
-                        virtual qabulxonasi</p>
-                </div>
-                <div class="item bg-white rounded max-[480px]:h-[200px]">
-                    <a href="#" class="grid justify-center mt-[-15px] mb-7"><img
-                            class="w-[90px] h-[90px] border-4 rounded-full border-[#F1F3F9] max-[920px]:w-20"
-                            src="./assets/images/useful_links/lex.png" alt=""></a>
-                    <p
-                        class="text-[#1E2128] w-[300px] max-[480px]:w-[200px]  text-base font-medium mx-4 mb-5 max-[920px]:w-20 max-[920px]:text-sm max-[1024px]:w-48 max-[1024px]:text-sm  max-[1280px]:w-60 max-[1280px]:text-sm">
-                        O'zbekiston respublikasi,
-                        milliy hujjatlar
-                        bazasi</p>
-                </div>
-                <div class="item bg-white rounded max-[480px]:h-[200px]">
-                    <a href="#" class="flex justify-center mt-[-15px] mb-7"><img
-                            class="w-[90px] h-[90px] border-4 rounded-full border-[#F1F3F9] max-[920px]:w-20"
-                            src="./assets/images/useful_links/gerb.png" alt=""></a>
-                    <p
-                        class="text-[#1E2128] w-[300px] max-[480px]:w-[200px]  text-base font-medium mx-4 mb-5 max-[920px]:w-20 max-[920px]:text-sm max-[1024px]:w-48 max-[1024px]:text-sm  max-[1280px]:w-60 max-[1280px]:text-sm">
-                        O'zbekiston respublikasi,
-                        milliy prezident
-                        virtual qabulxonasi</p>
-                </div>
-            </div>
-
-            <!-- Start Contact us -->
-            <h1 class="uppercase text-[#1E2128] text-3xl font-bold text-center mt-16 mb-6 max-[480px]:text-xl"
-                id="contact">biz bilan bog'lanish</h1>
-            <code class="grid grid-cols-2 gap-5 max-[480px]:block max-[480px]:pb-20">
-                <main class="bg-[#fff] rounded-xl max-[480px]:pb-2 max-[480px]:pt-2 max-[920px]:mb-16">
-                    <h1 class="text-[#1E2128] text-2xl font-semibold mx-6 mt-7 mb-2 capitalize  max-[480px]:text-xl">
-                        ma'lumotlar</h1>
-                    <div class="flex ml-5">
-                        <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                        <h1 class="text-[#1E2128] text-xl font-semibold ml-3 mb-1 mt-3  max-[480px]:text-lg">Bizning
-                            manzil</h1>
-                    </div>
-                    <p class="text-[#1E2128] text-base font-normal ml-14 mb-6">Toshkent shahar, Mustaqillik ko'chasi 15
-                    </p>
-                    <hr>
-
-                    <div class="flex ml-5 mt-2">
-                        <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                        <h1 class="text-[#1E2128] text-xl font-semibold ml-3 mb-2 mt-3  max-[480px]:text-lg">Telefon
-                            raqamimiz</h1>
-                    </div>
-                    <p class="text-[#1E2128] text-base font-normal ml-14">+998 97 628 28 82</p>
-                    <p class="text-[#1E2128] text-base font-normal ml-14 mb-6">+998 97 628 28 82</p>
-                    <hr>
-
-                    <div class="flex ml-5 mt-2">
-                        <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                        <h1 class="text-[#1E2128] text-xl font-semibold ml-3 mb-2 mt-3  max-[480px]:text-lg">Faks</h1>
-                    </div>
-                    <p class="text-[#1E2128] text-base font-normal ml-14 mb-6">+998 97 628 28 82</p>
-                    <hr>
-
-                    <div class="flex ml-5 mt-2">
-                        <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
-                        <h1 class="text-[#1E2128] text-xl font-semibold ml-3 mb-2 mt-3  max-[480px]:text-lg">Elektron
-                            pochta</h1>
-                    </div>
-                    <p class="text-[#1E2128] text-base font-normal ml-14 mb-12">Faksa.the@gmail.com</p>
-                </main>
-
-                <main
-                    class="bg-[#fff] rounded-xl max-[480px]:pb-20 max-[480px]:pt-2 max-[480px]:mt-4 max-[920px]:mb-16">
-                    <h1 class="text-[#1E2128] text-2xl font-semibold mx-6 mt-7 mb-2 max-[480px]:text-xl">Savollaringiz
-                        bo'lsa bizga yozing
-                    </h1>
-                    <form action="" class="ml-6">
-                        <label for="large-input"
-                            class="block text-base font-normal mb-3 mt-4  max-[480px]:text-lg">Ism</label>
-                        <input type="text"
-                            class="mt-3 mb-6 block p-3 w-11/12 text-gray-900 border border-[#DCE1E9] rounded-xl bg-[#F9FBFF] sm:text-md"
-                            placeholder="Qidiruv">
-
-                        <label for="large-input"
-                            class="block text-base font-normal mb-2 mt-3  max-[480px]:text-lg">Telefon
-                            raqamingiz</label>
-                        <input type="number"
-                            class="mt-3 mb-6 block p-3 w-11/12 text-gray-900 border border-[#DCE1E9] rounded-xl bg-[#F9FBFF] sm:text-md"
-                            placeholder="Qidiruv">
-
-                        <label for="large-input"
-                            class="block text-base font-normal mb-2 mt-3  max-[480px]:text-lg">Savolingiz</label>
-                        <textarea
-                            class="mt-3 mb-6 block p-3 w-11/12 text-gray-900 border border-[#DCE1E9] rounded-xl bg-[#F9FBFF] sm:text-md"
-                            placeholder="Qidiruv"></textarea>
-
+                    <span>
                         <button
-                            class="bg-[#2256DD] float-right text-white font-bold mr-14 py-3 px-11 rounded uppercase  max-[480px]:py-2  max-[480px]:px-5">yuborish</button>
-                    </form>
-                </main>
-            </code>
-            <!-- End Contact us -->
+                            class="bg-blue-700  text-white py-2 px-4 rounded ml-5 max-[480px]:hidden wow bounceInRight"
+                            data-wow-delay="1.2s">Tizimga kirish</button>
+                    </span>
+                    <img id="image1" class="xl:hidden" src="./assets/images/menu.svg" onclick="changeImage()" width="35"
+                        height="35" alt="">
+                </nav>
+                <!-- End Navbar -->
 
-        </section>
-        <!-- End page Useful links -->
-        <button id="myBtn"  onclick="topFunction()">  
-            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" style="fill: rgb(255, 255, 255);"><path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path></svg>
-        </button>
-        <!-- Start Footer -->
-        <footer class="bg-[#211F4A]">
-            <nav
-                class="flex items-center px-20 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] max-[480px]:px-5 max-[1280px]:px-5 max-[920px]:px-5 max-[920px]:justify-between">
-                <a href="index.html"><img src="./assets/images/logo/3494.svg" width="200"
-                        class="mt-2 mb-2 cursor-pointer" alt=""></a>
-                <ul class="flex-1 text-center text-sm my-8 max-[480px]:hidden max-[920px]:hidden max-[1024px]:hidden">
-                    <li class="list-none inline-block px-2"><a href="index.html"
-                            class="no-udderline text-white">Asosiy</a></li>
-                    <li class="list-none inline-block px-2"><a href="news.html"
-                            class="no-udderline text-white">Yangiliklar</a>
-                    </li>
-                    <li class="list-none inline-block px-2"><a href="baholash_metodikalari.html"
-                            class="no-udderline text-white">Baholash
-                            metodikalari</a></li>
-                    <li class="list-none inline-block px-2"><a href="participants.html"
-                            class="no-udderline text-white">Ishtirokchilar</a></li>
-                    <li class="list-none inline-block px-2"><a href="rating_of_participants.html"
-                            class="no-udderline text-white">Reyting</a></li>
-                    <li class="list-none inline-block px-2"><a href="regulatory_documents.html"
-                            class="no-udderline text-white">Normativ
-                            hujjatlar</a></li>
-                    <li class="list-none inline-block px-2"><a href="faq.html" class="no-udderline text-white">FAQ</a>
-                    </li>
-                </ul>
-                <!-- Start Social Media -->
-                <div class="flex">
-                    <a class="mx-1.5" href="#"><img src="./assets/images/social_media/youtube.svg" alt=""></a>
-                    <a class="mx-1.5" href="#"><img src="./assets/images/social_media/telegram.svg" alt=""></a>
-                    <a class="mx-1.5" href="#"><img src="./assets/images/social_media/facebook.svg" alt=""></a>
-                    <a class="mx-1.5" href="#"><img src="./assets/images/social_media/instagram.svg" alt=""></a>
+                <!-- Start page-content  -->
+                <div
+                    class="flex  justify-between px-36 mb-12 xl:max-w-full lg:max-w-full pt-[70px]  mx-auto 2xl:w-[2000px] pb-20 max-[480px]:block max-[480px]:px-5 max-[920px]:px-8 max-[1024px]:px-8 max-[1280px]:px-8">
+                    <div class="text-white mt-48">
+                        <h4 class="text-2xl w-[600px] font-medium wow bounceInUp max-[920px]:text-xl max-[920px]:w-[370px] max-[920px]:mb-2"
+                            data-wow-delay="1s">Oliy ta'lim
+                            muassalarining ilmiy ishlari va innovatsion
+                            faoliyati natijalarining</h4>
+                        <h1 class="text-5xl leading-normal font-bold uppercase wow bounceInUp max-[920px]:text-2xl max-[920px]:mb-2"
+                            data-wow-delay="1.1s">
+                            baholash platformasi</h1>
+                        <p class="max-w-2xl w-[600px] wow bounceInUp max-[920px]:text-base max-[920px]:w-[370px]"
+                            data-wow-delay="1.2s">Lorem ipsum dolor sit amet
+                            consectetur, adipisicing elit. Ad,
+                            impedit, minima
+                            id corrupti nisi corporis, facere labore aperiam assumenda ratione ullam aliquam veniam
+                            asperiores quasi omnis amet eos iste possimus.</p>
+                        <button class="bg-blue-700 mt-5 text-white font-bold py-2 px-16 rounded wow bounceInUp"
+                            data-wow-delay="1.3s">Batafsil</button>
+                    </div>
+
+                    <div class="max-[480px]:hidden border rounded-full w-[500px] shadow-[0_10px_20px_0_rgba(47, 114, 215, 0.50)] border-t-[#0d5cd1] border-[#084CB1] p-20 mt-16 img wow bounceInRight max-[480px]:w-[350px] max-[768px]:w-[400px] max-[920px]:mt-[150px] max-[1024px]:mt-[180px]"
+                        data-wow-delay="1.5s">
+                        <img src="./assets/images/logo/header_logo.png" alt="">
+                    </div>
                 </div>
-                <!-- End Social Media -->
-            </nav>
-            <span class="flex justify-center text-[#FFFFFF80] max-[480px]:block max-[480px]:px-5">
-                <a href="#">www.loremipsum.uz</a>
-                <p class="pb-5 ml-6 max-[480px]:m-0">Barcha huquqlar himoyalangan</p>
-            </span>
-        </footer>
-        <!-- End Footer -->
-    </div>
-    <!-- End Page -->
 
-    <!-- Tailwind JS -->
-    <script src="./assets/tailwind.config.js"></script>
-    <!-- Flowbite -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.js"></script>
-    <!-- JQUERY -->
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
-    <!-- Map -->
-    <script src="./assets/js/jqvmap/jquery.vmap.min.js"></script>
-    <script src="./assets/js/jqvmap/jquery.vmap.uzbekistan.js"></script>
-    <!-- Chart JS -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <!-- Slick -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-    <!-- Wow JS -->
-    <script src="./assets/js/wow/wow.min.js"></script>
-    <!-- Script JS -->
-    <script src="./assets/js/script.js"></script>
+                <div class="flex flex-col right-0 mt-[-450px] p-3 bg-white rounded-l-lg fixed help  max-[480px]:hidden">
+                    <button class="p-1 bg-[#e0ecf9] rounded-lg mb-5 switcher"><img
+                            src="./assets/images/dark_mode_FILL1_wght300_GRAD0_opsz24 1.svg" alt=""></button>
+                    <button class="p-1 bg-[#e0ecf9] rounded-lg mb-5"><img
+                            src="./assets/images/volume_up_FILL1_wght300_GRAD0_opsz24 1.svg" alt=""></button>
+                    <button class="p-1 bg-[#e0ecf9] rounded-lg"><img
+                            src="./assets/images/text_fields_FILL1_wght300_GRAD0_opsz24 1.svg" alt=""></button>
+                </div>
+                <!-- End page-content -->
+            </header>
+            <!-- End Header -->
 
-</body>
+            <!-- Start page News  -->
+            <section
+                class="bg-[#fff] px-20 pb-16 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] max-[480px]:px-5 max-[920px]:px-5"
+                id="news">
+                <div class="flex items-center justify-between mt-16 max-[480px]:block">
+                    <h1 class="uppercase text-3xl mt-5 font-bold text-[#000] max-[480px]:text-xl">
+                        yangiliklar</h1>
+                    <button
+                        class="bg-[#2256DD] mt-6 text-white font-bold py-3 px-11 rounded uppercase max-[480px]:hidden"><a
+                            href="news.html">barchasi</a></button>
+                </div>
+
+                <div class="grid mx-auto lg:grid-cols-3 md:grid-cols-3 sm:grid-cols-1 mt-5 gap-5 max-[480px]:hidden">
+                    <div
+                        class="rounded-xl lg:col-span-2 md:col-span-2 group relative items-start overflow-hidden hover:shadow-black/30 transition-shadow max-[920px]:h-[290px] max-[1024px]:h-[320px] max-[1280px]:h-[350px]">
+                        <a href="news.html" class="relative inline-block overflow-hidden">
+                            <img class="w-[1200px] h-[500px] object-cover transition-transform group-hover:scale-110 duration-500 max-[480px]:clear-none max-[480px]:w-auto"
+                                src="./assets/images/news/Rectangle 14.png" alt="">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/50 group-hover:via-black/30 group-hover:to-black/70 hover:rounded-xl">
+                            </div>
+                            <div
+                                class="absolute inset-0 flex flex-col items-start justify-end px-5 translate-y-[10%] group-hover:translate-y-0 transition-all duration-500">
+                                <p class="uppercase text-[#fff] text-lg font-normal mb-2">ilm 11.06.2023 13:00</p>
+                                <h1 class="text-[#fff] w-[700px] font-bold text-xl">Ilmiy maqola nima uchun va qanday
+                                    yoziladi? - xorijiy universitetda ishlayotgan o‘zbek olimidan maslahatlar</h1>
+                                <p
+                                    class="text-[#fff] w-[700px] font-bold text-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 mb-5">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim veniam molestiae
+                                    corporis
+                                    fugit veritatis doloribus?</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="news.html">
+                            <img class="w-[1200px] h-[350px]" src="./assets/images/news/Rectangle 19.png" alt="">
+                            <p class="uppercase text-[#1E2128] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
+                            <h1
+                                class="text-[#1E2128] font-bold text-xl w-[380px] max-[920px]:w-[245px] max-[920px]:text-lg max-[920px]:font-bold max-[1024px]:w-[290px] max-[1024px]:text-lg max-[1024px]:font-bold">
+                                Yaponiya toza energiya eksport qilish
+                                uchun pauerbank-kema quradi</h1>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="news.html">
+                            <img class="w-[1200px] h-[350px]" src="./assets/images/news/Rectangle 18.png" alt="">
+                            <p class="uppercase text-[#1E2128] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
+                            <h1
+                                class="text-[#1E2128] font-bold text-xl w-[380px] max-[920px]:w-[245px] max-[920px]:text-lg max-[920px]:font-bold max-[1024px]:w-[290px] max-[1024px]:text-lg max-[1024px]:font-bold">
+                                Jahlim chiqqanda sotuvchilarning mahsulot
+                                solingan qopi</h1>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="news.html">
+                            <img class="w-[1200px] h-[350px]" src="./assets/images/news/Rectangle 17.png" alt="">
+                            <p class="uppercase text-[#1E2128] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
+                            <h1
+                                class="text-[#1E2128] font-bold text-xl w-[380px] max-[920px]:w-[245px] max-[920px]:text-lg max-[920px]:font-bold max-[1024px]:w-[245px] max-[1024px]:text-lg max-[1024px]:font-bold">
+                                Abituriyentlarga imtihon javoblari
+                                chiqqandan keyin yo‘nalish tanlash</h1>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="news.html">
+                            <img class="w-[1200px] h-[350px]" src="./assets/images/news/Rectangle 19.png" alt="">
+                            <p class="uppercase text-[#1E2128] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
+                            <h1
+                                class="text-[#1E2128] font-bold text-xl w-[380px] max-[920px]:w-[245px] max-[920px]:text-lg max-[920px]:font-bold max-[1024px]:w-[245px] max-[1024px]:text-lg max-[1024px]:font-bold">
+                                Kommunizmdan 32 yil o‘tib: o‘tmish
+                                izlari
+                                qolgan «arvoh» shaharlar</h1>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="logo-slider md:hidden">
+                    <a href="news.html">
+                        <img class="w-[1200px] h-[200px]" src="./assets/images/news/Rectangle 14.png" alt="">
+                        <p class="uppercase text-[#1E2128] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
+                        <h1
+                            class="text-[#1E2128] font-bold text-xl w-[380px] max-[920px]:w-[245px] max-[920px]:text-lg max-[920px]:font-bold max-[1024px]:w-[290px] max-[1024px]:text-lg max-[1024px]:font-bold">
+                            Jahlim chiqqanda sotuvchilarning mahsulot
+                            solingan qopi</h1>
+                    </a>
+                    <div>
+                        <a href="news.html">
+                            <img class="w-[1200px] h-[200px]" src="./assets/images/news/Rectangle 15.png" alt="">
+                            <p class="uppercase text-[#1E2128] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
+                            <h1
+                                class="text-[#1E2128] font-bold text-xl w-[380px] max-[920px]:w-[245px] max-[920px]:text-lg max-[920px]:font-bold max-[1024px]:w-[290px] max-[1024px]:text-lg max-[1024px]:font-bold">
+                                Yaponiya toza energiya eksport qilish
+                                uchun pauerbank-kema quradi</h1>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="news.html">
+                            <img class="w-[1200px] h-[200px] h-[350px]" src="./assets/images/news/Rectangle 18.png"
+                                alt="">
+                            <p class="uppercase text-[#1E2128] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
+                            <h1
+                                class="text-[#1E2128] font-bold text-xl w-[380px] max-[920px]:w-[245px] max-[920px]:text-lg max-[920px]:font-bold max-[1024px]:w-[290px] max-[1024px]:text-lg max-[1024px]:font-bold">
+                                Jahlim chiqqanda sotuvchilarning mahsulot
+                                solingan qopi</h1>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="news.html">
+                            <img class="w-[1200px] h-[200px] h-[350px]" src="./assets/images/news/Rectangle 17.png"
+                                alt="">
+                            <p class="uppercase text-[#1E2128] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
+                            <h1
+                                class="text-[#1E2128] font-bold text-xl w-[380px] max-[920px]:w-[245px] max-[920px]:text-lg max-[920px]:font-bold max-[1024px]:w-[245px] max-[1024px]:text-lg max-[1024px]:font-bold">
+                                Abituriyentlarga imtihon javoblari
+                                chiqqandan keyin yo‘nalish tanlash</h1>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="news.html">
+                            <img class="w-[1200px] h-[200px] h-[350px]" src="./assets/images/news/Rectangle 19.png"
+                                alt="">
+                            <p class="uppercase text-[#1E2128] text-lg font-normal mt-6 mb-2">ilm 11.06.2023 13:00</p>
+                            <h1
+                                class="text-[#1E2128] font-bold text-xl w-[380px] max-[920px]:w-[245px] max-[920px]:text-lg max-[920px]:font-bold max-[1024px]:w-[245px] max-[1024px]:text-lg max-[1024px]:font-bold">
+                                Kommunizmdan 32 yil o‘tib: o‘tmish
+                                izlari
+                                qolgan «arvoh» shaharlar</h1>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <!-- End page News -->
+
+            <!-- Start page Participants -->
+            <section
+                class="bg-[#F1F3F9] xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] pb-16 px-20 max-[480px]:px-5 max-[920px]:px-5"
+                id="participants">
+                <div class="flex items-center justify-between mt-16 mb-5 max-[480px]:block">
+                    <span class="mt-16">
+                        <h1 class="uppercase text-3xl mt-5 font-bold text-[#1E2128] mb-2 max-[480px]:text-xl">
+                            ishtirokchilar
+                        </h1>
+                        <p class=" font-normal text-base text-[#596375]">Bu yerda baholashda ishtirok etayotgan
+                            tashkilotlar
+                            ro’yxati keltirilgan</p>
+                    </span>
+                    <button
+                        class="bg-[#2256DD] mt-6 text-white font-bold py-3 px-11 rounded uppercase max-[480px]:hidden"><a
+                            href="participants.html">barchasi</a></button>
+                </div>
+
+                <div class="logo-slider">
+                    <span class="grid">
+                        <div class="item bg-white rounded-xl"><a href="participants.html"
+                                class="grid justify-items-center">
+                                <img class="w-[100px] h-[180px] max-[480px]:w-[100px] max-[480px]:h-[100px] py-12 max-[920px]:w-[100px] max-[920px]:py-3"
+                                    src="./assets/images/participants/image 1.png" alt=""></a></div>
+                        <h1
+                            class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4 max-[920px]:text-base max-[920px]:leading-6">
+                            farg'ona davlat universiteti
+                        </h1>
+                        <span class="flex items-center">
+                            <img class="max-[920px]:w-[50px] max-[480px]:w-[30px]"
+                                src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
+                            <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
+                        </span>
+                    </span>
+                    <span class="grid">
+                        <div class="item bg-white rounded-xl"><a href="participants.html"
+                                class="grid justify-items-center">
+                                <img class="w-[100px] h-[180px] max-[480px]:w-[100px] max-[480px]:h-[100px] py-12 max-[920px]:w-[100px] max-[920px]:py-3"
+                                    src="./assets/images/participants/image 1.png" alt=""></a></div>
+                        <h1
+                            class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4 max-[920px]:text-base max-[920px]:leading-6">
+                            farg'ona davlat universiteti
+                        </h1>
+                        <span class="flex items-center">
+                            <img class="max-[920px]:w-[50px] max-[480px]:w-[30px]"
+                                src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
+                            <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
+                        </span>
+                    </span>
+                    <span class="grid">
+                        <div class="item bg-white rounded-xl"><a href="participants.html"
+                                class="grid justify-items-center">
+                                <img class="w-[100px] h-[180px] max-[480px]:w-[100px] max-[480px]:h-[100px] py-12 max-[920px]:w-[100px] max-[920px]:py-3"
+                                    src="./assets/images/participants/image 1.png" alt=""></a></div>
+                        <h1
+                            class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4 max-[920px]:text-base max-[920px]:leading-6">
+                            farg'ona davlat universiteti
+                        </h1>
+                        <span class="flex items-center">
+                            <img class="max-[920px]:w-[50px] max-[480px]:w-[30px]"
+                                src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
+                            <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
+                        </span>
+                    </span>
+                    <span class="grid">
+                        <div class="item bg-white rounded-xl"><a href="participants.html"
+                                class="grid justify-items-center"><img
+                                    class="w-[100px] h-[180px] max-[480px]:w-[100px] max-[480px]:h-[100px] py-12 max-[920px]:w-[100px] max-[920px]:py-3"
+                                    src="./assets/images/participants/image 1.png" alt=""></a></div>
+                        <h1
+                            class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4 max-[920px]:text-base max-[920px]:leading-6">
+                            farg'ona davlat universiteti
+                        </h1>
+                        <span class="flex items-center">
+                            <img class="max-[920px]:w-[50px] max-[480px]:w-[30px]"
+                                src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
+                            <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
+                        </span>
+                    </span>
+                    <span class="grid">
+                        <div class="item bg-white rounded-xl"><a href="participants.html"
+                                class="grid justify-items-center"><img
+                                    class="w-[100px] h-[180px] max-[480px]:w-[100px] max-[480px]:h-[100px] py-12 max-[920px]:w-[100px] max-[920px]:py-3"
+                                    src="./assets/images/participants/image 1.png" alt=""></a></div>
+                        <h1
+                            class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4 max-[920px]:text-base max-[920px]:leading-6">
+                            farg'ona davlat universiteti
+                        </h1>
+                        <span class="flex items-center">
+                            <img class="max-[920px]:w-[50px] max-[480px]:w-[30px]"
+                                src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
+                            <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
+                        </span>
+                    </span>
+                    <span class="grid">
+                        <div class="item bg-white rounded-xl"><a href="participants.html"
+                                class="grid justify-items-center"><img
+                                    class="w-[100px] h-[180px] max-[480px]:w-[100px] max-[480px]:h-[100px] py-12 max-[920px]:w-[100px] max-[920px]:py-3"
+                                    src="./assets/images/participants/image 1.png" alt=""></a></div>
+                        <h1
+                            class="text-[#1E2128] text-lg font-semibold capitalize mb-1.5 mt-4 max-[920px]:text-base max-[920px]:leading-6">
+                            farg'ona davlat universiteti
+                        </h1>
+                        <span class="flex items-center">
+                            <img class="max-[920px]:w-[50px] max-[480px]:w-[30px]"
+                                src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
+                            <p class="text-[#596375] text-sm font-normal capitalize ml-2">o'zbekiston, farg'ona</p>
+                        </span>
+                    </span>
+                </div>
+            </section>
+            <!-- End page Participants -->
+
+            <!-- Start page Rating of participants -->
+            <section
+                class="bg-[#fff] px-20 pb-16 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] max-[480px]:px-5 max-[920px]:px-5"
+                id="rating">
+                <div class="flex items-center justify-between mt-16 max-[480px]:block">
+                    <h1 class="uppercase text-3xl mt-5 font-bold text-[#000] max-[480px]:text-xl">
+                        ishtirokchilar reytingi</h1>
+                    <button
+                        class="bg-[#2256DD] mt-6 text-white font-bold py-3 px-11 rounded uppercase max-[480px]:hidden"><a
+                            href="rating_of_participants.html">barchasi</a></button>
+                </div>
+
+                <div class="relative overflow-x-auto mt-8">
+                    <table class="w-full text-sm text-left border border-[#CBD9F3]">
+                        <thead class="text-xs uppercase bg-white">
+                            <tr>
+                                <th
+                                    class="px-6 py-3 text-[#596375] text-base font-normal grid justify-center max-[480px]:hidden">
+                                    Reyting
+                                </th>
+                                <th class="px-6 py-3 border border-[#CBD9F3] text-[#596375] text-base font-normal">
+                                    Nomi
+                                </th>
+                                <th
+                                    class="px-6 py-3 border border-[#CBD9F3] text-[#596375] text-base font-normal max-[480px]:hidden">
+                                    Hudud
+                                </th>
+                                <th
+                                    class="px-6 py-3 border border-[#CBD9F3] text-[#596375] text-base font-normal grid justify-center max-[480px]:hidden">
+                                    To'plangan ballari
+                                </th>
+                                <th class="px-6 py-3 border border-[#CBD9F3] max-[480px]:hidden"></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="bg-[#FAFBFF] border-b">
+                                <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <div class="grid justify-center">
+                                        <img src="./assets/images/participants/1.svg" class="w-[40px]" alt="">
+                                    </div>
+                                </td>
+                                <td class="px-6 py-4 border  max-[480px]:px-4 border-[#CBD9F3]">
+                                    <span class="flex items-center">
+                                        <img src="./assets/images/participants/akfa.png"
+                                            class="w-[70px] h-[80px] bg-white py-5 px-3.5 rounded-lg max-[480px]:hidden"
+                                            alt="">
+                                        <a href="rating_of_participants.html"
+                                            class="w-[250px] text-[#1E2128] text-base font-medium ml-4">Akfa
+                                            universiteti</a>
+                                        <p
+                                            class="p-2.5 rounded-lg bg-[#dfeadd] text-[#5BBA54] text-xl max-[480px]:text-base max-[480px]:p-1 md:hidden font-medium">
+                                            6546</p>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <span class="flex">
+                                        <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg"
+                                            alt="">
+                                        <p class="text-[#596375] text-base font-normal ml-2">Toshkent shahri</p>
+                                    </span>
+                                </td>
+                                <td class="max-[480px]:hidden">
+                                    <div class="flex justify-center">
+                                        <p class="p-2.5 rounded-lg bg-[#dfeadd] text-[#5BBA54] text-xl font-medium">6546
+                                        </p>
+                                    </div>
+                                </td>
+                                <td class="border border-[#CBD9F3] max-[480px]:hidden">
+                                    <a href="rating_of_participants.html" class="flex justify-center">
+                                        <button
+                                            class="bg-white px-6 py-2.5 rounded-lg border border-[#2861F5] max-[480px]:border-none text-[#2861F5] text-center text-base font-medium uppercase">
+                                            <p class="max-[480px]:hidden">batafsil</p>
+                                            <img src="./assets/images/icons8-eye-30.png" class="md:hidden" width="20"
+                                                alt="">
+                                        </button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="bg-[#FAFBFF] border-b">
+                                <th class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <div class="grid justify-center">
+                                        <img src="./assets/images/participants/2.svg" class="w-[40px]" alt="">
+                                    </div>
+                                </th>
+                                <td class="px-6 py-4  max-[480px]:px-4 border border-[#CBD9F3]">
+                                    <span class="flex items-center">
+                                        <img src="./assets/images/participants/fargona.jpg"
+                                            class="w-[70px] h-[80px] bg-white py-5 px-3.5 rounded-lg max-[480px]:hidden"
+                                            alt="">
+                                        <a href="rating_of_participants.html"
+                                            class="w-[250px] text-[#1E2128] text-base font-medium ml-4">Farg'ona davlat
+                                            universiteti</a>
+                                        <p
+                                            class="p-2.5 rounded-lg bg-[#dfeadd] text-[#5BBA54] text-xl font-medium max-[480px]:p-1 max-[480px]:text-base md:hidden">
+                                            6423</p>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <span class="flex">
+                                        <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg"
+                                            alt="">
+                                        <p class="text-[#596375] text-base font-normal ml-2">Farg'ona shahri</p>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <div class="flex justify-center">
+                                        <p class="p-2.5 rounded-lg bg-[#dfeadd] text-[#5BBA54] text-xl font-medium">6423
+                                        </p>
+                                    </div>
+                                </td>
+                                <td class=" max-[480px]:hidden">
+                                    <a href="rating_of_participants.html" class="flex justify-center">
+                                        <button
+                                            class="bg-white px-6 py-2.5 rounded-lg border border-[#2861F5] max-[480px]:border-none text-[#2861F5] text-center text-base font-medium uppercase">
+                                            <p class="max-[480px]:hidden">batafsil</p>
+                                            <img src="./assets/images/icons8-eye-30.png" class="md:hidden" width="20"
+                                                alt="">
+                                        </button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="bg-[#FAFBFF] border-b">
+                                <th class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <div class="grid justify-center">
+                                        <img src="./assets/images/participants/3.svg" class="w-[40px]" alt="">
+                                    </div>
+                                </th>
+                                <td class="px-6 py-4  max-[480px]:px-4 border border-[#CBD9F3]">
+                                    <span class="flex items-center">
+                                        <img src="./assets/images/participants/andijon.png"
+                                            class="w-[70px] h-[80px] bg-white py-5 px-3.5 rounded-lg max-[480px]:hidden"
+                                            alt="">
+                                        <a href="rating_of_participants.html"
+                                            class="w-[250px] text-[#1E2128] text-base font-medium ml-4">Andijon davlat
+                                            universiteti</a>
+                                        <p
+                                            class="p-2.5 rounded-lg bg-[#e6ede5] text-[#93CC88] text-xl font-medium max-[480px]:p-1 max-[480px]:text-base md:hidden">
+                                            6130</p>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <span class="flex">
+                                        <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg"
+                                            alt="">
+                                        <p class="text-[#596375] text-base font-normal ml-2">Andijon shahri</p>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <div class="flex justify-center">
+                                        <p class="p-2.5 rounded-lg bg-[#e6ede5] text-[#93CC88] text-xl font-medium">6130
+                                        </p>
+                                    </div>
+                                </td>
+                                <td class=" max-[480px]:hidden">
+                                    <a href="rating_of_participants.html" class="flex justify-center">
+                                        <button
+                                            class="bg-white px-6 py-2.5 rounded-lg border border-[#2861F5] max-[480px]:border-none text-[#2861F5] text-center text-base font-medium uppercase">
+                                            <p class="max-[480px]:hidden">batafsil</p>
+                                            <img src="./assets/images/icons8-eye-30.png" class="md:hidden" width="20"
+                                                alt="">
+                                        </button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="bg-[#FAFBFF] border-b">
+                                <th class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <div class="grid justify-center text-[#1E2128] text-2xl font-medium">
+                                        4
+                                    </div>
+                                </th>
+                                <td class="px-6 py-4 max-[480px]:px-4 ">
+                                    <span class="flex items-center">
+                                        <img src="./assets/images/participants/namangan.png"
+                                            class="w-[70px] h-[80px] bg-white py-5 px-3.5 rounded-lg max-[480px]:hidden"
+                                            alt="">
+                                        <a href="rating_of_participants.html"
+                                            class="w-[250px] text-[#1E2128] text-base font-medium ml-4">Namangan davlat
+                                            universiteti</a>
+                                        <p
+                                            class="p-2.5 rounded-lg bg-[#f9f4e7] text-[#E0AA0D] text-xl font-medium max-[480px]:p-1 max-[480px]:text-base md:hidden">
+                                            5406</p>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <span class="flex">
+                                        <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg"
+                                            alt="">
+                                        <p class="text-[#596375] text-base font-normal ml-2">Namangan shahri</p>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <div class="flex justify-center">
+                                        <p class="p-2.5 rounded-lg bg-[#f9f4e7] text-[#E0AA0D] text-xl font-medium">5406
+                                        </p>
+                                    </div>
+                                </td>
+                                <td class="border border-[#CBD9F3] max-[480px]:hidden">
+                                    <a href="rating_of_participants.html" class="flex justify-center">
+                                        <button
+                                            class="bg-white px-6 py-2.5 rounded-lg border border-[#2861F5] max-[480px]:border-none text-[#2861F5] text-center text-base font-medium uppercase">
+                                            <p class="max-[480px]:hidden">batafsil</p>
+                                            <img src="./assets/images/icons8-eye-30.png" class="md:hidden" width="20"
+                                                alt="">
+                                        </button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="bg-[#FAFBFF] border-b">
+                                <th class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <div class="grid justify-center text-[#1E2128] text-2xl font-medium">
+                                        5
+                                    </div>
+                                </th>
+                                <td class="px-6 py-4  max-[480px]:px-4 border border-[#CBD9F3]">
+                                    <span class="flex items-center">
+                                        <img src="./assets/images/participants/islom_karimov.png"
+                                            class="w-[70px] h-[80px] bg-white py-5 px-3.5 rounded-lg max-[480px]:hidden"
+                                            alt="">
+                                        <a href="rating_of_participants.html"
+                                            class="w-[250px] text-[#1E2128] text-base font-medium ml-4">Islom Karimov
+                                            nomidagi Toshkent davlat texnika universiteti</a>
+                                        <p
+                                            class="p-2.5 rounded-lg bg-[#f9f4e7] text-[#E0AA0D] text-xl font-medium max-[480px]:p-1 max-[480px]:text-base md:hidden">
+                                            5001</p>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <span class="flex">
+                                        <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg"
+                                            alt="">
+                                        <p class="text-[#596375] text-base font-normal ml-2">Toshkent shahri</p>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <div class="flex justify-center">
+                                        <p class="p-2.5 rounded-lg bg-[#f9f4e7] text-[#E0AA0D] text-xl font-medium">5001
+                                        </p>
+                                    </div>
+                                </td>
+                                <td class="border border-[#CBD9F3] max-[480px]:hidden">
+                                    <a href="rating_of_participants.html" class="flex justify-center">
+                                        <button
+                                            class="bg-white px-6 py-2.5 rounded-lg border border-[#2861F5] max-[480px]:border-none text-[#2861F5] text-center text-base font-medium uppercase">
+                                            <p class="max-[480px]:hidden">batafsil</p>
+                                            <img src="./assets/images/icons8-eye-30.png" class="md:hidden" width="20"
+                                                alt="">
+                                        </button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="bg-[#FAFBFF] border-b">
+                                <th class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <div class="grid justify-center text-[#1E2128] text-2xl font-medium">
+                                        6
+                                    </div>
+                                </th>
+                                <td class="px-6 py-4  max-[480px]:px-4 border border-[#CBD9F3]">
+                                    <span class="flex items-center">
+                                        <img src="./assets/images/participants/tibbiyot.png"
+                                            class="w-[70px] h-[80px] bg-white py-5 px-3.5 rounded-lg max-[480px]:hidden"
+                                            alt="">
+                                        <a href="rating_of_participants.html"
+                                            class="w-[250px] text-[#1E2128] text-base font-medium ml-4">Toshkent
+                                            tibbiyot
+                                            universiteti Urganch filiali</a>
+                                        <p
+                                            class="p-2.5 rounded-lg bg-[#faede2] text-[#F59038] text-xl font-medium max-[480px]:p-1 max-[480px]:text-base md:hidden">
+                                            4509</p>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <span class="flex">
+                                        <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg"
+                                            alt="">
+                                        <p class="text-[#596375] text-base font-normal ml-2">Urganch shahri</p>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <div class="flex justify-center">
+                                        <p class="p-2.5 rounded-lg bg-[#faede2] text-[#F59038] text-xl font-medium">4509
+                                        </p>
+                                    </div>
+                                </td>
+                                <td class="border border-[#CBD9F3] max-[480px]:hidden">
+                                    <a href="rating_of_participants.html" class="flex justify-center">
+                                        <button
+                                            class="bg-white px-6 py-2.5 rounded-lg border border-[#2861F5] max-[480px]:border-none text-[#2861F5] text-center text-base font-medium uppercase">
+                                            <p class="max-[480px]:hidden">batafsil</p>
+                                            <img src="./assets/images/icons8-eye-30.png" class="md:hidden" width="20"
+                                                alt="">
+                                        </button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="bg-[#FAFBFF] border-b">
+                                <th class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <div class="grid justify-center text-[#1E2128] text-2xl font-medium">
+                                        7
+                                    </div>
+                                </th>
+                                <td class="px-6 py-4  max-[480px]:px-4 border border-[#CBD9F3]">
+                                    <span class="flex items-center">
+                                        <img src="./assets/images/participants/xorazmiy.png"
+                                            class="w-[70px] h-[80px] bg-white py-5 px-3.5 rounded-lg max-[480px]:hidden"
+                                            alt="">
+                                        <a href="rating_of_participants.html"
+                                            class="w-[250px] text-[#1E2128] text-base font-medium ml-4">Muhammad
+                                            Al-Xorazmiy
+                                            nomidagi Toshkent axborot texnologiyalari Universiteti</a>
+                                        <p
+                                            class="p-2.5 rounded-lg bg-[#fae8e8] text-[#FF767D] text-xl font-medium max-[480px]:p-1 max-[480px]:text-base md:hidden">
+                                            4438</p>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <span class="flex">
+                                        <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg"
+                                            alt="">
+                                        <p class="text-[#596375] text-base font-normal ml-2">Toshkent shahri</p>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <div class="flex justify-center">
+                                        <p class="p-2.5 rounded-lg bg-[#fae8e8] text-[#FF767D] text-xl font-medium">4438
+                                        </p>
+                                    </div>
+                                </td>
+                                <td class="border border-[#CBD9F3] max-[480px]:hidden">
+                                    <a href="rating_of_participants.html" class="flex justify-center">
+                                        <button
+                                            class="bg-white px-6 py-2.5 rounded-lg border border-[#2861F5] max-[480px]:border-none text-[#2861F5] text-center text-base font-medium uppercase">
+                                            <p class="max-[480px]:hidden">batafsil</p>
+                                            <img src="./assets/images/icons8-eye-30.png" class="md:hidden" width="20"
+                                                alt="">
+                                        </button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="bg-[#FAFBFF] border-b">
+                                <th class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <div class="grid justify-center text-[#1E2128] text-2xl font-medium">
+                                        8
+                                    </div>
+                                </th>
+                                <td class="px-6 py-4  max-[480px]:px-4 border border-[#CBD9F3]">
+                                    <span class="flex items-center">
+                                        <img src="./assets/images/participants/qoqon.png"
+                                            class="w-[70px] h-[80px] bg-white py-5 px-3.5 rounded-lg max-[480px]:hidden"
+                                            alt="">
+                                        <a href="rating_of_participants.html"
+                                            class="w-[250px] text-[#1E2128] text-base font-medium ml-4">Qo'qon davlat
+                                            pedagogika instituti</a>
+                                        <p
+                                            class="p-2.5 rounded-lg bg-[#fae8e8] text-[#DA2129] text-xl font-medium max-[480px]:p-1 max-[480px]:text-base md:hidden">
+                                            3251</p>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <span class="flex">
+                                        <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg"
+                                            alt="">
+                                        <p class="text-[#596375] text-base font-normal ml-2">Qo'qon shahri</p>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <div class="flex justify-center">
+                                        <p class="p-2.5 rounded-lg bg-[#fae8e8] text-[#DA2129] text-xl font-medium">3251
+                                        </p>
+                                    </div>
+                                </td>
+                                <td class="border border-[#CBD9F3] max-[480px]:hidden">
+                                    <a href="rating_of_participants.html" class="flex justify-center">
+                                        <button
+                                            class="bg-white px-6 py-2.5 rounded-lg border border-[#2861F5] max-[480px]:border-none text-[#2861F5] text-center text-base font-medium uppercase">
+                                            <p class="max-[480px]:hidden">batafsil</p>
+                                            <img src="./assets/images/icons8-eye-30.png" class="md:hidden" width="20"
+                                                alt="">
+                                        </button>
+                                    </a>
+                                </td>
+                            </tr>
+                            <tr class="bg-[#FAFBFF] border-b">
+                                <th class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <div class="grid justify-center text-[#1E2128] text-2xl font-medium">
+                                        9
+                                    </div>
+                                </th>
+                                <td class="px-6 py-4  max-[480px]:px-4 border border-[#CBD9F3]">
+                                    <span class="flex items-center">
+                                        <img src="./assets/images/participants/politex_fargona.png"
+                                            class="w-[70px] h-[80px] bg-white py-5 px-3.5 rounded-lg max-[480px]:hidden"
+                                            alt="">
+                                        <a href="rating_of_participants.html"
+                                            class="w-[250px] text-[#1E2128] text-base font-medium ml-4">Farg'ona
+                                            politexnika
+                                            instituti</a>
+                                        <p
+                                            class="p-2.5 rounded-lg bg-[#fae8e8] text-[#DA2129] text-xl font-medium max-[480px]:p-1 max-[480px]:text-base md:hidden">
+                                            3251</p>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <span class="flex">
+                                        <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg"
+                                            alt="">
+                                        <p class="text-[#596375] text-base font-normal ml-2">Farg'ona shahri</p>
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 border border-[#CBD9F3] max-[480px]:hidden">
+                                    <div class="flex justify-center">
+                                        <p class="p-2.5 rounded-lg bg-[#fae8e8] text-[#DA2129] text-xl font-medium">3251
+                                        </p>
+                                    </div>
+                                </td>
+                                <td class="border border-[#CBD9F3] max-[480px]:hidden">
+                                    <a href="rating_of_participants.html" class="flex justify-center">
+                                        <button
+                                            class="bg-white px-6 py-2.5 rounded-lg border border-[#2861F5] max-[480px]:border-none text-[#2861F5] text-center text-base font-medium uppercase">
+                                            <p class="">batafsil</p>
+                                            <img src="" alt="">
+                                        </button>
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </section>
+            <!-- End page Rating of participants -->
+
+            <!-- Start page Statistics -->
+            <section
+                class="bg-[#F1F3F9] px-20 pb-16 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] max-[480px]:px-5 max-[920px]:hidden"
+                id="statistics">
+                <div class="flex mt-16 mb-5"></div>
+                <div class="chartBox mx-auto bg-white rounded-3xl">
+                    <h1 class="uppercase text-3xl mt-20 font-bold text-[#1E2128] px-5 pt-5 mb-2">Statistika</h1>
+                    <canvas width="1760" height="450" class="py-3 px-5" id="myChart"></canvas>
+                </div>
+
+                <div class="flex items-center justify-between mt-16 mb-5">
+                    <span>
+                        <h1 class="uppercase text-3xl mt-5 font-bold text-[#1E2128] mb-2" id="regulatory_documents">
+                            normativ
+                            hujjatlar</h1>
+                        <p class=" font-normal text-base text-[#596375]">Bu yerda ballarni hisoblash uchun foydalanilgan
+                            normativ hujjatlar
+                            ro’yxati keltirilgan</p>
+                    </span>
+                    <a href="regulatory_documents.html"
+                        class="bg-[#2256DD] mt-6 text-white font-bold py-3 px-11 rounded uppercase">barchasi</a>
+                </div>
+
+                <code class="logo-slider">
+                    <main class="item bg-white rounded p-4">
+                        <h1 class="text-[#1E2128] text-xl font-semibold">Lorem ipsum is simply</h1>
+                        <p class="my-3 text-[#596375] text-base font-normal">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Magni, fuga quidem repellendus, unde eum accusantium voluptatum suscipit
+                            obcaecati quasi numquam dignissimos laboriosam.</p>
+                        <a href="#"
+                            class="bg-[#F9FBFF] flex py-2.5 justify-center rounded-xl w-7/12 min-[1700px]:w-6/12 max-[480px]:w-[170px]">
+                            <img src="./assets/images/pdf (1).svg" alt="">
+                            <h1 class="text-[#1E2128] text-base font-medium">Yuklab olish.pdf</h1>
+                        </a>
+                    </main>
+                    <main class="item bg-white rounded p-4">
+                        <h1 class="text-[#1E2128] text-xl font-semibold">Lorem ipsum is simply</h1>
+                        <p class="my-3 text-[#596375] text-base font-normal">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Magni, fuga quidem repellendus, unde eum accusantium voluptatum suscipit
+                            obcaecati quasi numquam dignissimos laboriosam.</p>
+                        <a href="regulatory_documents.html"
+                            class="bg-[#F9FBFF] flex py-2.5 justify-center rounded-xl w-7/12 min-[1700px]:w-6/12 max-[480px]:w-[170px]">
+                            <img src="./assets/images/pdf (1).svg" alt="">
+                            <h1 class="text-[#1E2128] text-base font-medium">Yuklab olish.pdf</h1>
+                        </a>
+                    </main>
+                    <main class="item bg-white rounded p-4">
+                        <h1 class="text-[#1E2128] text-xl font-semibold">Lorem ipsum is simply</h1>
+                        <p class="my-3 text-[#596375] text-base font-normal">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Magni, fuga quidem repellendus, unde eum accusantium voluptatum suscipit
+                            obcaecati quasi numquam dignissimos laboriosam.</p>
+                        <a href="regulatory_documents.html"
+                            class="bg-[#F9FBFF] flex py-2.5 justify-center rounded-xl w-7/12 min-[1700px]:w-6/12 max-[480px]:w-[170px]">
+                            <img src="./assets/images/pdf (1).svg" alt="">
+                            <h1 class="text-[#1E2128] text-base font-medium">Yuklab olish.pdf</h1>
+                        </a>
+                    </main>
+                    <main class="item bg-white rounded p-4">
+                        <h1 class="text-[#1E2128] text-xl font-semibold">Lorem ipsum is simply</h1>
+                        <p class="my-3 text-[#596375] text-base font-normal">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Magni, fuga quidem repellendus, unde eum accusantium voluptatum suscipit
+                            obcaecati quasi numquam dignissimos laboriosam.</p>
+                        <a href="regulatory_documents.html"
+                            class="bg-[#F9FBFF] flex py-2.5 justify-center rounded-xl w-7/12 min-[1700px]:w-6/12 max-[480px]:w-[170px]">
+                            <img src="./assets/images/pdf (1).svg" alt="">
+                            <h1 class="text-[#1E2128] text-base font-medium">Yuklab olish.pdf</h1>
+                        </a>
+                    </main>
+                    <main class="item bg-white rounded p-4">
+                        <h1 class="text-[#1E2128] text-xl font-semibold">Lorem ipsum is simply</h1>
+                        <p class="my-3 text-[#596375] text-base font-normal">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Magni, fuga quidem repellendus, unde eum accusantium voluptatum suscipit
+                            obcaecati quasi numquam dignissimos laboriosam.</p>
+                        <a href="regulatory_documents.html"
+                            class="bg-[#F9FBFF] flex py-2.5 justify-center rounded-xl w-7/12 min-[1700px]:w-6/12 max-[480px]:w-[170px]">
+                            <img src="./assets/images/pdf (1).svg" alt="">
+                            <h1 class="text-[#1E2128] text-base font-medium">Yuklab olish.pdf</h1>
+                        </a>
+                    </main>
+                    <main class="item bg-white rounded p-4">
+                        <h1 class="text-[#1E2128] text-xl font-semibold">Lorem ipsum is simply</h1>
+                        <p class="my-3 text-[#596375] text-base font-normal">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Magni, fuga quidem repellendus, unde eum accusantium voluptatum suscipit
+                            obcaecati quasi numquam dignissimos laboriosam.</p>
+                        <a href="regulatory_documents.html"
+                            class="bg-[#F9FBFF] flex py-2.5 justify-center rounded-xl w-7/12 min-[1700px]:w-6/12 max-[480px]:w-[170px]">
+                            <img src="./assets/images/pdf (1).svg" alt="">
+                            <h1 class="text-[#1E2128] text-base font-medium">Yuklab olish.pdf</h1>
+                        </a>
+                    </main>
+                </code>
+            </section>
+            <!-- End page Statistics -->
+
+            <!-- Start page Map -->
+            <section
+                class="bg-[#fff] px-20 pb-16 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] max-[480px]:px-5 max-[480px]:hidden"
+                id="education">
+                <div class="mt-16">
+                    <h1 class="uppercase text-3xl mt-5 font-bold text-[#000]">oliy ta'lim muassalari</h1>
+                </div>
+
+                <div
+                    class="flex justify-between education-text max-[480px]:block min-[1600px]:px-32 max-[920px]:block max-[1024px]:block max-[1280px]:block">
+                    <div id="vmap" class="mt-20 bg-white">
+                        <h1 class="text-[#1E2128] text-2xl text-end font-bold mb-1 mr-56 max-[480px]:w-[300px]">
+                            O'zbekiston
+                            Respublikasi</h1>
+                        <p class="text-[#1E2128] text-lg font-medium text-end mr-56 max-[480px]:w-[300px]">Barcha OTM
+                            lar
+                            soni: 450ta</p>
+                    </div>
+                    <span
+                        class="bg-[#FAFBFF] w-[800px] activeRegion mt-10 p-6 rounded-3xl flex justify-between span-text max-[480px]:block max-[480px]:p-0">
+                        <div class="flex  flex-wrap justify-between pl-10">
+                            <div class="w-2/4 h-0">
+                                <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Qoraqalpog'iston
+                                    Respublikasi</h1>
+                                <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
+                            </div>
+                            <div class="w-2/4 h-0">
+                                <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
+                                <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
+                            </div>
+                            <div class="w-2/4 h-0">
+                                <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
+                                <p class="text-[#1E2128] text-base font-normal" id="estS">OTM lar soni: 30 ta</p>
+                            </div>
+                            <div class="w-2/4 h-0">
+                                <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
+                                <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
+                            </div>
+                            <div class="w-2/4 h-0">
+                                <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
+                                <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
+                            </div>
+                            <div class="w-2/4 h-0">
+                                <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
+                                <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
+                            </div>
+                            <div class="w-2/4 h-0">
+                                <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
+                                <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
+                            </div>
+                            <div class="w-2/4 h-0">
+                                <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
+                                <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
+                            </div>
+                            <div class="w-2/4 h-0">
+                                <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
+                                <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
+                            </div>
+                            <div class="w-2/4 h-0">
+                                <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
+                                <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
+                            </div>
+                            <div class="w-2/4 h-0">
+                                <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
+                                <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
+                            </div>
+                            <div class="w-2/4 h-0">
+                                <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
+                                <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
+                            </div>
+                            <div class="w-2/4 h-0">
+                                <h1 class="text-[#1E2128] text-xl font-bold mb-2" id="test">Toshkent shahri</h1>
+                                <p class="text-[#1E2128] text-base font-normal" id="est">OTM lar soni: 30 ta</p>
+                            </div>
+                        </div>
+                    </span>
+                </div>
+            </section>
+            <!-- End page Map -->
+
+            <!-- Start page Useful links -->
+            <section id="foydali-havolalar"
+                class="bg-[#F1F3F9] xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] pb-16 px-20 max-[480px]:px-5 max-[920px]:px-5">
+                <div class="flex mt-16 mb-5">
+                    <h1 class="uppercase text-3xl mt-20 font-bold text-[#1E2128] mb-2 max-[480px]:text-xl">foydali
+                        havolalar
+                    </h1>
+                </div>
+
+                <div class="logo-slider">
+                    <div class="item bg-white rounded max-[480px]:h-[200px]">
+                        <a href="#" class="grid justify-center mt-[-15px] mb-7"><img
+                                class="w-[90px] h-[90px] border-4 rounded-full border-[#F1F3F9] max-[920px]:w-20"
+                                src="./assets/images/useful_links/lex.png" alt=""></a>
+                        <span>
+                            <p
+                            class="text-[#1E2128] w-[300px] max-[480px]:w-[200px] text-base font-medium mx-4 mb-5 max-[920px]:w-20 max-[920px]:text-sm max-[1024px]:w-48 max-[1024px]:text-sm max-[1280px]:w-60 max-[1280px]:text-sm">
+                            O'zbekiston respublikasi, milliy
+                            hujjatlar bazasi</p>
+                        </span>
+                    </div>
+                    <div class="item bg-white rounded max-[480px]:h-[200px]">
+                        <a href="#" class="grid justify-center mt-[-15px] mb-7"><img
+                                class="w-[90px] h-[90px] border-4 rounded-full border-[#F1F3F9] max-[920px]:w-20"
+                                src="./assets/images/useful_links/gerb.png" alt=""></a>
+                        <p
+                            class="text-[#1E2128] w-[300px] max-[480px]:w-[200px]  text-base font-medium mx-4 mb-5 max-[920px]:w-20 max-[920px]:text-sm max-[1024px]:w-48 max-[1024px]:text-sm  max-[1280px]:w-60 max-[1280px]:text-sm">
+                            O'zbekiston respublikasi,
+                            milliy prezident
+                            virtual qabulxonasi</p>
+                    </div>
+                    <div class="item bg-white rounded max-[480px]:h-[200px]">
+                        <a href="#" class="grid justify-center mt-[-15px] mb-7"><img
+                                class="w-[90px] h-[90px] border-4 rounded-full border-[#F1F3F9] max-[920px]:w-20"
+                                src="./assets/images/useful_links/lex.png" alt=""></a>
+                        <p
+                            class="text-[#1E2128] w-[300px] max-[480px]:w-[200px]  text-base font-medium mx-4 mb-5 max-[920px]:w-20 max-[920px]:text-sm max-[1024px]:w-48 max-[1024px]:text-sm  max-[1280px]:w-60 max-[1280px]:text-sm">
+                            O'zbekiston respublikasi,
+                            milliy hujjatlar
+                            bazasi</p>
+                    </div>
+                    <div class="item bg-white rounded max-[480px]:h-[200px]">
+                        <a href="#" class="grid justify-center mt-[-15px] mb-7"><img
+                                class="w-[90px] h-[90px] border-4 rounded-full border-[#F1F3F9] max-[920px]:w-20"
+                                src="./assets/images/useful_links/gerb.png" alt=""></a>
+                        <p
+                            class="text-[#1E2128] w-[300px] max-[480px]:w-[200px]  text-base font-medium mx-4 mb-5 max-[920px]:w-20 max-[920px]:text-sm max-[1024px]:w-48 max-[1024px]:text-sm  max-[1280px]:w-60 max-[1280px]:text-sm">
+                            O'zbekiston respublikasi,
+                            milliy prezident
+                            virtual qabulxonasi</p>
+                    </div>
+                    <div class="item bg-white rounded max-[480px]:h-[200px]">
+                        <a href="#" class="grid justify-center mt-[-15px] mb-7"><img
+                                class="w-[90px] h-[90px] border-4 rounded-full border-[#F1F3F9] max-[920px]:w-20"
+                                src="./assets/images/useful_links/lex.png" alt=""></a>
+                        <p
+                            class="text-[#1E2128] w-[300px] max-[480px]:w-[200px]  text-base font-medium mx-4 mb-5 max-[920px]:w-20 max-[920px]:text-sm max-[1024px]:w-48 max-[1024px]:text-sm  max-[1280px]:w-60 max-[1280px]:text-sm">
+                            O'zbekiston respublikasi,
+                            milliy hujjatlar
+                            bazasi</p>
+                    </div>
+                    <div class="item bg-white rounded max-[480px]:h-[200px]">
+                        <a href="#" class="flex justify-center mt-[-15px] mb-7"><img
+                                class="w-[90px] h-[90px] border-4 rounded-full border-[#F1F3F9] max-[920px]:w-20"
+                                src="./assets/images/useful_links/gerb.png" alt=""></a>
+                        <p
+                            class="text-[#1E2128] w-[300px] max-[480px]:w-[200px]  text-base font-medium mx-4 mb-5 max-[920px]:w-20 max-[920px]:text-sm max-[1024px]:w-48 max-[1024px]:text-sm  max-[1280px]:w-60 max-[1280px]:text-sm">
+                            O'zbekiston respublikasi,
+                            milliy prezident
+                            virtual qabulxonasi</p>
+                    </div>
+                </div>
+
+                <!-- Start Contact us -->
+                <h1 class="uppercase text-[#1E2128] text-3xl font-bold text-center mt-16 mb-6 max-[480px]:text-xl"
+                    id="contact">biz bilan bog'lanish</h1>
+                <code class="grid grid-cols-2 gap-5 max-[480px]:block max-[480px]:pb-20">
+                    <main class="bg-[#fff] rounded-xl max-[480px]:pb-2 max-[480px]:pt-2 max-[920px]:mb-16">
+                        <h1
+                            class="text-[#1E2128] text-2xl font-semibold mx-6 mt-7 mb-2 capitalize  max-[480px]:text-xl">
+                            ma'lumotlar</h1>
+                        <div class="flex ml-5">
+                            <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
+                            <h1 class="text-[#1E2128] text-xl font-semibold ml-3 mb-1 mt-3  max-[480px]:text-lg">Bizning
+                                manzil</h1>
+                        </div>
+                        <p class="text-[#1E2128] text-base font-normal ml-14 mb-6">Toshkent shahar, Mustaqillik ko'chasi
+                            15
+                        </p>
+                        <hr>
+
+                        <div class="flex ml-5 mt-2">
+                            <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
+                            <h1 class="text-[#1E2128] text-xl font-semibold ml-3 mb-2 mt-3  max-[480px]:text-lg">Telefon
+                                raqamimiz</h1>
+                        </div>
+                        <p class="text-[#1E2128] text-base font-normal ml-14">+998 97 628 28 82</p>
+                        <p class="text-[#1E2128] text-base font-normal ml-14 mb-6">+998 97 628 28 82</p>
+                        <hr>
+
+                        <div class="flex ml-5 mt-2">
+                            <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
+                            <h1 class="text-[#1E2128] text-xl font-semibold ml-3 mb-2 mt-3  max-[480px]:text-lg">Faks
+                            </h1>
+                        </div>
+                        <p class="text-[#1E2128] text-base font-normal ml-14 mb-6">+998 97 628 28 82</p>
+                        <hr>
+
+                        <div class="flex ml-5 mt-2">
+                            <img src="./assets/images/location_on_FILL0_wght300_GRAD0_opsz24 (3) 1.svg" alt="">
+                            <h1 class="text-[#1E2128] text-xl font-semibold ml-3 mb-2 mt-3  max-[480px]:text-lg">
+                                Elektron
+                                pochta</h1>
+                        </div>
+                        <p class="text-[#1E2128] text-base font-normal ml-14 mb-12">Faksa.the@gmail.com</p>
+                    </main>
+
+                    <main
+                        class="bg-[#fff] rounded-xl max-[480px]:pb-20 max-[480px]:pt-2 max-[480px]:mt-4 max-[920px]:mb-16">
+                        <h1 class="text-[#1E2128] text-2xl font-semibold mx-6 mt-7 mb-2 max-[480px]:text-xl">
+                            Savollaringiz
+                            bo'lsa bizga yozing
+                        </h1>
+                        <form action="" class="ml-6">
+                            <label for="large-input"
+                                class="block text-base font-normal mb-3 mt-4  max-[480px]:text-lg">Ism</label>
+                            <input type="text"
+                                class="mt-3 mb-6 block p-3 w-11/12 text-gray-900 border border-[#DCE1E9] rounded-xl bg-[#F9FBFF] sm:text-md"
+                                placeholder="Qidiruv">
+
+                            <label for="large-input"
+                                class="block text-base font-normal mb-2 mt-3  max-[480px]:text-lg">Telefon
+                                raqamingiz</label>
+                            <input type="number"
+                                class="mt-3 mb-6 block p-3 w-11/12 text-gray-900 border border-[#DCE1E9] rounded-xl bg-[#F9FBFF] sm:text-md"
+                                placeholder="Qidiruv">
+
+                            <label for="large-input"
+                                class="block text-base font-normal mb-2 mt-3  max-[480px]:text-lg">Savolingiz</label>
+                            <textarea
+                                class="mt-3 mb-6 block p-3 w-11/12 text-gray-900 border border-[#DCE1E9] rounded-xl bg-[#F9FBFF] sm:text-md"
+                                placeholder="Qidiruv"></textarea>
+
+                            <button
+                                class="bg-[#2256DD] float-right text-white font-bold mr-14 py-3 px-11 rounded uppercase  max-[480px]:py-2  max-[480px]:px-5">yuborish</button>
+                        </form>
+                    </main>
+                </code>
+                <!-- End Contact us -->
+
+            </section>
+            <!-- End page Useful links -->
+            <button id="myBtn" onclick="topFunction()">
+                <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24"
+                    style="fill: rgb(255, 255, 255);">
+                    <path d="m6.293 13.293 1.414 1.414L12 10.414l4.293 4.293 1.414-1.414L12 7.586z"></path>
+                </svg>
+            </button>
+            <!-- Start Footer -->
+            <footer class="bg-[#211F4A]">
+                <nav
+                    class="flex items-center px-20 xl:max-w-full lg:max-w-full mx-auto 2xl:w-[2000px] max-[480px]:px-5 max-[1280px]:px-5 max-[920px]:px-5 max-[920px]:justify-between">
+                    <a href="index.html"><img src="./assets/images/logo/3494.svg" width="200"
+                            class="mt-2 mb-2 cursor-pointer" alt=""></a>
+                    <ul
+                        class="flex-1 text-center text-sm my-8 max-[480px]:hidden max-[920px]:hidden max-[1024px]:hidden">
+                        <li class="list-none inline-block px-2"><a href="index.html"
+                                class="no-udderline text-white">Asosiy</a></li>
+                        <li class="list-none inline-block px-2"><a href="news.html"
+                                class="no-udderline text-white">Yangiliklar</a>
+                        </li>
+                        <li class="list-none inline-block px-2"><a href="baholash_metodikalari.html"
+                                class="no-udderline text-white">Baholash
+                                metodikalari</a></li>
+                        <li class="list-none inline-block px-2"><a href="participants.html"
+                                class="no-udderline text-white">Ishtirokchilar</a></li>
+                        <li class="list-none inline-block px-2"><a href="rating_of_participants.html"
+                                class="no-udderline text-white">Reyting</a></li>
+                        <li class="list-none inline-block px-2"><a href="regulatory_documents.html"
+                                class="no-udderline text-white">Normativ
+                                hujjatlar</a></li>
+                        <li class="list-none inline-block px-2"><a href="faq.html"
+                                class="no-udderline text-white">FAQ</a>
+                        </li>
+                    </ul>
+                    <!-- Start Social Media -->
+                    <div class="flex">
+                        <a class="mx-1.5" href="#"><img src="./assets/images/social_media/youtube.svg" alt=""></a>
+                        <a class="mx-1.5" href="#"><img src="./assets/images/social_media/telegram.svg" alt=""></a>
+                        <a class="mx-1.5" href="#"><img src="./assets/images/social_media/facebook.svg" alt=""></a>
+                        <a class="mx-1.5" href="#"><img src="./assets/images/social_media/instagram.svg" alt=""></a>
+                    </div>
+                    <!-- End Social Media -->
+                </nav>
+                <span class="flex justify-center text-[#FFFFFF80] max-[480px]:block max-[480px]:px-5">
+                    <a href="#">www.loremipsum.uz</a>
+                    <p class="pb-5 ml-6 max-[480px]:m-0">Barcha huquqlar himoyalangan</p>
+                </span>
+            </footer>
+            <!-- End Footer -->
+        </div>
+        <!-- End Page -->
+
+        <!-- Tailwind JS -->
+        <script src="./assets/tailwind.config.js"></script>
+        <!-- Flowbite -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.6/flowbite.min.js"></script>
+        <!-- JQUERY -->
+        <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+        <!-- Map -->
+        <script src="./assets/js/jqvmap/jquery.vmap.min.js"></script>
+        <script src="./assets/js/jqvmap/jquery.vmap.uzbekistan.js"></script>
+        <!-- Chart JS -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <!-- Slick -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+        <!-- Wow JS -->
+        <script src="./assets/js/wow/wow.min.js"></script>
+        <!-- Switcher JS -->
+        <script src="./assets/js/switcher.js"></script>
+        <!-- Script JS -->
+        <script src="./assets/js/script.js"></script>
+
+    </body>
 
 </html>
