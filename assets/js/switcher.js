@@ -2,7 +2,8 @@ $(document).ready(function () {
   $(".switcher").on("click", function () {
     // $(".radio-inner").toggleClass("active");
     // Header
-    $("header").removeClass("bg-[#211F4A]");
+    // $("header").removeClass("bg-[#211F4A]");
+    $("header").toggleClass("bg-[#211F4A]");
     // News
     $("section").removeClass("bg-[#fff]");
     $("section").removeClass("bg-[#F1F3F9]");
