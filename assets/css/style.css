@@ -449,3 +449,7 @@ nav .logos {
 .pagination a:hover:not(.active) {
   background-color: #ddd;
 }
+
+select .option{
+  width: 100px !important;
+}
